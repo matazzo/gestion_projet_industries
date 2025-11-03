@@ -31,11 +31,21 @@ avec des contraintes qui définit les difficultés avec un des
 
 
 
--> Jeu 2: Sensibilisation aux problèmes des mals voyants
+-> Jeu 2: Recruiter moi.
 
-Type de jeu
-Objectifs
-Contraintes (pour qui, durée, etc)
+ Type de jeu : jeu sérieux 
+
+ Objectif du jeu :
+Aider les étudiants et jeunes diplômés à mieux comprendre :
+   -leur propre personnalité professionnelle.
+   -les attentes des recruteurs.
+   -les profils les plus recherchés dans les entreprises.
+ À chaque réponse, le jeu évalue :
+   -le type de personnalité du joueur (ex : leadership, travail en équipe, créativité…),
+   -la compatibilité avec certains types d’entreprises ou de postes.
+ l'environnement de jouer : 
+   essayé de développer une application sur PC 
+
 -> Jeu 3: Sensibilisation aux problèmes des mals voyants
 
 Type de jeu
@@ -65,5 +75,6 @@ jeu 5: X pour, X contre, X abstention
 
 Jeu sélectionné
 Description du jeu sélectionné
+
 
 
