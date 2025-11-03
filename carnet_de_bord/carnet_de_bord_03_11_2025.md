@@ -60,16 +60,16 @@ Objectifs
 Contraintes (pour qui, durée, etc)
 
 
--> Jeu 4:  “ESCALIERS DU SAVOIR”
+-> **Jeu 4:  “ESCALIERS DU SAVOIR”**
 
-1. Présentation Générale
+**1. Présentation Générale**
 
 Type de jeu : Jeu éducatif de plateau à base de questions-réponses.
 Nombre de joueurs : 2 à 4 joueurs.
 Durée moyenne d’une partie : 20 à 40 minutes.
 Public cible : Etudiants.
 
-2-Concept global :
+**2-Concept global :**
 
 “Escaliers du Savoir” est un jeu éducatif inspiré du principe des **Serpents et Échelles**, combiné à un **quiz de culture et de compétences**.
 Les joueurs progressent sur une **matrice de n cases** en lançant un dé,l’intelligence et la connaissance remplacent la simple chance :
@@ -93,7 +93,7 @@ Pour progresser, le joueur doit :
 -Manuel des règles | Explications détaillées sur la manière de jouer et les catégories de questions. |
 4. Règles du Jeu:
 
- Déroulement d’un tour :
+**Déroulement d’un tour :**
 
 1. Le joueur **lance le dé** → obtient un chiffre entre **1 et 6**.
 2. Le chiffre indique le **niveau de difficulté** de la question à tirer.
@@ -107,7 +107,7 @@ Pour progresser, le joueur doit :
 
 Le premier joueur à atteindre ou dépasser la **case n** remporte la partie.
 
-6. Structure du Plateau:
+**6. Structure du Plateau:**
 
 * **Matrice** : n x n cases (de 1 à ,n^2).
 * **Échelles** : 8 à 10 (avancement rapide).
@@ -115,7 +115,7 @@ Le premier joueur à atteindre ou dépasser la **case n** remporte la partie.
 * **Design** : coloré, motivant, clair.
 * Chaque case peut contenir un **symbole** indiquant un effet (bonus, question spéciale, etc.).
 
-7. Objectifs:
+**7. Objectifs:**
 
 * Favoriser **l’apprentissage par le jeu** et la **motivation active**.
 * Développer :
@@ -173,6 +173,7 @@ jeu 5: X pour, X contre, X abstention
 
 Jeu sélectionné
 Description du jeu sélectionné
+
 
 
 
