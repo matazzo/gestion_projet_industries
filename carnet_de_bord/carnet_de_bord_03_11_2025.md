@@ -58,9 +58,34 @@ Objectifs
 Contraintes (pour qui, durée, etc)
 -> Jeu 5: Sensibilisation aux problèmes des mals voyants
 
-Type de jeu
-Objectifs
-Contraintes (pour qui, durée, etc)
+-> Jeu 5: Planète Durable
+----------------------------------------------------------------
+Type : Jeu de stratégie simple / gestion de points
+Nombre de joueurs : 2 à 8
+Durée : 30 minutes
+
+Objectifs:
+ - Sensibiliser à l’écologie et au développement durable.
+ - Comprendre les conséquences de ses choix sur l’environnement.
+ - Développer la stratégie, la planification et le sens des responsabilités.
+
+Déroulement :
+- Chaque joueur possède sa propre entreprise sur une planète fictive.
+- À chaque tour, le joueur peut réaliser une action :
+    - Produire un bien (ex. nourriture, énergie, objets)
+    - Investir dans une technologie écologique
+    - Exploiter des ressources naturelles
+- Certaines actions rapporte des points (argent, production), mais certaines peuvent détériorer la planète (pollution, déforestation).
+- l’animateur “arbitre” attribue des points positifs ou négatifs selon les actions :
+    - Respect de l’écologie → points positifs
+    - Dommages environnementaux → points négatifs
+
+Le but est de terminer la partie avec le maximum de points positifs, en équilibrant profit et respect de l’environnement.
+
+Contraintes / Difficultés :
+- Les ressources de la planète sont limitées → il faut planifier et coopérer indirectement.
+- Les actions impulsives peuvent faire perdre beaucoup de points.
+- Le jeu peut être ajusté : chaque action a un score fixe ou aléatoire pour simplifier le calcul.
 
 
 Résultat des votes sur les 5 jeuxs
@@ -78,3 +103,6 @@ Description du jeu sélectionné
 
 
 
+
+-> Jeu 5: EcoBusiness Challenge
+----------------------------------------------------------------
