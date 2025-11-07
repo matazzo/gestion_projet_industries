@@ -61,6 +61,7 @@ Contraintes (pour qui, durée, etc)
 
 
 -> **Jeu 4:  “ESCALIERS DU SAVOIR”**
+----------------------------------------------
 
 **1. Présentation Générale**
 
@@ -173,6 +174,7 @@ jeu 5: X pour, X contre, X abstention
 
 Jeu sélectionné
 Description du jeu sélectionné
+
 
 
 
