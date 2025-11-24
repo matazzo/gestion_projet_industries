@@ -75,6 +75,8 @@ Public cible : Etudiants.
 “Escaliers du Savoir” est un jeu éducatif inspiré du principe des **Serpents et Échelles**, combiné à un **quiz de culture et de compétences**.
 Les joueurs progressent sur une **matrice de n cases** en lançant un dé,l’intelligence et la connaissance remplacent la simple chance :
 le chiffre du dé détermine la difficulté de la question, et une bonne réponse permet d’avancer du même nombre de cases.
+
+
 2. Objectif du Jeu
 
 Être le **premier joueur à atteindre la dernière case** du plateau.
@@ -174,6 +176,7 @@ jeu 5: X pour, X contre, X abstention
 
 Jeu sélectionné
 Description du jeu sélectionné
+
 
 
 
