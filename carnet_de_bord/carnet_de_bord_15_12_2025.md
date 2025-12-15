@@ -1,13 +1,17 @@
-Jouer en équiper (2 joueur pour 1 pion)
+On a rajouter une notion d'équipe et de temps pour que le jeu soit encore plus adapté à notre thème.
+
+
+
+# Jouer en équiper (2 joueur pour 1 pion)
+Dans un projet, il est rare de travailler toujours tout seul, ou toujours en groupe.
 On répond tour par tour (exemple: la première fois c'est moi qui doit répondre aux question, ensuite ce sera à mon collègue, ensuite moi, etc).
-Il y aura des cases groupes, ou on doit répondre à deux quand on tombe dessus.
+Il y aura des cases groupes, ou on doit répondre à deux quand on tombe dessus. 
 
 
 
 # ⏱ INTÉGRATION DU FACTEUR TEMPS  
-## Jeu : *Escaliers de Gestion – Projet d’Automatisation Industrielle*
 
----
+Un projet est généralement toujours limité par le temps
 
 ## 1. Principe Général du Temps Projet
 
@@ -81,16 +85,4 @@ Ce mécanisme simule :
 👉 **Répondre lentement mais juste = risque planning**
 
 Exactement comme sur un vrai projet automatisme.
-
----
-
-## 8. Matériel Requis
-
-- 2 chronomètres (téléphone suffit)
-- Tableau de suivi :
-  - Temps restant
-  - Budget
-  - Risques
-
----
 
