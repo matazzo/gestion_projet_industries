@@ -88,15 +88,3 @@ Exactement comme sur un vrai projet automatisme.
 
 ---
 
-## 9. Extension Possible (Option Pro)
-
-- Temps variable selon phase :
-  - Initiation : plus de temps
-  - Exécution : moins de temps
-- “Heures supplémentaires” :
-  - Gain de temps ↔ coût budget
-
----
-
-✅ **Le jeu devient une vraie simulation de pilotage projet industriel sous contrainte de temps.**
-
