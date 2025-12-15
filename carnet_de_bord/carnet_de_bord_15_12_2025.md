@@ -50,23 +50,6 @@ Cela représente :
 
 ---
 
-## 4. Impact du Temps sur le Jeu
-
-### ⛔ Temps écoulé = contrainte réelle
-
-Si une équipe :
-- atteint **0 minute restante**
-- sans avoir terminé le projet
-
-➡ **Projet en retard → pénalité automatique**
-
-Exemples :
-- Recul d’une phase
-- Blocage à la porte de validation
-- Obligation de corriger une décision passée
-
----
-
 ## 5. Avantage de la Rapidité (Lean Project)
 
 ### Bonus “Gestion efficace du temps”
