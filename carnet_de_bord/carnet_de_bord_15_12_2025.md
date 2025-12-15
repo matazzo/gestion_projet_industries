@@ -1,4 +1,5 @@
 On a rajouter une notion d'équipe et de temps pour que le jeu soit encore plus adapté à notre thème.
+Et quand on tombe sur une case normal et quon repond faux, on stagne, etsi on tombe sur une case special (equipe ou risque/opportunité), on regresse si on répond faux.
 
 
 
@@ -26,7 +27,7 @@ Le temps **n’est pas symbolique** :
 
 ---
 
-## 2. Gestion du Temps par Équipe
+##  Gestion du Temps par Équipe
 
 - ⏱ Temps initial par équipe : **35:00 minutes**
 - Chaque équipe possède :
@@ -41,7 +42,7 @@ Le chrono s’arrête **dès que la réponse finale est annoncée**.
 
 ---
 
-## 3. Consommation de Temps par Décision
+##  Consommation de Temps par Décision
 
 
 ### Pénalité temporelle en cas d’erreur
@@ -60,7 +61,7 @@ Cela représente :
 
 
 
-## 6. Règle de Comparaison Finale (Très Important)
+## Règle de Comparaison Finale (Très Important)
 
 Si les deux équipes atteignent la case finale :
 
@@ -73,7 +74,7 @@ Si les deux équipes atteignent la case finale :
 
 ---
 
-## 7. Réalisme Industriel (Justification)
+##  Réalisme Industriel (Justification)
 
 Ce mécanisme simule :
 - pression client
@@ -87,9 +88,23 @@ Ce mécanisme simule :
 Exactement comme sur un vrai projet automatisme.
 
 
-Nous avons ensuite défini 3 types de question:
+
+
+
+# Nous avons ensuite défini 3 types de question:
 
 -Questions de connaissances, 
 -Questions de raisonnement, 
 -Questions techniques en fonction du thème.
+
+
+
+# on a fait:
+le diagramme de Gantt
+forces et faiblesses
+debut de rédaction des questions
+fiche technique
+design du plateau
+
+
 
