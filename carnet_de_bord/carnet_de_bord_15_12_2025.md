@@ -33,15 +33,13 @@ Le chrono s’arrête **dès que la réponse finale est annoncée**.
 
 ## 3. Consommation de Temps par Décision
 
-| Type de situation | Temps consommé |
-|------------------|---------------|
-| Question standard | Temps réel de réflexion |
-| Question complexe / critique | Temps réel + pénalité si erreur |
-| Audit / crise | Temps réel + surcharge fixe |
 
 ### Pénalité temporelle en cas d’erreur
 - Mauvaise décision → **-30 secondes**
 - Mauvaise décision très risquée → **-1 minute**
+Si une équipe :
+- termine le projet
+- avec **≥ 5 minutes restantes**
 
 Cela représente :
 - réunions supplémentaires
@@ -50,19 +48,7 @@ Cela représente :
 
 ---
 
-## 5. Avantage de la Rapidité (Lean Project)
 
-### Bonus “Gestion efficace du temps”
-Si une équipe :
-- termine le projet
-- avec **≥ 5 minutes restantes**
-
-➡ **Bonus au choix** :
-- Annulation d’un risque
-- Validation directe de la dernière phase
-- Victoire prioritaire en cas d’égalité
-
----
 
 ## 6. Règle de Comparaison Finale (Très Important)
 
