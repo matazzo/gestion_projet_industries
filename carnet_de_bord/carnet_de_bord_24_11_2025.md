@@ -41,19 +41,19 @@ Pour progresser, le joueur doit :
 
 2. Le joueur choisi le **niveau de difficulté** de la question à tirer.
 3. Une **carte-question** correspondante est lue à voix haute.
-4. Si le joueur **répond correctement**, il **avance du même nombre de cases** que le dé.
-5. S’il **répond mal**, il **reste sur place** et le **tour passe au joueur suivant**.
+4. Si le joueur **répond correctement**, il **avance du même nombre de cases** que la difficulté de la question.
+5. S’il **répond mal**, il **reste sur place** et le **tour passe au joueur suivant** sauf pour la case serpent (**et echelle à voir**).
 6. Si le joueur tombe sur :
 
-   * 🪜 une **échelle**, il **grimpe** à la case indiquée.
-   * 🐍 un **piège**, il **redescend**.
+   * 🪜 **à voir**
+   * 🐍 il pioche une carte serpent et avance ou recule s'il a repondu juste ou faux, respectivement.
 
-Le premier joueur à atteindre ou dépasser la **case n** remporte la partie.
+Le premier joueur à atteindre ou dépasser la **case 64** remporte la partie.
 
 **6. Structure du Plateau:**
 
-* **Matrice** : n x n cases (de 1 à ,n^2).
-* **Échelles** : 8 à 10 (avancement rapide).
+* **Paliers** : 4 étapes (
+* **Échelles** : à voir
 * **Pièges / Serpents** : 8 à 10 (recul).
 * **Design** : coloré, motivant, clair.
 * Chaque case peut contenir un **symbole** indiquant un effet (bonus, question spéciale, etc.).
