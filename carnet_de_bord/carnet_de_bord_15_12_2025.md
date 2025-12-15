@@ -41,7 +41,7 @@ Le chrono s’arrête **dès que la réponse finale est annoncée**.
 
 ### Pénalité temporelle en cas d’erreur
 - Mauvaise décision → **-30 secondes**
-- Décision très risquée → **-1 minute**
+- Mauvaise décision très risquée → **-1 minute**
 
 Cela représente :
 - réunions supplémentaires
