@@ -86,3 +86,10 @@ Ce mécanisme simule :
 
 Exactement comme sur un vrai projet automatisme.
 
+
+Nous avons ensuite défini 3 types de question:
+
+-Questions de connaissances, 
+-Questions de raisonnement, 
+-Questions techniques en fonction du thème.
+
