@@ -52,9 +52,9 @@ Le premier joueur à atteindre ou dépasser la **case 64** remporte la partie.
 
 **6. Structure du Plateau:**
 
-* **Paliers** : 4 étapes (
+* **Paliers** : 4 étapes / thèmes (PDCA)
 * **Échelles** : à voir
-* **Pièges / Serpents** : 8 à 10 (recul).
+* **Opportunité / Risque / Serpents** : avance ou recule de 6 cases si bonne ou mauvaise réponse, respectivement.
 * **Design** : coloré, motivant, clair.
 * Chaque case peut contenir un **symbole** indiquant un effet (bonus, question spéciale, etc.).
 
