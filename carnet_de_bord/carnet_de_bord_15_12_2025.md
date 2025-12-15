@@ -40,8 +40,8 @@ Le chrono s’arrête **dès que la réponse finale est annoncée**.
 | Audit / crise | Temps réel + surcharge fixe |
 
 ### Pénalité temporelle en cas d’erreur
-- Mauvaise décision → **+30 secondes**
-- Décision très risquée → **+1 minute**
+- Mauvaise décision → **-30 secondes**
+- Décision très risquée → **-1 minute**
 
 Cela représente :
 - réunions supplémentaires
