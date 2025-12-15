@@ -100,11 +100,11 @@ Exactement comme sur un vrai projet automatisme.
 
 
 # on a fait:
-le diagramme de Gantt
-forces et faiblesses
-debut de rédaction des questions
-fiche technique
-design du plateau
+-le diagramme de Gantt
+-forces et faiblesses
+-debut de rédaction des questions
+-fiche technique
+-design du plateau
 
 
 
