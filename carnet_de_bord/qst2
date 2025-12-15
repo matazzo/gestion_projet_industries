@@ -1,0 +1,121 @@
+🔵 PLAN (Planifier)
+
+Cahier des charges – exigences fonctionnelles
+Q : Que représente l’analyse fonctionnelle interne dans un projet industriel ?
+A) L’étude des fonctions réalisées par le produit ou système et la façon dont elles sont implémentées ✅
+B) La comparaison avec les produits concurrents
+C) L’évaluation du coût des fournisseurs
+D) La planification des ressources humaines uniquement
+
+Planification et délais
+Q : Dans un projet industriel, pourquoi planifie-t-on les actions et les ressources dès la phase Plan ?
+A) Pour respecter les délais et optimiser les ressources ✅
+B) Pour réduire le coût uniquement
+C) Pour faire plaisir au client
+D) Pour reporter les décisions à la phase DO
+
+Normes et sécurité
+Q : Dans un projet industriel, pour protéger les opérateurs, quelles normes doivent guider la conception des machines ?
+A) ISO 13849 et ISO 12100 ✅
+B) ISO 9001 uniquement
+C) ISO 14000 uniquement
+D) IEC 60529 uniquement
+
+Cahier des charges moteur
+Q : Si le moteur sera utilisé dans un environnement humide et poussiéreux, que faut-il prévoir dans le cahier des charges ?
+A) Un moteur standard
+B) Un moteur avec protection IP65 ou supérieure ✅
+C) Un moteur de petite taille uniquement
+D) Aucun critère particulier
+
+Cahier des charges moteur – type
+Q : Si tu veux un moteur précis pour un bras robotique, quel type de moteur choisis-tu ?
+A) Moteur pas à pas ✅
+B) Moteur à courant continu simple
+C) Moteur asynchrone industriel
+D) Moteur thermique
+
+Alimentation électrique
+Q : Pour un moteur haute précision piloté par un contrôleur, quelle alimentation est la plus adaptée ?
+A) Alimentation AC 230V simple
+B) Alimentation DC régulée ✅
+C) Batterie sans régulation
+D) Pile AA
+
+Choix du réducteur
+Q : Pour un bras robotique nécessitant un couple élevé et un mouvement précis, quel type de réducteur choisir ?
+A) Réducteur planétaire ✅
+B) Réducteur à courroie simple
+C) Réducteur hélicoïdal classique
+D) Réducteur sans précision particulière 
+
+
+🔵 DO (Faire)
+
+Sélection du contrôleur
+Q : Pour piloter un moteur pas à pas avec précision dans un environnement industriel, quel contrôleur choisir ?
+A) Contrôleur numérique avec boucle de position fermée ✅
+B) Contrôleur simple en boucle ouverte
+C) Automate programmable classique sans régulation moteur
+D) Contrôleur analogique standard
+
+Capteur pour moteur
+Q : Pour contrôler la position d’un moteur dans un projet industriel, quel type de capteur est le plus adapté ?
+A) Capteur de température
+B) Encodeur incrémental ✅
+C) Capteur de pression
+D) Thermostat
+
+Détection de pièces métalliques
+Q : Pour détecter la présence de pièces métalliques sur une ligne de production, quel type de capteur est le plus adapté ?
+A) Capteur inductif ✅
+B) Capteur optique simple
+C) Thermocouple
+D) Capteur capacitif
+
+Critère de maintenance
+Q : Si le moteur doit fonctionner 24h/24 avec un minimum d’arrêt, que faut-il prioriser dans le choix ?
+A) Le prix le plus bas
+B) La facilité d’entretien et la durée de vie ✅
+C) La consommation énergétique uniquement
+
+Compatibilité électronique
+Q : Pour un moteur piloté par un automate industriel, quelle caractéristique est prioritaire ?
+A) La compatibilité avec le protocole de commande (PWM, EtherCAT…) ✅
+B) La taille du moteur uniquement
+C) Le type de peinture
+D) La marque du fournisseur 
+
+
+🔵 CHECK (Évaluer)
+
+Choix du moteur pour haute précision
+Q : Pour un robot industriel qui doit positionner un outil avec une précision de ±0,01 mm, quel type de moteur est le plus adapté et pourquoi ?
+A) Moteur asynchrone triphasé – car fiable mais moins précis
+B) Moteur pas à pas avec encodeur – pour un contrôle précis de la position ✅
+C) Moteur DC standard – suffisant pour des mouvements lents
+D) Moteur à courant alternatif sans retour de position
+
+Capteur de position
+Q : Pour vérifier la position d’un moteur à haute résolution, lequel choisir et pourquoi ?
+A) Capteur inductif – détecte uniquement la présence d’un objet
+B) Potentiomètre – faible résolution, variation mécanique
+C) Encodeur absolu – fournit la position exacte même après coupure de courant ✅
+D) Capteur optique simple – insuffisant pour haute précision
+
+
+🔵 ACT (Agir)
+
+Gestion des modifications
+Q : Si une exigence client change après la phase Plan, que faut-il faire selon ISO 9001 ?
+A) Évaluer l’impact, planifier les ressources et documenter la modification ✅
+B) Appliquer la modification immédiatement
+C) Ignorer le changement et continuer
+D) Modifier uniquement le cahier des charges sans analyse
+
+Planification des modifications
+Q : Si l’évolution des exigences clients nécessite un changement moteur, que faut-il prévoir dans la planification ISO 9001 ?
+A) Évaluer l’impact sur le SMQ, planifier les ressources et documenter la modification ✅
+B) Remplacer le moteur sans étude
+C) Retarder la modification jusqu’à la phase DO
+D) Modifier uniquement le cahier des charges sans analyse technique
