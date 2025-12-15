@@ -1,3 +1,9 @@
+Jouer en équiper (2 joueur pour 1 pion)
+on répond tour par tour (exemple: la première fois c'est moi qui doit répondre aux question, ensuite ce sera à mon colluège, ensuite moi, etc)
+il y aura des cases groupes, ou on doit répondre à deux.
+
+
+
 # ⏱ INTÉGRATION DU FACTEUR TEMPS  
 ## Jeu : *Escaliers de Gestion – Projet d’Automatisation Industrielle*
 
