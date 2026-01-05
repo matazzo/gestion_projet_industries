@@ -13,3 +13,8 @@ ajustement des règles du jeu:
 éventuellement après les tests:
       -il y aura des cases sur le plateau pour répondre en équipe si on joue avec un équipier (généralement, un projet se fait rarement tout seul).
       -ajouter des cases où on est obligé de répondre à des questions difficiles (ça obligerai les débutants à ne pas répondre qu'à des questions faciles, et la notion de stratégie devient plus importante ici pour éviter ces c        cases)
+
+
+
+
+Nous avons finalement décidé de faire des questions de type ingenierie, management, et
