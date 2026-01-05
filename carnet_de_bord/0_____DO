@@ -1,0 +1,376 @@
+# 🔵 PHASE DO – MISE EN ŒUVRE & EXECUTION (25 QUESTIONS)
+
+---
+
+### DO-01
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Facile**  
+**Question :** Lors de l’installation d’un VFD ABB ACS580, vous constatez que l’alimentation est instable. Quelle est la première action correcte ?  
+**Choix :**  
+- A) Ignorer et continuer l’installation  
+- B) Installer un filtre EMI et vérifier la tension avant mise sous tension  
+- C) Remplacer le VFD par un modèle moins sensible  
+- D) Continuer avec supervision manuelle  
+
+**Bonne réponse :** B  
+**Justification :** La mise en œuvre sécurisée exige **préparer l’alimentation et protéger l’équipement**, garantissant continuité et sécurité, phase DO conforme au PDCA.
+
+---
+
+### DO-02
+**Catégorie : Management de projet pur**  
+**Difficulté : Moyen**  
+**Question :** Pendant la mise en service d’un projet multi-site, un retard apparaît sur un équipement critique. Comment réagir ?  
+**Choix :**  
+- A) Continuer les autres sites sans ajuster le planning  
+- B) Réaffecter les ressources sur la tâche critique et ajuster le planning global  
+- C) Reporter tout le projet  
+- D) Ignorer et rattraper plus tard  
+
+**Bonne réponse :** B  
+**Justification :** Ajuster ressources et planning sur la tâche critique permet de **minimiser impact global**, logique PDCA phase DO.
+
+---
+
+### DO-03
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Expert**  
+**Question :** Lors de la mise en service d’un réseau Profibus/Profinet multi-PLC, des erreurs de communication apparaissent sporadiquement. Quelle est la meilleure approche ?  
+**Choix :**  
+- A) Remplacer tous les câbles immédiatement  
+- B) Diagnostiquer avec outil de test, vérifier topologie et terminators, corriger les segments problématiques  
+- C) Ignorer les erreurs mineures et continuer  
+- D) Déconnecter une partie du réseau pour réduire les erreurs  
+
+**Bonne réponse :** B  
+**Justification :** La **diagnostic structuré** permet d’identifier la cause réelle et corriger sans risquer l’ensemble du réseau, phase DO critique dans PDCA.
+
+---
+
+### DO-04
+**Catégorie : Raisonnement stratégique / Management**  
+**Difficulté : Moyen**  
+**Question :** Vous constatez qu’un sous-traitant ne respecte pas le plan de travail sur site, impactant les autres équipes. Comment agir ?  
+**Choix :**  
+- A) Laisser continuer et corriger après  
+- B) Réunion immédiate pour clarifier responsabilités et ajuster le planning  
+- C) Exclure le sous-traitant  
+- D) Continuer à superviser sans intervention  
+
+**Bonne réponse :** B  
+**Justification :** Intervention rapide et coordination évite propagation des retards, exemplifie **gestion stratégique et leadership DO**.
+
+---
+
+### DO-05
+**Catégorie : Management de projet pur**  
+**Difficulté : Expert**  
+**Question :** Durant l’exécution, les KPI montrent un dépassement de ressources sur un site critique. Quelle décision ?  
+**Choix :**  
+- A) Maintenir l’allocation initiale  
+- B) Réaffecter personnel ou demander ressources supplémentaires, ajuster planning  
+- C) Ignorer les KPI  
+- D) Reporter les livrables  
+
+**Bonne réponse :** B  
+**Justification :** L’arbitrage des ressources en temps réel est clé pour respecter délais et objectifs, phase DO exige réactivité.
+
+---
+
+### DO-06
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Facile**  
+**Question :** Lors du commissioning d’un SCADA, certaines données d’instrumentation ne remontent pas. Quelle action immédiate ?  
+**Choix :**  
+- A) Continuer tests malgré données manquantes  
+- B) Vérifier câblage et configuration des I/O sur PLC et SCADA  
+- C) Ignorer et corriger après mise en production  
+- D) Déconnecter l’instrument pour simplifier  
+
+**Bonne réponse :** B  
+**Justification :** Vérification directe garantit intégrité des données et fiabilité, phase DO.
+
+---
+
+### DO-07
+**Catégorie : Raisonnement stratégique / Management**  
+**Difficulté : Expert**  
+**Question :** Vous devez arbitrer en direct sur site entre installer une solution temporaire pour respecter délai ou retarder pour solution optimale. Quelle décision ?  
+**Choix :**  
+- A) Installer solution temporaire pour respecter délai  
+- B) Retarder installation pour solution optimale  
+- C) Consulter client et documenter le compromis  
+- D) Continuer sans décision  
+
+**Bonne réponse :** C  
+**Justification :** La **communication avec le client** et documentation permet arbitrage stratégique et réduit risques, exemplifie leadership DO.
+
+---
+
+### DO-08
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Moyen**  
+**Question :** Test d’un automate Siemens S7-1500 et VFD ABB ACS580 en ligne réelle montre vibrations irrégulières. Quelle approche ?  
+**Choix :**  
+- A) Ignorer vibrations mineures  
+- B) Vérifier paramètres VFD, capteurs et logique PLC, ajuster programmation et PID  
+- C) Arrêter ligne et remplacer tout équipement  
+- D) Continuer tests sur autre ligne  
+
+**Bonne réponse :** B  
+**Justification :** Ajustement contrôlé sur site assure sécurité et performance, phase DO appliquée.
+
+---
+
+### DO-09
+**Catégorie : Management de projet pur**  
+**Difficulté : Facile**  
+**Question :** Vous supervisez 3 équipes sur site avec reporting quotidien. Que faire pour suivre avancement ?  
+**Choix :**  
+- A) Demander rapports hebdomadaires  
+- B) Points de suivi quotidiens avec mise à jour KPI  
+- C) Laisser équipes décider fréquence reporting  
+- D) Ne pas suivre pour ne pas perturber équipes  
+
+**Bonne réponse :** B  
+**Justification :** Suivi quotidien permet correction rapide et cohérence projet, phase DO.
+
+---
+
+### DO-10
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Expert**  
+**Question :** Un VFD ABB ACS580 interfaced avec PLC Siemens montre des oscillations de courant lors tests simultanés sur plusieurs moteurs. Quelle approche DO ?  
+**Choix :**  
+- A) Ignorer et tester un moteur à la fois  
+- B) Vérifier logique PLC, paramètres VFD, câblage et séquence de démarrage synchronisée  
+- C) Réduire puissance VFD sans analyse  
+- D) Remplacer VFD  
+
+**Bonne réponse :** B  
+**Justification :** Analyse technique intégrée PLC/VFD permet résoudre problème multi-équipement, phase DO essentielle pour performance.
+
+---
+
+### DO-11
+**Catégorie : Raisonnement stratégique / Management**  
+**Difficulté : Moyen**  
+**Question :** Sur site, un conflit entre équipes risque de retarder tests finaux. Quelle décision DO stratégique ?  
+**Choix :**  
+- A) Ignorer et laisser équipes résoudre  
+- B) Intervention pour clarifier rôles et responsabilités, ajuster planning si nécessaire  
+- C) Séparer équipes  
+- D) Reporter tests  
+
+**Bonne réponse :** B  
+**Justification :** Gestion proactive des conflits réduit retards et améliore coordination, PDCA phase DO.
+
+---
+
+### DO-12
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Facile**  
+**Question :** Les données d’un capteur 4-20 mA ne remontent pas correctement dans le PLC. Première étape DO ?  
+**Choix :**  
+- A) Remplacer capteur  
+- B) Vérifier câblage, alimentation et configuration I/O  
+- C) Ignorer et ajuster après  
+- D) Ajouter un convertisseur analogique numérique  
+
+**Bonne réponse :** B  
+**Justification :** Vérification directe et corrective en phase DO assure qualité et sécurité.
+
+---
+
+### DO-13
+**Catégorie : Management de projet pur**  
+**Difficulté : Expert**  
+**Question :** Pendant exécution, un site reçoit retard livraison équipement critique. Action PDCA DO ?  
+**Choix :**  
+- A) Continuer sur autres tâches  
+- B) Replanifier séquences, ajuster ressources et communiquer au client  
+- C) Suspendre tout projet  
+- D) Ignorer  
+
+**Bonne réponse :** B  
+**Justification :** Ajustement planification et communication garantit respect délais et objectifs, PDCA DO.
+
+---
+
+### DO-14
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Moyen**  
+**Question :** Test multi-PLC et instruments révèle incohérence de timing. Que faire ?  
+**Choix :**  
+- A) Ignorer  
+- B) Vérifier cycles scan PLC, synchronisation et horloges, corriger  
+- C) Reprogrammer tout PLC  
+- D) Continuer tests séparés  
+
+**Bonne réponse :** B  
+**Justification :** Synchronisation est critique pour sécurité et performance, phase DO.
+
+---
+
+### DO-15
+**Catégorie : Raisonnement stratégique / Management**  
+**Difficulté : Expert**  
+**Question :** Un client demande ajustement immédiat de production, impactant test automatisation. Action stratégique DO ?  
+**Choix :**  
+- A) Ajuster production immédiatement  
+- B) Analyser impact, proposer compromis documenté  
+- C) Ignorer demande  
+- D) Refuser  
+
+**Bonne réponse :** B  
+**Justification :** Arbitrage stratégique minimise impact et sécurise phase tests, PDCA DO.
+
+---
+
+### DO-16
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Facile**  
+**Question :** Un SCADA multi-site ne remonte pas toutes alarmes. Action DO ?  
+**Choix :**  
+- A) Ignorer  
+- B) Vérifier configuration tags, communication et mapping  
+- C) Reprogrammer SCADA  
+- D) Déconnecter site  
+
+**Bonne réponse :** B  
+**Justification :** Vérification et correction sur site garantit sécurité et performance, phase DO.
+
+---
+
+### DO-17
+**Catégorie : Management de projet pur**  
+**Difficulté : Moyen**  
+**Question :** Plusieurs équipes doivent valider tests simultanément. Retard sur une équipe risque blocage. Action ?  
+**Choix :**  
+- A) Laisser retard se produire  
+- B) Réassigner ressources pour soutien et ajuster planning  
+- C) Suspendre tout projet  
+- D) Ignorer  
+
+**Bonne réponse :** B  
+**Justification :** Arbitrage et réallocation ressources optimisent avancement, phase DO.
+
+---
+
+### DO-18
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Expert**  
+**Question :** Test commissioning montre pics de courant sur VFD pendant synchronisation multi-moteurs. Quelle approche ?  
+**Choix :**  
+- A) Ignorer  
+- B) Analyser séquences PLC, VFD, câblage et corriger paramétrage synchronisation  
+- C) Réduire tension VFD  
+- D) Remplacer moteur  
+
+**Bonne réponse :** B  
+**Justification :** Analyse technique intégrée prévient dommages, phase DO critique pour sécurité et performance.
+
+---
+
+### DO-19
+**Catégorie : Raisonnement stratégique / Management**  
+**Difficulté : Moyen**  
+**Question :** Conflit sur site entre équipe maintenance et automation. Action PDCA DO ?  
+**Choix :**  
+- A) Ignorer  
+- B) Médiation et clarification rôles, ajuster planning  
+- C) Séparer équipes  
+- D) Reporter tests  
+
+**Bonne réponse :** B  
+**Justification :** Gestion proactive réduit retard et tensions, leadership stratégique DO.
+
+---
+
+### DO-20
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Facile**  
+**Question :** Pendant tests, instrument de température ne répond pas. Action ?  
+**Choix :**  
+- A) Remplacer immédiatement  
+- B) Vérifier câblage, alimentation et calibration  
+- C) Ignorer  
+- D) Arrêter tests  
+
+**Bonne réponse :** B  
+**Justification :** Vérification directe assure qualité et sécurité phase DO.
+
+---
+
+### DO-21
+**Catégorie : Management de projet pur**  
+**Difficulté : Expert**  
+**Question :** Livraison retardée impacte jalon critique. Que faire ?  
+**Choix :**  
+- A) Maintenir jalon  
+- B) Replanifier tâches dépendantes, informer client et ajuster ressources  
+- C) Reporter tout projet  
+- D) Ignorer  
+
+**Bonne réponse :** B  
+**Justification :** Ajustement en temps réel réduit risque retard global, PDCA DO.
+
+---
+
+### DO-22
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Moyen**  
+**Question :** Test réseau multi-site révèle pertes paquets sporadiques. Action ?  
+**Choix :**  
+- A) Ignorer  
+- B) Vérifier câbles, switchs, terminaison, et corriger topologie  
+- C) Déconnecter sites  
+- D) Refaire câblage complet  
+
+**Bonne réponse :** B  
+**Justification :** Diagnostic précis réduit risques réseau et assure performance, phase DO.
+
+---
+
+### DO-23
+**Catégorie : Raisonnement stratégique / Management**  
+**Difficulté : Expert**  
+**Question :** Client demande accélération tests finaux, impactant sécurité et planning. Action DO ?  
+**Choix :**  
+- A) Accélérer tests  
+- B) Évaluer risque, proposer compromis documenté  
+- C) Ignorer demande  
+- D) Refuser tests  
+
+**Bonne réponse :** B  
+**Justification :** Arbitrage stratégique garantit sécurité et planification PDCA.
+
+---
+
+### DO-24
+**Catégorie : Management de projet pur**  
+**Difficulté : Moyen**  
+**Question :** Plusieurs fournisseurs doivent livrer en même temps, risque retard. Action DO ?  
+**Choix :**  
+- A) Suivi quotidien avec points de contrôle  
+- B) Laisser livraison se produire  
+- C) Ignorer  
+- D) Annuler projet  
+
+**Bonne réponse :** A  
+**Justification :** Suivi strict et points de contrôle minimisent risque impact, phase DO.
+
+---
+
+### DO-25
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Expert**  
+**Question :** Commissioning complet SCADA et multi-PLC révèle incohérences de tags entre sites. Approche DO ?  
+**Choix :**  
+- A) Ignorer  
+- B) Diagnostiquer mapping, scripts, synchronisation et corriger progressivement  
+- C) Reprogrammer tous PLC  
+- D) Arrêter tests  
+
+**Bonne réponse :** B  
+**Justification :** Correction progressive assure cohérence multi-site et sécurité opérationnelle, phase DO complète PDCA.
