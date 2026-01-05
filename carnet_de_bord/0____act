@@ -1,0 +1,76 @@
+Tu es un expert senior en **automation industrielle** et **management de projet industriel**. Tu conçois un **outil d’évaluation avancé basé sur le cycle PDCA (Plan / Do / Check / Act)**.
+
+OBJECTIF : 
+Générer un questionnaire PDCA destiné à :
+- ingénieurs automation, intégrateurs PLC, responsables d’équipe automation
+- chefs de projet industriels et managers
+
+L’outil doit évaluer :
+- compétence technique avancée (PLC Siemens, ABB, VFD, Profibus, Profinet, SCADA, instrumentation)
+- maturité managériale et capacité de décision
+- raisonnement stratégique complexe
+- management de projet pur : planification, gestion des ressources, KPI, reporting, arbitrage, communication
+
+STRUCTURE OBLIGATOIRE :
+- Cycle PDCA complet
+- 4 phases : PLAN, DO, CHECK, ACT
+- 25 questions par phase (100 questions au total)
+- Au moins 10 questions de **raisonnement stratégique / managérial** par phase
+- Au moins 15 questions **techniques** par phase
+- Inclure des questions purement **management de projet** pour tester planification, ressources, communication, priorisation, arbitrage, et reporting
+
+NIVEAUX DE DIFFICULTÉ :
+- 1/3 facile : situation réaliste et cadrée
+- 1/3 moyen : contraintes multiples, arbitrages, choix non évidents
+- 1/3 expert : zones grises, décisions critiques, conséquences élevées
+
+CATÉGORIES À INDICER POUR CHAQUE QUESTION :
+- Management
+- Raisonnement stratégique
+- Organisation & Leadership
+- Ingénierie / Automation
+- Management de projet pur
+
+RÈGLES SUR LES QUESTIONS :
+- Techniques : PLC Siemens/ABB, VFD, Profibus, Profinet, SCADA, instrumentation, intégration multi-constructeurs, commissioning, test, dépannage
+- Manageriales / projet : conflits, priorisation, ressources humaines, KPI, planning, communication, reporting, arbitrage complexe
+- Questions longues et détaillées, contextuelles, difficiles
+- Créer des dilemmes et décisions complexes
+- Tester la capacité à choisir malgré l’incertitude
+
+RÉPONSES (A / B / C / D) :
+- 4 propositions par question, toutes plausibles
+- Éviter les réponses triviales ou "ignorer le problème"
+- Une seule réponse correcte
+- La bonne réponse doit être **difficile à deviner**, même pour les experts
+
+EXPLICATION DE LA RÉPONSE :
+- Fournir justification détaillée et professionnelle
+- Inclure analyse technique (pour questions automation) et managériale (pour questions stratégiques ou management de projet)
+- Argumenter la décision par rapport au cycle PDCA, risques, sécurité, performance, maintenance, long terme et objectifs de projet
+
+FORMAT DE SORTIE :
+- Tout le contenu dans **un seul bloc Markdown**
+- Numérotation continue et rigoureuse
+- Séparer chaque phase PDCA
+- Pour chaque question indiquer :
+  - catégorie
+  - difficulté (facile / moyen / expert)
+  - 4 réponses A/B/C/D
+  - bonne réponse
+  - justification complète
+- Inclure dans chaque phase :
+  - au moins 10 questions de raisonnement stratégique / management / management de projet
+  - au moins 15 questions techniques (PLC Siemens/ABB, VFD, SCADA, Profibus, Profinet, instrumentation)
+  - questions de management de projet pur : planification, arbitrage, KPI, reporting, ressources
+- Répartir les niveaux de difficulté pour chaque phase : 1/3 facile, 1/3 moyen, 1/3 expert
+
+CONTRAINTES :
+- Toutes les questions doivent être **complexes et détaillées**
+- Les réponses doivent créer un doute réel même pour des experts
+- Mélanger techniques, managériales, stratégiques et management de projet dans chaque phase
+- Inclure des dilemmes et décisions critiques
+
+DÉMARRAGE IMPÉRATIF :
+PHASE PLAN – 25 QUESTIONS DÉTAILLÉES, TECHNIQUE, MANAGEMENT, MANAGEMENT DE PROJET, AVEC DIFFICULTÉS VARIÉES
+**OUTPUT : tout le questionnaire doit être généré en Markdown prêt à l’emploi**
