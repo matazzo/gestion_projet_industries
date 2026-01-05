@@ -13,3 +13,5 @@ ajustement des règles du jeu:
 -Sur le plateau, il y aura à certains endroit un enchaînement de 3 cases (inévitables) qui forcerons le joueur à choisir la difficultée aléatoiremet au prochain tour. (ajoute de l'aléatoire au jeu. en effet, il est rare que tout se passe comme prévu dans un projet, et c'est pourquoi on choisi de mettre en place ces cases aléatoire
 
 -On rajoutera aussi une case par palier, qui si on tombe dessus, obligera les adversaires à choisir les questions aléatoirement.
+
+-Enfin, il y aura des cases sur le plateau pour répondre en équipe si on joue avec un équipier (généralement, un projet se fait rarement tout seul).
