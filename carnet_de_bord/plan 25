@@ -1,0 +1,377 @@
+# 🔵 PHASE PLAN – CADRAGE & CONCEPTION (25 QUESTIONS)
+
+---
+
+### PLAN-01
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Facile**  
+**Question :** Vous devez concevoir une cellule robotisée pour une ligne de production existante. Le client ne précise pas les exigences de redondance ni de SLA. Quelle approche est la plus appropriée pour la phase de planification ?  
+**Choix :**  
+- A) Concevoir une architecture simple non redondante pour réduire les coûts  
+- B) Imposer une architecture entièrement redondante dès le départ  
+- C) Clarifier les exigences SLA et maintenance avec le client avant conception  
+- D) Utiliser des composants standard sans tenir compte de l’intégration future  
+
+**Bonne réponse :** C  
+**Justification :** Clarifier les exigences avant conception permet de **réduire les risques**, garantir la maintenabilité et optimiser le coût. Cela suit le **Plan** du PDCA en sécurisant les décisions techniques et stratégiques.
+
+---
+
+### PLAN-02
+**Catégorie : Management de projet pur**  
+**Difficulté : Moyen**  
+**Question :** Vous planifiez un projet automatisation multi-sites avec contraintes de calendrier serré. Votre équipe est limitée et certains techniciens doivent couvrir plusieurs sites. Quelle décision est la plus appropriée ?  
+**Choix :**  
+- A) Déployer tous les sites simultanément malgré le manque de ressources  
+- B) Prioriser les sites critiques et établir un planning échelonné  
+- C) Recruter du personnel temporaire sans modifier le planning  
+- D) Retarder le projet global jusqu’à disponibilité de toutes les ressources  
+
+**Bonne réponse :** B  
+**Justification :** Prioriser les sites critiques permet un **arbitrage raisonné entre ressources et planning**, optimisant les résultats tout en respectant les KPI et contraintes de projet.
+
+---
+
+### PLAN-03
+**Catégorie : Raisonnement stratégique / Management**  
+**Difficulté : Expert**  
+**Question :** Le client exige l’intégration d’un nouveau SCADA tout en maintenant l’existant pour ne pas arrêter la production. Les fournisseurs ont des protocoles incompatibles. Quelle stratégie est la plus robuste ?  
+**Choix :**  
+- A) Migrer tout le système vers le nouveau SCADA immédiatement  
+- B) Maintenir l'ancien SCADA et abandonner le nouveau pour éviter le risque  
+- C) Déployer une interface middleware pour assurer la compatibilité progressive  
+- D) Attendre que les fournisseurs publient un patch de compatibilité  
+
+**Bonne réponse :** C  
+**Justification :** L’usage d’un **middleware** permet une intégration progressive et sécurisée. C’est une décision stratégique réduisant les risques et préparant la phase **DO** pour tests et déploiement.
+
+---
+
+### PLAN-04
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Moyen**  
+**Question :** Vous planifiez l’installation d’un VFD ABB ACS580 sur une ligne existante. L’alimentation électrique est sujette à des fluctuations. Quelle solution technique est la plus adaptée ?  
+**Choix :**  
+- A) Installer le VFD sans précautions  
+- B) Ajouter un onduleur et filtre EMI avant le VFD  
+- C) Remplacer le VFD par un modèle moins sensible  
+- D) Ignorer le problème et gérer les interruptions au fur et à mesure  
+
+**Bonne réponse :** B  
+**Justification :** L’**onduleur et filtre EMI** protège le VFD et garantit la continuité. Cela illustre la planification proactive dans le **Plan** du PDCA.
+
+---
+
+### PLAN-05
+**Catégorie : Management de projet pur**  
+**Difficulté : Expert**  
+**Question :** Vos KPI montrent une surcharge sur certains ingénieurs. Le planning est strict. Que faire ?  
+**Choix :**  
+- A) Répartir les tâches équitablement sans changer le planning  
+- B) Déléguer certaines tâches à des consultants externes et ajuster le planning  
+- C) Ignorer les KPI et suivre le planning initial  
+- D) Retarder le projet global jusqu’à disponibilité complète  
+
+**Bonne réponse :** B  
+**Justification :** L’arbitrage entre ressources internes et externes optimise performance, réduit le risque humain et respecte les objectifs de livraison.
+
+---
+
+### PLAN-06
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Facile**  
+**Question :** Vous devez définir la topologie réseau pour un projet Profinet avec machines anciennes. Quelle approche est la meilleure ?  
+**Choix :**  
+- A) Connecter toutes les machines sur un seul segment  
+- B) Segmenter le réseau en VLANs et utiliser switchs Profinet  
+- C) Ne pas segmenter et utiliser des convertisseurs protocolaires uniquement  
+- D) Retarder la conception réseau jusqu’à la phase d’exécution  
+
+**Bonne réponse :** B  
+**Justification :** La segmentation garantit stabilité et performance, en respectant la logique PLAN et anticipant les problèmes d’interopérabilité.
+
+---
+
+### PLAN-07
+**Catégorie : Raisonnement stratégique / Management**  
+**Difficulté : Moyen**  
+**Question :** Deux fournisseurs proposent des automates Siemens S7-1500 : support rapide mais cher ou support lent mais économique. Priorité : délai et fiabilité. Que choisir ?  
+**Choix :**  
+- A) Fournisseur économique  
+- B) Fournisseur rapide  
+- C) Alterner les fournisseurs  
+- D) Attendre un troisième fournisseur  
+
+**Bonne réponse :** B  
+**Justification :** Prioriser support et fiabilité réduit le risque opérationnel, décision stratégique conforme au PDCA.
+
+---
+
+### PLAN-08
+**Catégorie : Management de projet pur**  
+**Difficulté : Facile**  
+**Question :** Vous établissez le planning initial d’un projet de 6 mois avec ressources fixes. Quelle pratique est la plus adaptée ?  
+**Choix :**  
+- A) Planning détaillé avec jalons, dépendances et points de contrôle  
+- B) Planning approximatif basé sur expérience passée  
+- C) Laisser chaque ingénieur gérer son calendrier  
+- D) Reporter le planning jusqu’à disponibilité complète  
+
+**Bonne réponse :** A  
+**Justification :** Planifier de manière détaillée permet un suivi efficace, arbitrages et reporting structurés.
+
+---
+
+### PLAN-09
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Expert**  
+**Question :** Vous planifiez l’intégration de PLC Siemens et ABB avec Profibus/Profinet. Certains protocoles sont incompatibles. Quelle stratégie ?  
+**Choix :**  
+- A) Modifier firmware pour forcer compatibilité  
+- B) Déployer des gateways et planifier tests progressifs  
+- C) Séparer complètement les réseaux  
+- D) Tester communications uniquement en DO  
+
+**Bonne réponse :** B  
+**Justification :** Les **gateways et tests progressifs** réduisent les risques, respectent la planification PDCA et assurent l’interopérabilité multi-fournisseurs.
+
+---
+
+### PLAN-10
+**Catégorie : Raisonnement stratégique / Management**  
+**Difficulté : Facile**  
+**Question :** Le client veut accélérer la livraison mais la documentation n’est pas prête. Quelle approche ?  
+**Choix :**  
+- A) Livrer sans documentation  
+- B) Refuser la livraison  
+- C) Livrer partiellement avec documentation progressive  
+- D) Ignorer le problème et traiter en DO  
+
+**Bonne réponse :** C  
+**Justification :** Compromis stratégique qui respecte le client et le projet, anticipation des risques PDCA.
+
+---
+
+### PLAN-11
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Moyen**  
+**Question :** Un process nécessite un capteur de niveau analogique 4-20 mA, mais l’instrumentation existante utilise des entrées numériques. Quelle solution ?  
+**Choix :**  
+- A) Remplacer tous les capteurs par numériques  
+- B) Installer un module d’interface analogique vers numérique  
+- C) Convertir manuellement les mesures sur papier  
+- D) Ignorer l’interface et intégrer directement  
+
+**Bonne réponse :** B  
+**Justification :** L’interface module garantit compatibilité, sécurité, précision et s’inscrit dans la planification technique.
+
+---
+
+### PLAN-12
+**Catégorie : Management de projet pur**  
+**Difficulté : Expert**  
+**Question :** Plusieurs équipes travaillent sur le même projet, chacune avec un planning indépendant. Comment gérer les dépendances critiques ?  
+**Choix :**  
+- A) Laisser les équipes synchroniser elles-mêmes  
+- B) Centraliser un planning intégré avec points de contrôle  
+- C) Reporter toute décision sur le management supérieur  
+- D) Travailler sur les tâches sans coordination  
+
+**Bonne réponse :** B  
+**Justification :** La centralisation et points de contrôle permettent arbitrage et optimisation des ressources, logique PLAN du PDCA.
+
+---
+
+### PLAN-13
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Facile**  
+**Question :** Vous devez intégrer un VFD ABB ACS580 avec un PLC Siemens S7-1500. Quelle étape est critique en phase PLAN ?  
+**Choix :**  
+- A) Définir protocole de communication et points I/O  
+- B) Installer le VFD sans paramétrage  
+- C) Ignorer les compatibilités PLC/VFD  
+- D) Tester uniquement en phase DO  
+
+**Bonne réponse :** A  
+**Justification :** Définir protocole et points I/O prévient les problèmes d’intégration et prépare la phase DO.
+
+---
+
+### PLAN-14
+**Catégorie : Raisonnement stratégique / Management**  
+**Difficulté : Moyen**  
+**Question :** Vous devez arbitrer entre budget électrique limité et performance souhaitée. Quelle décision PDCA ?  
+**Choix :**  
+- A) Réduire performance pour respecter budget  
+- B) Augmenter budget pour performance optimale  
+- C) Prioriser équipements critiques et ajuster les autres  
+- D) Reporter la décision  
+
+**Bonne réponse :** C  
+**Justification :** L’arbitrage ciblé permet équilibre coût/performance, réflexion stratégique pour la phase PLAN.
+
+---
+
+### PLAN-15
+**Catégorie : Management de projet pur**  
+**Difficulté : Expert**  
+**Question :** Votre projet a des jalons multiples et interdépendants. Un retard mineur risque de bloquer d’autres équipes. Que faire ?  
+**Choix :**  
+- A) Ignorer et rattraper en phase DO  
+- B) Redéfinir les dépendances et planifier mitigation  
+- C) Réaffecter toutes les ressources sur la tâche retardée  
+- D) Accepter le retard comme inévitable  
+
+**Bonne réponse :** B  
+**Justification :** La **planification proactive des dépendances** réduit les risques et prépare l’exécution PDCA.
+
+---
+
+### PLAN-16
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Moyen**  
+**Question :** Pour un projet multi-PLC, certaines machines utilisent Profibus et d’autres Profinet. Quelle approche planification réseau ?  
+**Choix :**  
+- A) Fusionner tous les réseaux sans plan  
+- B) Prévoir routeurs/gateways et segmentations VLAN  
+- C) Retarder planification réseau  
+- D) Convertir tous les PLC sur un protocole unique  
+
+**Bonne réponse :** B  
+**Justification :** La planification de gateways et VLAN assure interopérabilité, sécurité et performance.
+
+---
+
+### PLAN-17
+**Catégorie : Raisonnement stratégique / Management**  
+**Difficulté : Expert**  
+**Question :** Un client souhaite une automatisation maximale mais avec budget strict et faible maintenance. Quelle approche stratégique PDCA ?  
+**Choix :**  
+- A) Concevoir tout automatisé sans compromis  
+- B) Maintenir manuellement les parties critiques  
+- C) Prioriser automatisation critique et planifier maintenance minimale pour le reste  
+- D) Refuser le projet  
+
+**Bonne réponse :** C  
+**Justification :** Optimise performance et budget, gestion des risques et anticipation maintenance = réflexion stratégique PLAN.
+
+---
+
+### PLAN-18
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Facile**  
+**Question :** Vous planifiez les tests de mise en service d’un SCADA multi-site. Quelle approche ?  
+**Choix :**  
+- A) Définir protocole test et séquence avant mise en service  
+- B) Tester au fur et à mesure sur site  
+- C) Attendre que tout soit installé pour tester  
+- D) Tester uniquement le site principal  
+
+**Bonne réponse :** A  
+**Justification :** Planification de tests structurés assure fiabilité et sécurité, logique PDCA.
+
+---
+
+### PLAN-19
+**Catégorie : Management de projet pur**  
+**Difficulté : Moyen**  
+**Question :** Plusieurs fournisseurs doivent livrer simultanément. Risque : retard sur un seul fournisseur. Action PDCA ?  
+**Choix :**  
+- A) Suivre livraison au jour le jour  
+- B) Planifier des buffers et points de contrôle  
+- C) Ignorer et rattraper en phase DO  
+- D) Annuler projet si retard potentiel  
+
+**Bonne réponse :** B  
+**Justification :** La **planification de buffers** anticipe risques et assure suivi KPI.
+
+---
+
+### PLAN-20
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Expert**  
+**Question :** Vous intégrez un PLC Siemens S7-1500, un VFD ABB ACS580 et des instruments 4-20 mA avec redondance réseau. Quelle planification technique critique ?  
+**Choix :**  
+- A) Définir logique de redondance et tests simulés avant installation  
+- B) Installer et tester sur site uniquement  
+- C) Ignorer redondance en phase PLAN  
+- D) Définir uniquement logique VFD  
+
+**Bonne réponse :** A  
+**Justification :** La simulation de redondance et compatibilité multi-équipements minimise risques, prépare phase DO et PDCA.
+
+---
+
+### PLAN-21
+**Catégorie : Raisonnement stratégique / Management**  
+**Difficulté : Facile**  
+**Question :** Un client change fréquemment de priorités. Quelle planification PDCA adopter ?  
+**Choix :**  
+- A) Suivre chaque demande immédiatement  
+- B) Définir priorité stratégique et ajuster planning  
+- C) Ignorer changements  
+- D) Refuser projet  
+
+**Bonne réponse :** B  
+**Justification :** Priorisation stratégique permet flexibilité et cohérence projet.
+
+---
+
+### PLAN-22
+**Catégorie : Management de projet pur**  
+**Difficulté : Moyen**  
+**Question :** Les ressources sont limitées pour plusieurs tâches critiques simultanées. Que faire ?  
+**Choix :**  
+- A) Répartir équitablement  
+- B) Prioriser selon impact sur projet et KPI  
+- C) Ignorer et exécuter au hasard  
+- D) Embaucher personnel supplémentaire sans analyse  
+
+**Bonne réponse :** B  
+**Justification :** L’arbitrage basé sur impact/KPI optimise utilisation ressources et réussite projet.
+
+---
+
+### PLAN-23
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Moyen**  
+**Question :** Vous planifiez la sécurisation d’un réseau industriel mixte Profinet/Profibus. Quelle approche ?  
+**Choix :**  
+- A) Segmenter VLANs et sécuriser avec firewall industriel  
+- B) Connecter tous les équipements sur le même réseau  
+- C) Ignorer la sécurité  
+- D) Séparer les réseaux sans planification  
+
+**Bonne réponse :** A  
+**Justification :** La segmentation et firewall anticipent risques cyber et technique, préparation PDCA.
+
+---
+
+### PLAN-24
+**Catégorie : Raisonnement stratégique / Management**  
+**Difficulté : Expert**  
+**Question :** Vous devez arbitrer entre délai, coût et performance sur un projet critique. Quelle approche stratégique ?  
+**Choix :**  
+- A) Prioriser délai  
+- B) Prioriser coût  
+- C) Prioriser performance  
+- D) Utiliser une matrice décisionnelle pour équilibrer les trois critères  
+
+**Bonne réponse :** D  
+**Justification :** La **matrice décisionnelle** permet arbitrage équilibré, raisonnement stratégique et préparation des phases DO/CHECK/ACT.
+
+---
+
+### PLAN-25
+**Catégorie : Management de projet pur**  
+**Difficulté : Expert**  
+**Question :** Vous planifiez la communication projet multi-site avec risques de malentendus fréquents. Quelle approche PDCA ?  
+**Choix :**  
+- A) Emails informels sans suivi  
+- B) Réunions régulières et reporting structuré  
+- C) Laisser chaque site décider de sa communication  
+- D) Reporter communication jusqu’au DO  
+
+**Bonne réponse :** B  
+**Justification :** Reporting structuré et réunions régulières réduisent risques de coordination, améliorent prise de décision et suivent la logique PLAN du PDCA.
+
