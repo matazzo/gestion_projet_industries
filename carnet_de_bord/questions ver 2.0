@@ -1,494 +1,280 @@
 # 🔵 PHASE PLAN – CADRAGE & CONCEPTION (25 questions)
 
 ### PLAN-01
-**Question :** Le client demande une station automatisée, mais ne précise ni SLA, ni redondance, ni maintenance.  
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Le client demande une station automatisée sans préciser SLA, redondance et maintenance.  
 **Choix :**  
-- A) Concevoir une architecture simple sans redondance pour respecter le budget  
-- B) Clarifier SLA et disponibilité avant toute conception  
-- C) Imposer une architecture redondante complète  
-- D) Suivre le modèle d’un projet similaire existant  
-**Réponse recommandée :** B  
+- A) Concevoir une architecture simple non redondante  
+- B) Clarifier SLA, redondance et maintenance avec le client  
+- C) Imposer architecture redondante complète  
+- D) Se baser sur projets similaires existants  
+**Réponse recommandée :** B
 
 ### PLAN-02
-**Question :** Le périmètre fonctionnel n’a pas été validé par écrit.  
+**Catégorie :** Management  
+**Difficulté :** Difficile  
+**Question :** Le planning initial n’inclut pas le temps pour les tests d’intégration.  
 **Choix :**  
-- A) Commencer le développement pour gagner du temps  
-- B) Demander une validation écrite au client  
-- C) Se baser sur les besoins implicites de l’équipe technique  
-- D) Documenter le périmètre après installation  
-**Réponse recommandée :** B  
+- A) Respecter planning initial  
+- B) Ajuster planning avec phases tests détaillées  
+- C) Externaliser tests  
+- D) Ajouter tests uniquement si problème sur site  
+**Réponse recommandée :** B
 
 ### PLAN-03
-**Question :** Le réseau industriel doit supporter PLC, SCADA, accès distant et maintenance, mais aucune politique cybersécurité n’est définie.  
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Le client souhaite utiliser un PLC existant mais les specs ne sont pas compatibles.  
 **Choix :**  
-- A) Installer un réseau plat simple et ajouter sécurité après  
-- B) Séparer VLAN et installer firewall industriel dès conception  
-- C) Ignorer cybersécurité initialement pour ne pas retarder le projet  
-- D) Confier à un prestataire externe sans standard interne  
-**Réponse recommandée :** B  
+- A) Forcer compatibilité via adaptation logicielle  
+- B) Proposer PLC compatible et justification technique  
+- C) Ignorer incompatibilité  
+- D) Adapter uniquement les modules les plus critiques  
+**Réponse recommandée :** B
 
 ### PLAN-04
-**Question :** Le budget ne prévoit aucune marge pour imprévus.  
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Les capteurs proposés par le client sont obsolètes.  
 **Choix :**  
-- A) Accepter le budget tel quel  
-- B) Ajouter une réserve budgétaire réaliste  
-- C) Réduire le périmètre technique pour coller au budget  
-- D) Répartir les coûts supplémentaires sur les postes futurs  
-**Réponse recommandée :** B  
+- A) Utiliser les capteurs existants  
+- B) Proposer capteurs modernes avec avantages détaillés  
+- C) Adapter firmware aux anciens capteurs  
+- D) Ignorer la recommandation  
+**Réponse recommandée :** B
 
 ### PLAN-05
-**Question :** Le client ne spécifie pas de PLC, mais l’équipe maîtrise Siemens et le client préfère Rockwell.  
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** Les rôles de l’équipe ne sont pas clairement définis.  
 **Choix :**  
-- A) Choisir Siemens pour efficacité interne  
-- B) Choisir Rockwell pour compatibilité client  
-- C) Comparer support, maintenance et cycle de vie pour décider  
-- D) Alterner entre Siemens et Rockwell selon sous-système  
-**Réponse recommandée :** C  
+- A) Continuer sans clarification  
+- B) Définir rôles et responsabilités pour chaque phase du projet  
+- C) Confier gestion à chef de projet uniquement  
+- D) Laisser équipe s’auto-organiser  
+**Réponse recommandée :** B
 
 ### PLAN-06
-**Question :** Les parties prenantes critiques ne sont pas intégrées dès le début.  
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Le client demande des automates différents pour plusieurs lignes identiques.  
 **Choix :**  
-- A) Continuer sans elles pour respecter planning  
-- B) Intégrer toutes les parties prenantes dès maintenant  
-- C) Laisser le chef de projet gérer individuellement  
-- D) Impliquer uniquement les équipes techniques  
-**Réponse recommandée :** B  
+- A) Concevoir chaque ligne indépendamment  
+- B) Standardiser architecture pour réutilisation et maintenance  
+- C) Mélanger solutions existantes  
+- D) Ajuster selon préférences client  
+**Réponse recommandée :** B
 
 ### PLAN-07
-**Question :** Les normes locales et contraintes réglementaires ne sont pas toutes identifiées.  
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** Le budget initial ne prévoit pas la formation des opérateurs.  
 **Choix :**  
-- A) Ignorer et corriger plus tard  
-- B) Identifier toutes les normes et documenter  
-- C) Se baser sur expérience précédente  
-- D) Ajouter conformité après mise en service  
-**Réponse recommandée :** B  
+- A) Ignorer formation  
+- B) Ajouter budget et plan de formation détaillé  
+- C) Former uniquement sur incidents  
+- D) Se baser sur formation interne déjà existante  
+**Réponse recommandée :** B
 
 ### PLAN-08
-**Question :** Les hypothèses sur pompes et capteurs critiques ne sont pas validées.  
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Le client souhaite redondance réseau mais sans justification.  
 **Choix :**  
-- A) Continuer sur suppositions  
-- B) Valider hypothèses avec le client avant conception  
-- C) Ajuster sur site après installation  
-- D) Suivre documentation fournisseur partielle  
-**Réponse recommandée :** B  
+- A) Ignorer redondance  
+- B) Analyser risques et proposer solution optimisée  
+- C) Appliquer redondance complète immédiatement  
+- D) Reporter décision à la phase DO  
+**Réponse recommandée :** B
 
 ### PLAN-09
-**Question :** Le planning initial est irréaliste par rapport aux ressources disponibles.  
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** Les KPI de performance ne sont pas définis.  
 **Choix :**  
-- A) Continuer pour respecter deadline  
-- B) Proposer un planning réaliste et négocier  
-- C) Réduire le périmètre technique pour tenir les délais  
-- D) Ajouter des heures supplémentaires pour compenser  
-**Réponse recommandée :** B  
+- A) Suivre indicateurs génériques  
+- B) Définir KPI SMART avec client  
+- C) Suivre uniquement la production brute  
+- D) Se baser sur données historiques  
+**Réponse recommandée :** B
 
 ### PLAN-10
-**Question :** Les outils logiciels ne sont pas standardisés.  
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Le client impose des moteurs standard mais les charges varient beaucoup.  
 **Choix :**  
-- A) Continuer avec différents outils  
-- B) Standardiser dès le début pour cohérence  
-- C) Installer plus tard selon disponibilité  
-- D) Laisser chaque ingénieur choisir  
-**Réponse recommandée :** B  
+- A) Utiliser moteurs standards sans modification  
+- B) Recalculer charges et dimensionner moteur adapté  
+- C) Ajouter protections uniquement  
+- D) Se baser sur moteur similaire existant  
+**Réponse recommandée :** B
 
 ### PLAN-11
-**Question :** Les exigences de sécurité fonctionnelle ne sont pas documentées.  
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Le client demande des automatisations complexes sans budget suffisant.  
 **Choix :**  
-- A) Ignorer la sécurité initialement  
-- B) Définir normes et procédures dès conception  
-- C) Ajouter après tests et mise en service  
-- D) Suivre sécurité minimale requise par client  
-**Réponse recommandée :** B  
+- A) Réduire fonctionnalités pour tenir budget  
+- B) Prioriser fonctions critiques et proposer plan phasé  
+- C) Ignorer budget et proposer solution complète  
+- D) Externaliser partie de l’automatisation  
+**Réponse recommandée :** B
 
 ### PLAN-12
-**Question :** Le client souhaite plusieurs HMI sans préciser contraintes de performance.  
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** L’équipe projet n’est pas formée sur les VFD ABB.  
 **Choix :**  
-- A) Implémenter toutes HMI demandées  
-- B) Proposer architecture scalable et valider performance  
-- C) Installer uniquement HMI critique  
-- D) Ajuster après utilisation réelle  
-**Réponse recommandée :** B  
+- A) Ignorer et avancer  
+- B) Prévoir formation VFD pour équipe avant conception  
+- C) Se baser sur documentation uniquement  
+- D) Confier programmation à prestataire  
+**Réponse recommandée :** B
 
 ### PLAN-13
-**Question :** Les capteurs critiques n’ont pas de datasheets complètes.  
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Le site est difficile d’accès pour câblage et maintenance.  
 **Choix :**  
-- A) Installer et tester sur site  
-- B) Obtenir datasheets et spécifications exactes  
-- C) Se baser sur capteurs similaires  
-- D) Tester seulement la précision minimale requise  
-**Réponse recommandée :** B  
+- A) Ignorer contraintes physiques  
+- B) Ajuster design pour accessibilité et maintenance  
+- C) Adapter équipements existants  
+- D) Réduire automation sur site  
+**Réponse recommandée :** B
 
 ### PLAN-14
-**Question :** L’architecture SCADA n’a pas été testée sur le réseau client.  
+**Catégorie :** Management  
+**Difficulté :** Difficile  
+**Question :** Les fournisseurs ont des délais variables et incertains.  
 **Choix :**  
-- A) Installer et corriger erreurs sur site  
-- B) Faire simulation réseau avant intégration  
-- C) Suivre architecture standard précédente  
-- D) Tester partiellement sur sous-réseau  
-**Réponse recommandée :** B  
+- A) Ne rien changer  
+- B) Identifier risques et prévoir plan de mitigation  
+- C) Changer fournisseur uniquement si retard  
+- D) Ajuster planning au fur et à mesure  
+**Réponse recommandée :** B
 
 ### PLAN-15
-**Question :** Les exigences d’archivage ne sont pas précisées.  
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Les signaux analogiques ne sont pas isolés et risque de bruit existe.  
 **Choix :**  
-- A) Utiliser plan d’archivage standard interne  
-- B) Clarifier exigences avec client avant conception  
-- C) Stocker données temporairement et ajuster après  
-- D) Définir arbitrage technique basé sur expérience  
-**Réponse recommandée :** B  
+- A) Ignorer bruit potentiel  
+- B) Prévoir isolation et filtrage  
+- C) Ajuster alarmes seulement  
+- D) Corriger après installation  
+**Réponse recommandée :** B
 
 ### PLAN-16
-**Question :** L’équipe projet n’a pas défini les interfaces avec systèmes existants.  
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Le client veut supervision sur HMI multiples sans réseau redondant.  
 **Choix :**  
-- A) Ignorer et corriger après FAT  
-- B) Documenter et valider interfaces avec toutes équipes  
-- C) Définir interfaces minimales pour avancer  
-- D) Laisser intégration dynamique après installation  
-**Réponse recommandée :** B  
+- A) Installer HMI sans modification  
+- B) Proposer architecture réseau et redondance adaptée  
+- C) Limiter supervision à HMI principal  
+- D) Ignorer demandes multiples  
+**Réponse recommandée :** B
 
 ### PLAN-17
-**Question :** La criticité des équipements n’est pas évaluée.  
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** Le client demande reporting sans préciser fréquence ni indicateurs.  
 **Choix :**  
-- A) Supposer tous critiques  
-- B) Évaluer criticité et prioriser interventions  
-- C) Ignorer initialement  
-- D) Prioriser uniquement moteurs principaux  
-**Réponse recommandée :** B  
+- A) Envoyer reporting mensuel générique  
+- B) Définir fréquence et indicateurs avec client  
+- C) Suivre KPI internes seulement  
+- D) Ignorer reporting jusqu’au projet terminé  
+**Réponse recommandée :** B
 
 ### PLAN-18
-**Question :** Les standards de câblage ne sont pas alignés avec client.  
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Le client demande utilisation de capteurs diversifiés non standardisés.  
 **Choix :**  
-- A) Utiliser standards internes  
-- B) Aligner avec client et normes locales  
-- C) Appliquer uniquement normes internes critiques  
-- D) Adapter après installation  
-**Réponse recommandée :** B  
+- A) Utiliser tous capteurs comme demandés  
+- B) Standardiser choix pour maintenance et compatibilité  
+- C) Ignorer standardisation  
+- D) Adapter firmware capteurs existants  
+**Réponse recommandée :** B
 
 ### PLAN-19
-**Question :** Les tests fonctionnels ne sont pas planifiés.  
+**Catégorie :** Management  
+**Difficulté :** Difficile  
+**Question :** Le projet implique plusieurs équipes dans différents pays.  
 **Choix :**  
-- A) Tester directement sur site  
-- B) Préparer plan complet de tests  
-- C) Tester uniquement fonction critique  
-- D) Se baser sur expérience précédente  
-**Réponse recommandée :** B  
+- A) Gérer projet de manière centralisée  
+- B) Mettre en place plan de coordination et communication  
+- C) Chaque équipe décide de sa partie  
+- D) Externaliser coordination  
+**Réponse recommandée :** B
 
 ### PLAN-20
-**Question :** L’intégration VFD n’est pas définie pour tous moteurs.  
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Le client impose des temps de cycle impossibles à respecter avec automation actuelle.  
 **Choix :**  
-- A) Installer sans paramétrage  
-- B) Valider compatibilité et paramétrage avant mise en service  
-- C) Ajuster après mise en route  
-- D) Configurer selon modèle précédent similaire  
-**Réponse recommandée :** B  
+- A) Ignorer contrainte  
+- B) Recalculer cycle et proposer solution réaliste  
+- C) Ajouter opérateurs manuels  
+- D) Adapter uniquement VFD  
+**Réponse recommandée :** B
 
 ### PLAN-21
-**Question :** Les alarmes SCADA ne sont pas définies par priorité.  
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Les flux d’énergie ne sont pas équilibrés pour tous équipements.  
 **Choix :**  
-- A) Implémenter au hasard  
-- B) Définir priorité et criticité  
-- C) Ajuster après retour opérateur  
-- D) Utiliser priorité standard précédente  
-**Réponse recommandée :** B  
+- A) Ignorer déséquilibre  
+- B) Recalculer dimensionnement et protections  
+- C) Ajuster consommations uniquement  
+- D) Ajouter transformateur secondaire  
+**Réponse recommandée :** B
 
 ### PLAN-22
-**Question :** Le client n’a pas précisé fréquence de maintenance.  
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** Le client change souvent ses exigences en cours de projet.  
 **Choix :**  
-- A) Proposer planning standard  
-- B) Clarifier avec client avant conception  
-- C) Adapter après premières interventions  
-- D) Ne rien planifier  
-**Réponse recommandée :** B  
+- A) Accepter toutes modifications sans analyse  
+- B) Documenter impact et ajuster planification  
+- C) Ignorer changements mineurs  
+- D) Refuser changements  
+**Réponse recommandée :** B
 
 ### PLAN-23
-**Question :** Le stockage historique des données n’est pas planifié.  
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Le client souhaite des interfaces HMI personnalisées pour chaque poste.  
 **Choix :**  
-- A) Ignorer et stocker localement  
-- B) Définir plan d’archivage et backup  
-- C) Stocker temporairement et ajuster après  
-- D) Se baser sur système précédent similaire  
-**Réponse recommandée :** B  
+- A) Faire chaque interface unique  
+- B) Standardiser interface avec personnalisations minimales  
+- C) Ignorer personnalisation  
+- D) Adapter après installation  
+**Réponse recommandée :** B
 
 ### PLAN-24
-**Question :** Formation opérateur non prévue.  
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Le client veut connecter son SCADA à d’autres systèmes externes sans protocole défini.  
 **Choix :**  
-- A) Former après mise en service  
-- B) Préparer plan de formation dès conception  
-- C) Transmettre uniquement documentation  
-- D) Former uniquement superviseurs  
-**Réponse recommandée :** B  
+- A) Connecter sans vérification  
+- B) Définir protocole et plan intégration avec sécurité  
+- C) Ignorer intégration externe  
+- D) Adapter uniquement si urgence  
+**Réponse recommandée :** B
 
 ### PLAN-25
-**Question :** Instrumentation critique non validée avec fournisseur.  
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** Le budget et planning n’incluent pas essais FAT/SAT.  
 **Choix :**  
-- A) Installer et vérifier sur site  
-- B) Valider spécifications et calibration fournisseur  
-- C) Ajuster après installation  
-- D) Se baser sur instrumentation similaire  
-**Réponse recommandée :** B  
-
----
-
-
-
-
-
-
-
-# 🔵 PHASE PLAN – CADRAGE & CONCEPTION (25 questions)
-
-### PLAN-01
-**Question :** Le client demande une station automatisée, mais ne précise ni SLA, ni redondance, ni maintenance.  
-**Choix :**  
-- A) Concevoir une architecture simple sans redondance pour respecter le budget  
-- B) Clarifier SLA et disponibilité avant toute conception  
-- C) Imposer une architecture redondante complète  
-- D) Suivre le modèle d’un projet similaire existant  
+- A) Ignorer essais  
+- B) Ajouter plan FAT/SAT avec budget et ressources  
+- C) Réaliser uniquement sur site  
+- D) Confier tests à client  
 **Réponse recommandée :** B
 
-### PLAN-02
-**Question :** Le périmètre fonctionnel n’a pas été validé par écrit.  
-**Choix :**  
-- A) Commencer le développement pour gagner du temps  
-- B) Demander une validation écrite au client  
-- C) Se baser sur les besoins implicites de l’équipe technique  
-- D) Documenter le périmètre après installation  
-**Réponse recommandée :** B
 
-### PLAN-03
-**Question :** Le réseau industriel doit supporter PLC, SCADA, accès distant et maintenance, mais aucune politique cybersécurité n’est définie.  
-**Choix :**  
-- A) Installer un réseau plat simple et ajouter sécurité après  
-- B) Séparer VLAN et installer firewall industriel dès conception  
-- C) Ignorer cybersécurité initialement pour ne pas retarder le projet  
-- D) Confier à un prestataire externe sans standard interne  
-**Réponse recommandée :** B
 
-... *(PLAN-04 à PLAN-25 comme précédemment, déjà fournis)*
 
----
-
-# 🔵 PHASE DO – MISE EN ŒUVRE (25 questions)
-
-### DO-01
-**Question :** Les PLC sont programmés, mais les tests unitaires ne sont pas réalisés.  
-**Choix :**  
-- A) Déployer directement sur site  
-- B) Réaliser tous les tests unitaires avant intégration  
-- C) Tester uniquement les fonctions critiques  
-- D) Faire FAT avant tests unitaires  
-**Réponse recommandée :** B
-
-### DO-02
-**Question :** Le VFD ACS580 doit gérer un moteur à couple variable non spécifié.  
-**Choix :**  
-- A) Paramétrer avec valeurs par défaut du fabricant  
-- B) Vérifier les courbes moteur et adapter le VFD  
-- C) Lancer essais et ajuster après démarrage  
-- D) Utiliser configuration d’un moteur similaire  
-**Réponse recommandée :** B
-
-### DO-03
-**Question :** Le SCADA affiche des valeurs incohérentes avec instrumentation existante.  
-**Choix :**  
-- A) Ignorer et continuer  
-- B) Vérifier calibration et mapping des tags  
-- C) Corriger uniquement les alarmes visibles  
-- D) Réinitialiser SCADA  
-**Réponse recommandée :** B
-
-### DO-04
-**Question :** Les câbles ne suivent pas le plan initial.  
-**Choix :**  
-- A) Laisser tel quel pour ne pas retarder  
-- B) Corriger et documenter la nouvelle installation  
-- C) Ajouter seulement câbles critiques  
-- D) Ajuster après mise en service  
-**Réponse recommandée :** B
-
-### DO-05
-**Question :** La documentation d’installation n’est pas complète.  
-**Choix :**  
-- A) Continuer et compléter après FAT  
-- B) Finaliser documentation avant mise en service  
-- C) Documenter uniquement parties critiques  
-- D) Se baser sur documentation précédente  
-**Réponse recommandée :** B
-
-### DO-06
-**Question :** Les HMI multiples ne répondent pas correctement.  
-**Choix :**  
-- A) Laisser opérateurs gérer anomalies  
-- B) Vérifier communication et drivers sur tous HMI  
-- C) Corriger seulement HMI principal  
-- D) Ajuster après formation opérateurs  
-**Réponse recommandée :** B
-
-### DO-07
-**Question :** L’interface OPC entre PLC et SCADA est instable.  
-**Choix :**  
-- A) Ignorer et corriger après déploiement  
-- B) Diagnostiquer réseau, drivers et tags  
-- C) Remplacer OPC par communication directe  
-- D) Ajuster uniquement les alarmes critiques  
-**Réponse recommandée :** B
-
-### DO-08
-**Question :** Les capteurs de niveau sont calibrés partiellement.  
-**Choix :**  
-- A) Lancer process sans calibrage complet  
-- B) Calibrer tous les capteurs avant test process  
-- C) Ajuster calibrage après mise en service  
-- D) Se baser sur valeurs approximatives  
-**Réponse recommandée :** B
-
-### DO-09
-**Question :** Les séquences de sécurité ne sont pas programmées sur PLC.  
-**Choix :**  
-- A) Ajouter après tests process  
-- B) Programmer et tester avant mise en route  
-- C) Ignorer initialement  
-- D) Laisser opérateur gérer sécurité  
-**Réponse recommandée :** B
-
-### DO-10
-**Question :** Le réseau Ethernet industriel montre latence et pertes.  
-**Choix :**  
-- A) Continuer et corriger plus tard  
-- B) Diagnostiquer switches, câbles et topologie  
-- C) Installer redondance complète  
-- D) Limiter trafic SCADA uniquement  
-**Réponse recommandée :** B
-
-### DO-11
-**Question :** Le serveur SCADA n’a pas de backup.  
-**Choix :**  
-- A) Ajouter backup après mise en route  
-- B) Configurer serveur redondant et backup immédiatement  
-- C) Faire snapshot ponctuel  
-- D) Se baser sur archive PLC uniquement  
-**Réponse recommandée :** B
-
-### DO-12
-**Question :** L’intégration des alarmes n’est pas complète.  
-**Choix :**  
-- A) Ajouter alarmes critiques uniquement  
-- B) Implémenter toutes alarmes avec priorité  
-- C) Ajuster après feedback opérateur  
-- D) Se baser sur plan précédent  
-**Réponse recommandée :** B
-
-### DO-13
-**Question :** Les instruments de température sont instables.  
-**Choix :**  
-- A) Ignorer fluctuations  
-- B) Vérifier câblage, sondes et calibration  
-- C) Remplacer uniquement les plus instables  
-- D) Ajuster sur SCADA  
-**Réponse recommandée :** B
-
-### DO-14
-**Question :** Les routines de commande ne gèrent pas les interruptions d’énergie.  
-**Choix :**  
-- A) Ignorer et corriger après incident  
-- B) Implémenter routines de reprise sécurisée  
-- C) Ajouter générateurs uniquement  
-- D) Ajuster manuellement après coupure  
-**Réponse recommandée :** B
-
-### DO-15
-**Question :** L’accès opérateur à distance n’est pas sécurisé.  
-**Choix :**  
-- A) Laisser tel quel pour tests  
-- B) Ajouter VPN et authentification  
-- C) Restreindre uniquement certains postes  
-- D) Autoriser seulement après FAT  
-**Réponse recommandée :** B
-
-### DO-16
-**Question :** Les loggers de données ne sont pas synchronisés.  
-**Choix :**  
-- A) Ignorer et corriger plus tard  
-- B) Synchroniser tous loggers avec horloge maître  
-- C) Corriger uniquement anomalies critiques  
-- D) Se baser sur historique partiel  
-**Réponse recommandée :** B
-
-### DO-17
-**Question :** Les alarmes SCADA génèrent trop de fausses alertes.  
-**Choix :**  
-- A) Laisser opérateurs filtrer  
-- B) Ajuster seuils et logique d’alarme  
-- C) Désactiver alarmes non critiques  
-- D) Corriger après premier mois  
-**Réponse recommandée :** B
-
-### DO-18
-**Question :** Le câblage VFD n’est pas respectueux des distances EMC.  
-**Choix :**  
-- A) Laisser tel quel  
-- B) Refaire câblage selon normes EMC  
-- C) Ajouter filtres uniquement  
-- D) Ajuster après mise en route  
-**Réponse recommandée :** B
-
-### DO-19
-**Question :** La communication Modbus échoue sur plusieurs slaves.  
-**Choix :**  
-- A) Ignorer et corriger après mise en service  
-- B) Vérifier adresse, baudrate et câblage  
-- C) Ajouter répéteur Modbus  
-- D) Modifier uniquement slave critique  
-**Réponse recommandée :** B
-
-### DO-20
-**Question :** Les routines de PID sont instables pour pompe critique.  
-**Choix :**  
-- A) Ignorer jusqu’à observation sur site  
-- B) Ajuster gains et filtres PID après analyse  
-- C) Remplacer pompe  
-- D) Ajuster consigne manuellement  
-**Réponse recommandée :** B
-
-### DO-21
-**Question :** La sécurité incendie n’est pas intégrée au PLC.  
-**Choix :**  
-- A) Ajouter après FAT  
-- B) Intégrer et tester séquences sécurité  
-- C) Laisser opérateur gérer  
-- D) Configurer uniquement alarmes visuelles  
-**Réponse recommandée :** B
-
-### DO-22
-**Question :** Le SCADA n’a pas de supervision mobile.  
-**Choix :**  
-- A) Ignorer  
-- B) Déployer interface mobile sécurisée  
-- C) Restreindre accès à PC central  
-- D) Ajouter plus tard  
-**Réponse recommandée :** B
-
-### DO-23
-**Question :** Les capteurs analogiques génèrent du bruit électrique.  
-**Choix :**  
-- A) Ignorer bruit mineur  
-- B) Ajouter filtres et blindage appropriés  
-- C) Ajuster valeurs sur SCADA  
-- D) Remplacer uniquement les plus critiques  
-**Réponse recommandée :** B
-
-### DO-24
-**Question :** Les tests FAT montrent incohérences sur pompes redondantes.  
-**Choix :**  
-- A) Ignorer jusqu’à site  
-- B) Corriger séquences redondance et synchronisation  
-- C) Remplacer pompe principale  
-- D) Ajuster opérateur  
-**Réponse recommandée :** B
-
-### DO-25
-**Question :** Le système de supervision ne logue pas certains événements.  
-**Choix :**  
-- A) Ignorer  
-- B) Ajouter triggers et logs pour tous événements critiques  
-- C) Logger seulement événements majeurs  
-- D) Ajuster après mise en service  
-**Réponse recommandée :** B
