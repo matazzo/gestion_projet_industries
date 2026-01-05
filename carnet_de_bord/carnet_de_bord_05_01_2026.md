@@ -17,4 +17,4 @@ ajustement des règles du jeu:
 
 
 
-Nous avons finalement décidé de faire des questions de type ingenierie, management, et
+Nous avons finalement décidé de faire des questions de type ingenierie, management, et plannification
