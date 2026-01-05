@@ -278,3 +278,864 @@
 
 
 
+
+
+
+# 🔵 PHASE DO – MISE EN ŒUVRE & EXÉCUTION (25 questions)
+
+### DO-01
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Pendant l’installation, les câbles ne correspondent pas au schéma électrique fourni.  
+**Choix :**  
+- A) Modifier le schéma sur site pour correspondre au câblage réel  
+- B) Vérifier la documentation, corriger le schéma, puis installer selon les normes  
+- C) Adapter le câblage pour correspondre au schéma sans validation  
+- D) Installer partiellement et signaler au client  
+**Réponse recommandée :** B
+
+### DO-02
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Les VFD ACS580 présentent des alarmes intermittentes non documentées.  
+**Choix :**  
+- A) Remplacer le VFD par un modèle similaire  
+- B) Analyser les logs, vérifier câblage, paramétrage et les harmoniser avec le réseau existant  
+- C) Modifier uniquement les paramètres PID pour stabiliser  
+- D) Reprogrammer le VFD avec paramètres usine  
+**Réponse recommandée :** B
+
+### DO-03
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** L’équipe ne respecte pas la séquence de tâches définie dans le planning.  
+**Choix :**  
+- A) Ajuster séquence et priorités en consultant chaque membre  
+- B) Réorganiser le planning et appliquer un suivi quotidien stricte  
+- C) Remplacer les membres les plus lents  
+- D) Reporter certaines tâches à une phase ultérieure  
+**Réponse recommandée :** A
+
+### DO-04
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Les capteurs analogiques affichent des valeurs instables lors du test.  
+**Choix :**  
+- A) Installer un filtre logiciel uniquement  
+- B) Vérifier alimentation, blindage, filtres et recalibrer les capteurs  
+- C) Ajuster les alarmes pour tolérer la fluctuation  
+- D) Remplacer les capteurs par un modèle équivalent  
+**Réponse recommandée :** B
+
+### DO-05
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** L’HMI ne répond pas correctement à certaines commandes.  
+**Choix :**  
+- A) Vérifier le script PLC et la configuration HMI, corriger la logique et tester  
+- B) Limiter les commandes disponibles sur HMI  
+- C) Reprogrammer HMI avec interface simplifiée  
+- D) Changer uniquement le câble de communication  
+**Réponse recommandée :** A
+
+### DO-06
+**Catégorie :** Management  
+**Difficulté :** Difficile  
+**Question :** Les fournisseurs livrent en retard et certaines pièces sont manquantes.  
+**Choix :**  
+- A) Ajuster planning et identifier fournisseurs alternatifs ou pièces de substitution  
+- B) Continuer projet sans certaines pièces et compléter plus tard  
+- C) Supprimer certaines tâches pour respecter délai  
+- D) Négocier délai sans plan alternatif  
+**Réponse recommandée :** A
+
+### DO-07
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** La configuration réseau n’autorise pas la redondance prévue.  
+**Choix :**  
+- A) Revoir l’architecture réseau et implémenter une solution partiellement redondante  
+- B) Ignorer redondance et connecter HMI principal  
+- C) Installer un deuxième serveur sans reconfiguration  
+- D) Limiter supervision à une seule station  
+**Réponse recommandée :** A
+
+### DO-08
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Une ligne de production produit des cycles incomplets pendant la mise en service.  
+**Choix :**  
+- A) Ajuster uniquement le timing des moteurs sur HMI  
+- B) Vérifier logique PLC, VFD et capteurs pour identifier et corriger la cause  
+- C) Remplacer les moteurs par des modèles plus puissants  
+- D) Réduire vitesse globale de ligne pour stabiliser  
+**Réponse recommandée :** B
+
+### DO-09
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** Les instructions de sécurité ne sont pas respectées par certains opérateurs.  
+**Choix :**  
+- A) Renforcer procédures, supervision et formation continue  
+- B) Réorganiser équipe pour séparer tâches critiques et non critiques  
+- C) Modifier planning pour contourner les tâches à risque  
+- D) Limiter interventions sur certaines machines  
+**Réponse recommandée :** A
+
+### DO-10
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Les signaux analogiques ont un offset constant.  
+**Choix :**  
+- A) Vérifier câblage, isolations et calibres, corriger offset matériel  
+- B) Ajuster uniquement les valeurs SCADA  
+- C) Remplacer instruments par un modèle identique  
+- D) Modifier alarmes pour tolérer offset  
+**Réponse recommandée :** A
+
+### DO-11
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Le SCADA crash lors de la collecte simultanée de plusieurs capteurs.  
+**Choix :**  
+- A) Optimiser requêtes, vérifier serveur, et architecture SCADA  
+- B) Supprimer capteurs critiques pour réduire charge  
+- C) Réduire fréquence d’échantillonnage sans analyse  
+- D) Redémarrer SCADA à chaque crash  
+**Réponse recommandée :** A
+
+### DO-12
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** Les documents de test ne sont pas correctement remplis.  
+**Choix :**  
+- A) Former équipe pour compléter correctement tests et anomalies  
+- B) Laisser chef d’équipe remplir tous documents  
+- C) Supprimer documentation non complète  
+- D) Continuer tests sans documentation  
+**Réponse recommandée :** A
+
+### DO-13
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Les moteurs d’une ligne vibrent excessivement.  
+**Choix :**  
+- A) Vérifier alignement, couplage et réglage VFD  
+- B) Ajouter supports sans diagnostic  
+- C) Réduire vitesse manuellement  
+- D) Remplacer moteurs  
+**Réponse recommandée :** A
+
+### DO-14
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Les alarmes SCADA sont trop nombreuses et masquent les urgentes.  
+**Choix :**  
+- A) Reconfigurer alarmes par priorité et filtrage intelligent  
+- B) Supprimer alarmes non critiques sans analyse  
+- C) Réduire seuil de déclenchement  
+- D) Limiter affichage aux opérateurs seniors  
+**Réponse recommandée :** A
+
+### DO-15
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Le réseau industriel subit des pertes de paquets sporadiques.  
+**Choix :**  
+- A) Analyser topologie réseau, câblage et configuration switch/PLC  
+- B) Redémarrer tous équipements périodiquement  
+- C) Ignorer pertes si pas critiques  
+- D) Ajouter répéteurs sans diagnostic  
+**Réponse recommandée :** A
+
+### DO-16
+**Catégorie :** Management  
+**Difficulté :** Difficile  
+**Question :** Les rapports d’avancement ne reflètent pas l’état réel du chantier.  
+**Choix :**  
+- A) Mettre en place suivi visuel et réunions de coordination quotidiennes  
+- B) Confier reporting uniquement au chef d’équipe  
+- C) Réduire fréquence des rapports  
+- D) Automatiser reporting sans vérification terrain  
+**Réponse recommandée :** A
+
+### DO-17
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Les capteurs numériques ne communiquent pas avec le PLC.  
+**Choix :**  
+- A) Vérifier câblage, polarité, adresses et protocoles de communication  
+- B) Remplacer tous capteurs par nouveaux modèles  
+- C) Ajuster uniquement programme PLC  
+- D) Ignorer capteurs non critiques  
+**Réponse recommandée :** A
+
+### DO-18
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Un moteur démarre avec retard malgré commande correcte du PLC.  
+**Choix :**  
+- A) Vérifier VFD, câblage, protections et séquences de démarrage  
+- B) Ajuster temporisation sur HMI  
+- C) Remplacer moteur par un modèle plus rapide  
+- D) Ignorer retard si < 1s  
+**Réponse recommandée :** A
+
+### DO-19
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** Certains opérateurs utilisent des raccourcis dangereux pour gagner du temps.  
+**Choix :**  
+- A) Renforcer formation, supervision et procédures standardisées  
+- B) Autoriser raccourcis pour les plus expérimentés  
+- C) Limiter accès à certaines machines  
+- D) Modifier planning pour éviter surcharge  
+**Réponse recommandée :** A
+
+### DO-20
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Les instruments de mesure donnent des valeurs incohérentes entre eux.  
+**Choix :**  
+- A) Vérifier calibration, alimentation et compatibilité instruments  
+- B) Ajuster uniquement dans SCADA  
+- C) Remplacer instruments sans diagnostic  
+- D) Ignorer différences si < 5%  
+**Réponse recommandée :** A
+
+### DO-21
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Les relais de sécurité déclenchent intempestivement.  
+**Choix :**  
+- A) Analyser câblage, redondance et logique de déclenchement  
+- B) Désactiver relais jusqu’à stabilisation  
+- C) Remplacer tous relais par nouveaux modèles  
+- D) Modifier paramètres SCADA seulement  
+**Réponse recommandée :** A
+
+### DO-22
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** La communication entre équipe terrain et bureau est lente et confuse.  
+**Choix :**  
+- A) Mettre en place protocole clair, réunions rapides et reporting digital  
+- B) Ajouter emails de suivi sans protocole  
+- C) Laisser chaque équipe gérer ses informations  
+- D) Limiter communication aux urgences  
+**Réponse recommandée :** A
+
+### DO-23
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Le serveur SCADA atteint ses limites de mémoire.  
+**Choix :**  
+- A) Optimiser historisation, purge données anciennes et améliorer hardware si nécessaire  
+- B) Ignorer mémoire saturée si pas d’alarme critique  
+- C) Redémarrer serveur quotidiennement  
+- D) Supprimer modules SCADA  
+**Réponse recommandée :** A
+
+### DO-24
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Des interférences EMI perturbent les signaux des capteurs.  
+**Choix :**  
+- A) Vérifier blindage, câbles torsadés, filtres et éloigner sources EMI  
+- B) Ajouter filtres logiciels uniquement  
+- C) Remplacer capteurs par modèles plus sensibles  
+- D) Ignorer perturbation si amplitude faible  
+**Réponse recommandée :** A
+
+### DO-25
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** La coordination inter-services provoque des retards sur certaines tâches.  
+**Choix :**  
+- A) Mettre en place planning intégré avec points de synchronisation réguliers  
+- B) Laisser chaque service gérer indépendamment  
+- C) Accélérer service critique et ralentir les autres  
+- D) Modifier planning sans consultation des équipes  
+**Réponse recommandée :** A
+
+
+
+
+
+
+
+
+
+# 🔵 PHASE CHECK – CONTRÔLE & ANALYSE (25 questions)
+
+### CHECK-01
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Les données SCADA montrent des pics de consommation anormaux.  
+**Choix :**  
+- A) Ignorer les pics s’ils sont rares  
+- B) Analyser tendances, comparer avec historiques et vérifier capteurs et VFD  
+- C) Ajuster seuils d’alarme pour éviter déclenchement  
+- D) Supprimer périodes problématiques des rapports  
+**Réponse recommandée :** B
+
+### CHECK-02
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** Les rapports d’avancement ne reflètent pas le vrai statut du projet.  
+**Choix :**  
+- A) Demander à l’équipe de corriger sans contrôle supplémentaire  
+- B) Mettre en place vérification croisée, audits internes et suivi terrain  
+- C) Ignorer les incohérences  
+- D) Réduire fréquence de reporting  
+**Réponse recommandée :** B
+
+### CHECK-03
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Les moteurs vibrent encore malgré ajustement VFD.  
+**Choix :**  
+- A) Vérifier alignement mécanique, roulements et paramètres VFD  
+- B) Réduire vitesse et tolérer vibration  
+- C) Remplacer moteurs  
+- D) Augmenter consigne pour “compresser” vibration  
+**Réponse recommandée :** A
+
+### CHECK-04
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Plusieurs alarmes SCADA sont actives simultanément et masquent les urgentes.  
+**Choix :**  
+- A) Analyser cause racine de chaque alarme et reclasser par priorité  
+- B) Supprimer alarmes non critiques  
+- C) Modifier seuils de toutes alarmes  
+- D) Ignorer alarmes non critiques pour l’opérateur  
+**Réponse recommandée :** A
+
+### CHECK-05
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** Les équipes terrain rapportent des conflits dans la séquence de test.  
+**Choix :**  
+- A) Clarifier procédure, valider séquence et mettre à jour documentation  
+- B) Laisser équipes improviser  
+- C) Réorganiser planning sans consulter terrain  
+- D) Ignorer retours pour accélérer  
+**Réponse recommandée :** A
+
+### CHECK-06
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Les signaux analogiques montrent un décalage variable selon le capteur.  
+**Choix :**  
+- A) Vérifier câblage, isolation, calibration et compensation dans PLC  
+- B) Ajuster uniquement sur SCADA  
+- C) Remplacer capteurs un par un  
+- D) Ignorer décalage si < 2%  
+**Réponse recommandée :** A
+
+### CHECK-07
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Le serveur SCADA ralentit lors des pics de production.  
+**Choix :**  
+- A) Optimiser historisation, supprimer logs non critiques et vérifier hardware  
+- B) Redémarrer serveur régulièrement  
+- C) Réduire acquisition de données  
+- D) Ignorer ralentissement si pas d’alarme  
+**Réponse recommandée :** A
+
+### CHECK-08
+**Catégorie :** Management  
+**Difficulté :** Difficile  
+**Question :** Les retards de livraison impactent le planning sans visibilité réelle.  
+**Choix :**  
+- A) Mettre à jour planning, prévoir buffer et négocier alternatives fournisseurs  
+- B) Continuer projet en espérant rattraper retard  
+- C) Supprimer tâches dépendantes  
+- D) Ignorer impact jusqu’au prochain audit  
+**Réponse recommandée :** A
+
+### CHECK-09
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Les instruments de mesure donnent des valeurs incohérentes.  
+**Choix :**  
+- A) Comparer instruments, recalibrer et vérifier environnement  
+- B) Ajuster valeurs directement sur SCADA  
+- C) Remplacer instruments sans diagnostic  
+- D) Ignorer écart si < tolérance  
+**Réponse recommandée :** A
+
+### CHECK-10
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Une ligne automatisée subit des cycles incomplets malgré programmation correcte.  
+**Choix :**  
+- A) Vérifier logique PLC, capteurs et séquences VFD pour cause racine  
+- B) Ajuster vitesse ligne pour compenser  
+- C) Supprimer étapes critiques  
+- D) Ignorer cycles incomplets si peu fréquents  
+**Réponse recommandée :** A
+
+### CHECK-11
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** Les opérateurs ne suivent pas les procédures de sécurité correctement.  
+**Choix :**  
+- A) Réévaluer formation, mettre supervision stricte et audits réguliers  
+- B) Laisser équipe expérimentée gérer sécurité  
+- C) Supprimer certaines règles jugées secondaires  
+- D) Ignorer écarts mineurs  
+**Réponse recommandée :** A
+
+### CHECK-12
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Les capteurs numériques ont des communications intermittentes avec PLC.  
+**Choix :**  
+- A) Vérifier câblage, adresses, protocoles et répéter tests fonctionnels  
+- B) Remplacer tous capteurs  
+- C) Modifier programme PLC uniquement  
+- D) Ignorer capteurs non critiques  
+**Réponse recommandée :** A
+
+### CHECK-13
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Les alarmes fréquentes provoquent fatigue opérateur.  
+**Choix :**  
+- A) Prioriser alarmes, filtrer redondances et automatiser escalade  
+- B) Supprimer alarmes fréquentes  
+- C) Augmenter seuil d’alarme  
+- D) Ignorer fatigue opérateur  
+**Réponse recommandée :** A
+
+### CHECK-14
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** La vibration sur un moteur ne disparaît pas malgré équilibrage.  
+**Choix :**  
+- A) Vérifier installation mécanique, roulements, et séquences de démarrage  
+- B) Réduire vitesse pour tolérer vibration  
+- C) Remplacer moteur  
+- D) Ignorer vibration si amplitude faible  
+**Réponse recommandée :** A
+
+### CHECK-15
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** Les retours des sous-traitants sont incomplets.  
+**Choix :**  
+- A) Mettre en place format standard, checklist et validation  
+- B) Laisser sous-traitants gérer à leur façon  
+- C) Accepter retours partiels  
+- D) Ignorer certains retours  
+**Réponse recommandée :** A
+
+### CHECK-16
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Les interférences EMI perturbent plusieurs capteurs critiques.  
+**Choix :**  
+- A) Vérifier blindage, câbles, filtrage et éloigner sources EMI  
+- B) Ajouter filtre logiciel uniquement  
+- C) Remplacer capteurs par modèles plus sensibles  
+- D) Ignorer perturbation si amplitude faible  
+**Réponse recommandée :** A
+
+### CHECK-17
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Les consignes du PLC sont parfois ignorées par certains VFD.  
+**Choix :**  
+- A) Vérifier communication, paramétrage VFD et séquences  
+- B) Modifier consignes HMI uniquement  
+- C) Remplacer VFD  
+- D) Ignorer défaut si non critique  
+**Réponse recommandée :** A
+
+### CHECK-18
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** L’équipe ne suit pas les bonnes pratiques d’installation documentées.  
+**Choix :**  
+- A) Auditer travaux, corriger erreurs et renforcer formation  
+- B) Continuer installation malgré écarts  
+- C) Réduire exigences de documentation  
+- D) Ignorer non-conformité mineure  
+**Réponse recommandée :** A
+
+### CHECK-19
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Les rapports SCADA montrent des décalages horaires entre capteurs.  
+**Choix :**  
+- A) Vérifier synchronisation horloge PLC/SCADA et protocole temps réel  
+- B) Ajuster valeurs SCADA manuellement  
+- C) Ignorer décalages < 1s  
+- D) Redémarrer SCADA  
+**Réponse recommandée :** A
+
+### CHECK-20
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Les données historisées montrent des anomalies ponctuelles.  
+**Choix :**  
+- A) Comparer avec logs PLC et vérifier capteurs pour cause racine  
+- B) Supprimer anomalies du rapport  
+- C) Ignorer anomalies si peu fréquentes  
+- D) Ajuster SCADA pour masquer anomalies  
+**Réponse recommandée :** A
+
+### CHECK-21
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** Coordination inter-services inefficace, causant doublons.  
+**Choix :**  
+- A) Mettre en place planning intégré, points de synchronisation et suivi régulier  
+- B) Laisser services gérer indépendamment  
+- C) Ignorer doublons  
+- D) Réassigner tâches sans consultation  
+**Réponse recommandée :** A
+
+### CHECK-22
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Certains capteurs montrent une dérive progressive non expliquée.  
+**Choix :**  
+- A) Recalibrer capteurs, vérifier alimentation et environnement  
+- B) Ajuster SCADA uniquement  
+- C) Remplacer capteurs  
+- D) Ignorer dérive si faible  
+**Réponse recommandée :** A
+
+### CHECK-23
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Les VFD déclenchent parfois sur surcharge malgré conditions normales.  
+**Choix :**  
+- A) Vérifier câblage, paramétrage VFD et condition moteur  
+- B) Ajuster seuil de protection VFD  
+- C) Remplacer VFD  
+- D) Ignorer déclenchements  
+**Réponse recommandée :** A
+
+### CHECK-24
+**Catégorie :** Management  
+**Difficulté :** Difficile  
+**Question :** Les procédures de test sont appliquées de manière inconsistante.  
+**Choix :**  
+- A) Standardiser procédures, former et superviser correctement  
+- B) Laisser chaque équipe improviser  
+- C) Réduire contrôle qualité  
+- D) Ignorer inconsistances  
+**Réponse recommandée :** A
+
+### CHECK-25
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Les paramètres de processus ne correspondent pas aux valeurs attendues malgré mise en service.  
+**Choix :**  
+- A) Analyser logique PLC, calibration capteurs et séquences VFD  
+- B) Ajuster valeurs dans SCADA uniquement  
+- C) Modifier consignes opérateur  
+- D) Ignorer écart si < 5%  
+**Réponse recommandée :** A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 🟢 PHASE ACT – AMÉLIORATION & STANDARDISATION (25 questions)
+
+### ACT-01
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Après mise en service, une logique PLC fonctionne mais reste difficile à maintenir.  
+**Choix :**  
+- A) Laisser la logique telle quelle car fonctionnelle  
+- B) Refactoriser la logique, documenter et standardiser blocs  
+- C) Ajouter des commentaires sans modifier le code  
+- D) Former uniquement l’équipe maintenance  
+**Réponse recommandée :** B
+
+### ACT-02
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** Le projet est livré mais sans retour formel du client.  
+**Choix :**  
+- A) Clôturer le projet administrativement  
+- B) Organiser retour d’expérience client structuré  
+- C) Attendre un problème pour recontacter le client  
+- D) Envoyer un questionnaire générique  
+**Réponse recommandée :** B
+
+### ACT-03
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Des paramètres VFD ont été ajustés sur site sans être documentés.  
+**Choix :**  
+- A) Sauvegarder configuration actuelle et documenter modifications  
+- B) Restaurer paramètres usine  
+- C) Laisser paramètres tels quels  
+- D) Ajuster uniquement sur HMI  
+**Réponse recommandée :** A
+
+### ACT-04
+**Catégorie :** Management  
+**Difficulté :** Difficile  
+**Question :** Plusieurs écarts ont été corrigés mais sans analyse de cause racine.  
+**Choix :**  
+- A) Considérer le problème résolu  
+- B) Réaliser analyse cause racine (RCA) et actions préventives  
+- C) Documenter uniquement la correction  
+- D) Informer le client sans action interne  
+**Réponse recommandée :** B
+
+### ACT-05
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Le SCADA fonctionne mais la navigation opérateur est complexe.  
+**Choix :**  
+- A) Laisser interface telle quelle  
+- B) Optimiser ergonomie HMI selon usage réel  
+- C) Ajouter un manuel utilisateur  
+- D) Former uniquement les opérateurs expérimentés  
+**Réponse recommandée :** B
+
+### ACT-06
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** Le projet a dépassé les délais mais reste techniquement conforme.  
+**Choix :**  
+- A) Justifier uniquement les résultats techniques  
+- B) Analyser causes de dérive planning et améliorer méthode  
+- C) Imputer le retard au client  
+- D) Ne pas documenter les écarts  
+**Réponse recommandée :** B
+
+### ACT-07
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Certaines alarmes SCADA sont utiles mais rarement déclenchées.  
+**Choix :**  
+- A) Supprimer ces alarmes  
+- B) Requalifier leur priorité et logique de déclenchement  
+- C) Les masquer pour l’opérateur  
+- D) Les conserver sans modification  
+**Réponse recommandée :** B
+
+### ACT-08
+**Catégorie :** Management  
+**Difficulté :** Difficile  
+**Question :** Les équipes ont utilisé des solutions différentes pour des problèmes similaires.  
+**Choix :**  
+- A) Accepter la diversité des solutions  
+- B) Capitaliser et standardiser les bonnes pratiques  
+- C) Imposer une solution sans analyse  
+- D) Ignorer les différences  
+**Réponse recommandée :** B
+
+### ACT-09
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Les paramètres PID ont été ajustés empiriquement sur site.  
+**Choix :**  
+- A) Conserver réglages actuels  
+- B) Refaire réglage PID méthodique et documenté  
+- C) Augmenter marges de sécurité  
+- D) Désactiver régulation automatique  
+**Réponse recommandée :** B
+
+### ACT-10
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** Aucune base de retour d’expérience projet n’existe.  
+**Choix :**  
+- A) Créer une base REX et l’alimenter systématiquement  
+- B) Archiver uniquement documents finaux  
+- C) Centraliser retours dans des emails  
+- D) Ne rien faire  
+**Réponse recommandée :** A
+
+### ACT-11
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Le réseau industriel fonctionne mais reste difficile à diagnostiquer.  
+**Choix :**  
+- A) Ajouter outils de diagnostic et documentation réseau  
+- B) Laisser réseau tel quel  
+- C) Segmenter sans étude préalable  
+- D) Former uniquement un expert interne  
+**Réponse recommandée :** A
+
+### ACT-12
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** Le client demande une évolution future non prévue au contrat.  
+**Choix :**  
+- A) Implémenter immédiatement  
+- B) Analyser impact, proposer avenant et plan d’évolution  
+- C) Refuser sans justification  
+- D) Reporter indéfiniment  
+**Réponse recommandée :** B
+
+### ACT-13
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Les schémas électriques ne reflètent pas exactement l’installation finale.  
+**Choix :**  
+- A) Corriger schémas et livrer version “as-built”  
+- B) Laisser schémas initiaux  
+- C) Ajouter annotations informelles  
+- D) Expliquer oralement au client  
+**Réponse recommandée :** A
+
+### ACT-14
+**Catégorie :** Management  
+**Difficulté :** Difficile  
+**Question :** Le projet s’est bien déroulé mais dépend fortement de quelques experts clés.  
+**Choix :**  
+- A) Maintenir cette organisation  
+- B) Capitaliser savoir et réduire dépendance individuelle  
+- C) Remplacer experts  
+- D) Externaliser maintenance  
+**Réponse recommandée :** B
+
+### ACT-15
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Les protections moteurs ont été réglées de manière conservatrice.  
+**Choix :**  
+- A) Laisser réglages par sécurité  
+- B) Optimiser réglages selon données réelles  
+- C) Désactiver certaines protections  
+- D) Augmenter puissance moteur  
+**Réponse recommandée :** B
+
+### ACT-16
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** La documentation remise au client est volumineuse mais peu structurée.  
+**Choix :**  
+- A) Réorganiser documentation par usage et maintenance  
+- B) Laisser telle quelle  
+- C) Fournir uniquement documents essentiels  
+- D) Expliquer oralement au client  
+**Réponse recommandée :** A
+
+### ACT-17
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Certains blocs PLC sont dupliqués sur plusieurs projets.  
+**Choix :**  
+- A) Laisser duplication  
+- B) Créer librairie standard réutilisable  
+- C) Copier-coller avec commentaires  
+- D) Réécrire à chaque projet  
+**Réponse recommandée :** B
+
+### ACT-18
+**Catégorie :** Management  
+**Difficulté :** Difficile  
+**Question :** Aucun indicateur ne mesure la performance réelle post-projet.  
+**Choix :**  
+- A) Créer KPI post-projet (fiabilité, disponibilité, maintenance)  
+- B) Utiliser uniquement KPI projet  
+- C) Attendre incident majeur  
+- D) Ne rien mesurer  
+**Réponse recommandée :** A
+
+### ACT-19
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Des contournements temporaires sont encore actifs en production.  
+**Choix :**  
+- A) Identifier, supprimer et corriger solution définitive  
+- B) Laisser tant que ça fonctionne  
+- C) Documenter sans corriger  
+- D) Désactiver alarmes associées  
+**Réponse recommandée :** A
+
+### ACT-20
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** Le client n’a pas encore de plan de maintenance clair.  
+**Choix :**  
+- A) Proposer plan de maintenance structuré et formation  
+- B) Laisser client gérer  
+- C) Fournir uniquement documentation technique  
+- D) Reporter discussion  
+**Réponse recommandée :** A
+
+### ACT-21
+**Catégorie :** Ingénierie  
+**Difficulté :** Moyen  
+**Question :** Les sauvegardes PLC/SCADA ne sont pas automatisées.  
+**Choix :**  
+- A) Mettre en place stratégie de sauvegarde automatique  
+- B) Sauvegarder manuellement  
+- C) Sauvegarder uniquement lors d’incident  
+- D) Ignorer sauvegardes  
+**Réponse recommandée :** A
+
+### ACT-22
+**Catégorie :** Management  
+**Difficulté :** Difficile  
+**Question :** Le projet ne bénéficie pas aux projets futurs.  
+**Choix :**  
+- A) Capitaliser standards, modèles et REX  
+- B) Archiver projet sans analyse  
+- C) Réutiliser uniquement matériel  
+- D) Ne rien formaliser  
+**Réponse recommandée :** A
+
+### ACT-23
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** La cybersécurité industrielle n’a pas été validée après mise en service.  
+**Choix :**  
+- A) Réaliser audit cybersécurité et appliquer correctifs  
+- B) Laisser configuration existante  
+- C) Fermer accès distant uniquement  
+- D) Attendre incident  
+**Réponse recommandée :** A
+
+### ACT-24
+**Catégorie :** Management  
+**Difficulté :** Moyen  
+**Question :** Les leçons apprises ne sont pas partagées avec l’équipe globale.  
+**Choix :**  
+- A) Organiser session de partage et documentation  
+- B) Laisser chaque équipe capitaliser seule  
+- C) Envoyer un email résumé  
+- D) Ne rien partager  
+**Réponse recommandée :** A
+
+### ACT-25
+**Catégorie :** Ingénierie  
+**Difficulté :** Difficile  
+**Question :** Le système est stable mais peu flexible pour futures évolutions.  
+**Choix :**  
+- A) Identifier axes d’amélioration et modulariser architecture  
+- B) Laisser tel quel  
+- C) Ajouter couches sans refonte  
+- D) Prévoir refonte complète ultérieure  
+**Réponse recommandée :** A
+
+
+
