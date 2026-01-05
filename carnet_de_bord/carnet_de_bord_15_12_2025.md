@@ -82,8 +82,9 @@ Ce mécanisme simule :
 - arbitrage vitesse / qualité
 - leadership sous contrainte temporelle
 
-👉 **Répondre vite mais mal = pénalité**
-👉 **Répondre lentement mais juste = risque planning**
+ **Répondre vite mais mal = pénalité**
+ 
+ **Répondre lentement mais juste = risque planning**
 
 Exactement comme sur un vrai projet automatisme.
 
