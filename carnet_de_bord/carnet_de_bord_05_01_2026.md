@@ -18,3 +18,7 @@ ajustement des règles du jeu:
 
 
 Nous avons finalement décidé de faire des questions de type ingenierie, management, et plannification
+
+
+Nous avons aussi fait le design des carte, et commencé à mettre les questions dessus
+https://www.canva.com/design/DAG9jhHIvGQ/qKzdtXvaoG8L1yvKpbeQ-A/edit
