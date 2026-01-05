@@ -10,7 +10,7 @@ Il y aura des cases groupes, ou on doit répondre à deux quand on tombe dessus.
 
 
 
-# ⏱ INTÉGRATION DU FACTEUR TEMPS  
+#  INTÉGRATION DU FACTEUR TEMPS  
 
 Un projet est généralement toujours limité par le temps
 
