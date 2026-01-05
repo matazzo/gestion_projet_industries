@@ -23,7 +23,7 @@ Le temps **n’est pas symbolique** :
 - Il est **consommé uniquement lorsque l’équipe réfléchit et répond**
 - L’équipe la plus **rapide ET performante** est avantagée
 
-👉 On simule ainsi la **pression temporelle réelle d’un projet industriel**.
+On simule ainsi la **pression temporelle réelle d’un projet industriel**.
 
 ---
 
@@ -65,12 +65,12 @@ Cela représente :
 
 Si les deux équipes atteignent la case finale :
 
-1. 🥇 **Projet terminé**
-2. ⏱ **Temps restant le plus élevé**
-3. ⚠ Moins de risques ouverts
-4. 💰 Moins de dépassements budget
+1. **Projet terminé**
+2. **Temps restant le plus élevé**
+3.  Moins de risques ouverts
+4.  Moins de dépassements budget
 
-👉 Le **temps devient un critère clé de performance projet**, comme en industrie.
+Le **temps devient un critère clé de performance projet**, comme en industrie.
 
 ---
 
