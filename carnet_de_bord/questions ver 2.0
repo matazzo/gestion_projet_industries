@@ -38,10 +38,10 @@
 **Difficulté :** Difficile  
 **Question :** Les capteurs proposés par le client sont obsolètes.  
 **Choix :**  
-- A) Utiliser les capteurs existants  
-- B) Proposer capteurs modernes avec avantages détaillés  
-- C) Adapter firmware aux anciens capteurs  
-- D) Ignorer la recommandation  
+- A) Valider les capteurs proposés en sécurisant leur intégration
+- B) Proposer des capteurs plus récents en justifiant les gains techniques et opérationnels
+- C) Conserver les capteurs actuels en compensant leurs limites par des ajustements firmware
+- D) Maintenir les capteurs proposés tout en planifiant une évolution future 
 **Réponse recommandée :** B
 
 ### PLAN-05
