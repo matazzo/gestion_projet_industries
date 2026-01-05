@@ -124,3 +124,182 @@
 | RISQUE | Non-respect FAT/SAT | – | – | – | Recul 2 cases |
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 🎮 JEU INDUSTRIEL – CARTES DÉCISION PDCA
+
+## 🔵 PHASE PLAN — CADRAGE & CONCEPTION
+
+### PLAN-01
+**Type : Ingénierie + Raisonnement**  
+**Niveau : Moyen**  
+**Question :** Le client demande une station automatisée mais ne précise ni la disponibilité attendue ni la stratégie de redondance. La maintenance locale a peu d’expérience PLC.  
+**Choix :**  
+- A) Concevoir une architecture simple non redondante  
+- B) Imposer une architecture redondante complète  
+- C) Clarifier SLA, disponibilité, maintenance avant figer l’architecture  
+**Recommandation :** C  
+**Impact :** +1 case, +1 min, évite risque futur majeur
+
+### PLAN-02
+**Type : Management**  
+**Niveau : Facile**  
+**Question :** Le projet démarre sans validation écrite du périmètre fonctionnel.  
+**Choix :**  
+- A) Continuer pour gagner du temps  
+- B) Demander validation écrite du périmètre  
+- C) Se baser sur un projet similaire  
+**Recommandation :** B  
+**Impact :** +1 case
+
+### PLAN-03
+**Type : Ingénierie**  
+**Niveau : Difficile**  
+**Question :** Le réseau industriel doit supporter PLC, SCADA, accès distant et maintenance future. Aucune politique cybersécurité n’est définie.  
+**Choix :**  
+- A) Réseau plat simple  
+- B) VLAN + firewall industriel dès la conception  
+- C) Sécuriser après mise en service  
+**Recommandation :** B  
+**Impact :** +2 cases, –1 min, BONUS sécurité
+
+### PLAN-04
+**Type : Raisonnement projet**  
+**Niveau : Moyen**  
+**Question :** Le budget ne prévoit aucune réserve pour imprévus.  
+**Choix :**  
+- A) Accepter  
+- B) Ajouter une réserve budgétaire  
+- C) Réduire le périmètre technique  
+**Recommandation :** B  
+**Impact :** +2 cases
+
+### PLAN-05
+**Type : Ingénierie**  
+**Niveau : Difficile**  
+**Question :** Le choix PLC n’est pas imposé. L’équipe interne maîtrise Siemens, le client Rockwell.  
+**Choix :**  
+- A) Choisir Siemens  
+- B) Choisir Rockwell  
+- C) Analyser support, maintenance, cycle de vie  
+**Recommandation :** C  
+**Impact :** +1 case, +1 min
+
+---
+
+## 🟡 PHASE DO — RÉALISATION & INTÉGRATION
+
+### DO-01
+**Type : Ingénierie**  
+**Niveau : Moyen**  
+**Question :** Le développement PLC démarre sans standard de programmation.  
+**Choix :**  
+- A) Continuer  
+- B) Définir standard IEC, nommage, FB  
+- C) Corriger après FAT  
+**Recommandation :** B  
+**Impact :** +2 cases, –1 min
+
+### DO-02
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Un ingénieur clé est indisponible pendant l’installation.  
+**Choix :**  
+- A) Attendre  
+- B) Redistribuer les tâches  
+- C) Réduire le périmètre tests  
+**Recommandation :** B  
+**Impact :** +2 cases, –1 min
+
+### DO-03
+**Type : Ingénierie**  
+**Niveau : Difficile**  
+**Question :** Les VFD sont intégrés sans essais moteur réels.  
+**Choix :**  
+- A) Continuer  
+- B) Tester avec moteur réel  
+- C) Tester uniquement en simulation  
+**Recommandation :** B  
+**Impact :** +3 cases, –2 min
+
+### DO-04
+**Type : Raisonnement**  
+**Niveau : Difficile**  
+**Question :** Le planning impose un FAT partiel.  
+**Choix :**  
+- A) Accepter  
+- B) Maintenir FAT complet  
+- C) FAT ciblé sur fonctions critiques  
+**Recommandation :** C  
+**Impact :** +1 case, risque latent en CHECK
+
+### DO-05
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** La communication interne est informelle.  
+**Choix :**  
+- A) Continuer  
+- B) Définir reporting hebdomadaire  
+- C) Informer à la demande  
+**Recommandation :** B  
+**Impact :** +2 cases
+
+---
+
+## 🟠 PHASE CHECK — TESTS & CONTRÔLE
+
+### CHECK-01
+**Type : Ingénierie**  
+**Niveau : Difficile**  
+**Question :** Pendant le FAT, les scénarios défaut réseau ne sont pas testés.  
+**Choix :**  
+- A) Accepter  
+- B) Tester coupures et redondance  
+- C) Reporter à la SAT  
+**Recommandation :** B  
+**Impact :** +3 cases, –1 min
+
+### CHECK-02
+**Type : Raisonnement**  
+**Niveau : Moyen**  
+**Question :** Le CPU PLC atteint 80% de charge.  
+**Choix :**  
+- A) Ignorer  
+- B) Optimiser code  
+- C) Ajouter matériel plus tard  
+**Recommandation :** B  
+**Impact :** +2 cases, –1 min
+
+### CHECK-03
+**Type : Ingénierie sécurité**  
+**Niveau : Difficile**  
+**Question :** Les chaînes de sécurité ne sont testées qu’à 70%.  
+**Choix :**  
+- A) Accepter  
+- B) Tester 100%  
+- C) Documenter seulement  
+**Recommandation :** B  
+**Impact :** +3 cases, BONUS sécurité, RISQUE sévère si faux
+
+### CHECK-04
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Le client est mal informé de l’avancement.  
+**Choi**
