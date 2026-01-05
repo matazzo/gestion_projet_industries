@@ -1,0 +1,1173 @@
+
+
+# 🔵 PHASE PLAN – CADRAGE & CONCEPTION (25 cartes)
+
+### PLAN-01
+**Type : Ingénierie + Raisonnement**  
+**Niveau : Moyen**  
+**Question :** Le client demande une station automatisée sans spécifier SLA, redondance et maintenance.  
+**Choix :**  
+- A) Concevoir architecture simple non redondante  
+- B) Imposer architecture redondante complète  
+- C) Clarifier SLA, disponibilité et maintenance avant figer architecture  
+**Recommandation :** C  
+**Impact :** +1 case, +1 min, évite risque futur
+
+### PLAN-02
+**Type : Management**  
+**Niveau : Facile**  
+**Question :** Le projet démarre sans validation écrite du périmètre fonctionnel.  
+**Choix :**  
+- A) Continuer pour gagner du temps  
+- B) Demander validation écrite  
+- C) Se baser sur un projet similaire  
+**Recommandation :** B  
+**Impact :** +1 case
+
+### PLAN-03
+**Type : Ingénierie**  
+**Niveau : Difficile**  
+**Question :** Le réseau industriel doit supporter PLC, SCADA, accès distant et maintenance future. Aucune politique cybersécurité n’est définie.  
+**Choix :**  
+- A) Réseau plat simple  
+- B) VLAN + firewall industriel dès conception  
+- C) Sécuriser après mise en service  
+**Recommandation :** B  
+**Impact :** +2 cases, –1 min, BONUS sécurité
+
+### PLAN-04
+**Type : Raisonnement projet**  
+**Niveau : Moyen**  
+**Question :** Le budget ne prévoit aucune réserve pour imprévus.  
+**Choix :**  
+- A) Accepter  
+- B) Ajouter réserve budgétaire  
+- C) Réduire périmètre technique  
+**Recommandation :** B  
+**Impact :** +2 cases
+
+### PLAN-05
+**Type : Ingénierie**  
+**Niveau : Difficile**  
+**Question :** Le choix PLC n’est pas imposé. Équipe interne maîtrise Siemens, client Rockwell.  
+**Choix :**  
+- A) Siemens  
+- B) Rockwell  
+- C) Analyser support, maintenance, cycle de vie  
+**Recommandation :** C  
+**Impact :** +1 case, +1 min
+
+### PLAN-06
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Les parties prenantes critiques ne sont pas intégrées.  
+**Choix :**  
+- A) Continuer seul  
+- B) Intégrer parties prenantes dès maintenant  
+- C) Laisser chef projet décider  
+**Recommandation :** B  
+**Impact :** +1 case
+
+### PLAN-07
+**Type : Raisonnement**  
+**Niveau : Difficile**  
+**Question :** Les contraintes réglementaires locales ne sont pas toutes identifiées.  
+**Choix :**  
+- A) Ignorer  
+- B) Identifier toutes normes et documenter  
+- C) Ajouter après conception  
+**Recommandation :** B  
+**Impact :** +3 cases
+
+### PLAN-08
+**Type : Ingénierie**  
+**Niveau : Moyen**  
+**Question :** Les hypothèses sur les pompes et capteurs ne sont pas validées.  
+**Choix :**  
+- A) Continuer  
+- B) Valider avec client  
+- C) Ajuster après installation  
+**Recommandation :** B  
+**Impact :** +2 cases
+
+### PLAN-09
+**Type : Management**  
+**Niveau : Difficile**  
+**Question :** Le planning initial est irréaliste par rapport aux ressources disponibles.  
+**Choix :**  
+- A) Accepter  
+- B) Proposer jalons réalistes et négocier  
+- C) Laisser client décider  
+**Recommandation :** B  
+**Impact :** +2 cases, +1 min
+
+### PLAN-10
+**Type : Ingénierie**  
+**Niveau : Moyen**  
+**Question :** Les outils logiciels ne sont pas standardisés.  
+**Choix :**  
+- A) Continuer avec différents outils  
+- B) Standardiser dès le début  
+- C) Installer plus tard  
+**Recommandation :** B  
+**Impact :** +2 cases
+
+### PLAN-11
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Le client modifie régulièrement ses besoins sans documentation.  
+**Choix :**  
+- A) Accepter les changements  
+- B) Documenter et valider chaque changement  
+- C) Ignorer  
+**Recommandation :** B  
+**Impact :** +2 cases
+
+### PLAN-12
+**Type : Raisonnement**  
+**Niveau : Difficile**  
+**Question :** Le budget prévisionnel ne comporte aucune réserve pour imprévus.  
+**Choix :**  
+- A) Accepter  
+- B) Ajouter réserve budgétaire  
+- C) Réduire périmètre  
+**Recommandation :** B  
+**Impact :** +2 cases
+
+### PLAN-13
+**Type : Ingénierie**  
+**Niveau : Moyen**  
+**Question :** L’architecture réseau et automatisme n’est pas formalisée.  
+**Choix :**  
+- A) Commencer sans architecture  
+- B) Valider architecture avant exécution  
+- C) Ajuster après  
+**Recommandation :** B  
+**Impact :** +3 cases
+
+### PLAN-14
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Les KPI du projet ne sont pas définis.  
+**Choix :**  
+- A) Attendre fin projet  
+- B) Définir dès le début  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases
+
+### PLAN-15
+**Type : Raisonnement**  
+**Niveau : Difficile**  
+**Question :** Certaines ressources humaines clés ne sont pas confirmées.  
+**Choix :**  
+- A) Commencer sans confirmation  
+- B) Valider disponibilité  
+- C) Affecter tâches de manière improvisée  
+**Recommandation :** B  
+**Impact :** +1 case
+
+### PLAN-16
+**Type : Ingénierie**  
+**Niveau : Moyen**  
+**Question :** Les fournisseurs n’ont pas été validés avant lancement.  
+**Choix :**  
+- A) Commencer quand même  
+- B) Sélectionner et valider avant démarrage  
+- C) Ignorer  
+**Recommandation :** B  
+**Impact :** +2 cases
+
+### PLAN-17
+**Type : Raisonnement**  
+**Niveau : Moyen**  
+**Question :** Les risques initiaux n’ont pas été identifiés.  
+**Choix :**  
+- A) Continuer sans analyse  
+- B) Identifier risques + plan mitigation  
+- C) Reporter à plus tard  
+**Recommandation :** B  
+**Impact :** +3 cases
+
+### PLAN-18
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** La communication avec le client est limitée et informelle.  
+**Choix :**  
+- A) Attendre réunion  
+- B) Mettre reporting régulier  
+- C) Envoyer mail ponctuel  
+**Recommandation :** B  
+**Impact :** +1 case
+
+### PLAN-19
+**Type : Ingénierie**  
+**Niveau : Difficile**  
+**Question :** Les hypothèses techniques sur capteurs critiques n’ont pas été validées.  
+**Choix :**  
+- A) Continuer  
+- B) Valider avec client  
+- C) Ajuster après  
+**Recommandation :** B  
+**Impact :** +3 cases
+
+### PLAN-20
+**Type : Raisonnement**  
+**Niveau : Moyen**  
+**Question :** Le projet prévoit des composants obsolètes non signalés.  
+**Choix :**  
+- A) Continuer  
+- B) Remplacer composants dès conception  
+- C) Corriger plus tard  
+**Recommandation :** B  
+**Impact :** +2 cases
+
+### PLAN-21
+**Type : Management**  
+**Niveau : Difficile**  
+**Question :** Les parties prenantes externes (fournisseurs, maintenance) ne sont pas impliquées.  
+**Choix :**  
+- A) Ignorer  
+- B) Intégrer parties prenantes critique  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases
+
+### PLAN-22
+**Type : Ingénierie**  
+**Niveau : Moyen**  
+**Question :** Les contraintes environnementales locales ne sont pas prises en compte.  
+**Choix :**  
+- A) Ignorer  
+- B) Vérifier normes et ajuster design  
+- C) Adapter après réalisation  
+**Recommandation :** B  
+**Impact :** +2 cases
+
+### PLAN-23
+**Type : Raisonnement**  
+**Niveau : Moyen**  
+**Question :** Le cahier des charges est incomplet.  
+**Choix :**  
+- A) Commencer développement  
+- B) Compléter cahier des charges avant démarrage  
+- C) Adapter au fur et à mesure  
+**Recommandation :** B  
+**Impact :** +2 cases
+
+### PLAN-24
+**Type : Management**  
+**Niveau : Difficile**  
+**Question :** Le client change fréquemment les priorités fonctionnelles.  
+**Choix :**  
+- A) Accepter  
+- B) Documenter + valider chaque changement  
+- C) Reporter décision  
+**Recommandation :** B  
+**Impact :** +2 cases
+
+### PLAN-25
+**Type : Ingénierie + Raisonnement**  
+**Niveau : Moyen**  
+**Question :** Le budget initial est serré et ne couvre pas tests FAT/SAT complets.  
+**Choix :**  
+- A) Réduire tests  
+- B) Ajuster planning et budget tests  
+- C) Reporter tests après installation  
+**Recommandation :** B  
+**Impact :** +2 cases, –1 min
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 🟡 PHASE DO – RÉALISATION & INTÉGRATION (25 cartes)
+
+### DO-01
+**Type : Ingénierie**  
+**Niveau : Moyen**  
+**Question :** Le développement PLC démarre sans standard de programmation ni conventions de nommage.  
+**Choix :**  
+- A) Continuer tel quel  
+- B) Définir standards IEC, FB, nommage  
+- C) Corriger après FAT  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### DO-02
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Un ingénieur clé est indisponible pendant l’installation.  
+**Choix :**  
+- A) Attendre  
+- B) Redistribuer les tâches et responsabiliser équipe  
+- C) Réduire périmètre des tests  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### DO-03
+**Type : Ingénierie**  
+**Niveau : Difficile**  
+**Question :** Les VFD sont intégrés mais les moteurs réels n’ont pas été testés.  
+**Choix :**  
+- A) Continuer sans test  
+- B) Tester moteurs réels avant mise en service  
+- C) Tester uniquement en simulation  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+### DO-04
+**Type : Raisonnement**  
+**Niveau : Difficile**  
+**Question :** Le planning impose un FAT partiel pour gagner du temps.  
+**Choix :**  
+- A) Accepter et avancer  
+- B) Maintenir FAT complet  
+- C) FAT ciblé sur fonctions critiques  
+**Recommandation :** C  
+**Impact :** +1 case / Mauvaise réponse → –1 case
+
+### DO-05
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** La communication interne est informelle et irrégulière.  
+**Choix :**  
+- A) Continuer  
+- B) Définir reporting hebdomadaire et points clés  
+- C) Informer à la demande  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### DO-06
+**Type : Ingénierie**  
+**Niveau : Moyen**  
+**Question :** Les documents techniques du projet sont incomplets.  
+**Choix :**  
+- A) Continuer sans documentation  
+- B) Compléter documentation maintenant  
+- C) Ajuster après FAT  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### DO-07
+**Type : Raisonnement**  
+**Niveau : Difficile**  
+**Question :** Les dépendances critiques avec un fournisseur sont identifiées tard.  
+**Choix :**  
+- A) Ignorer  
+- B) Préparer plan B et alternatives  
+- C) Changer fournisseur tardivement  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+### DO-08
+**Type : Ingénierie**  
+**Niveau : Moyen**  
+**Question :** Le matériel nécessaire pour FAT/SAT n’est pas disponible simultanément.  
+**Choix :**  
+- A) Continuer avec ressources limitées  
+- B) Réaffecter matériel et prioriser tests critiques  
+- C) Reporter tests  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### DO-09
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** La réunion de lancement du projet n’a pas eu lieu.  
+**Choix :**  
+- A) Ignorer  
+- B) Organiser immédiatement  
+- C) Informer par email  
+**Recommandation :** B  
+**Impact :** +1 case / Mauvaise réponse → –1 case
+
+### DO-10
+**Type : Raisonnement**  
+**Niveau : Difficile**  
+**Question :** Les risques techniques n’ont pas été identifiés pour la phase d’installation.  
+**Choix :**  
+- A) Continuer sans analyse  
+- B) Identifier risques et préparer plan mitigation  
+- C) Reporter à plus tard  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+### DO-11
+**Type : Ingénierie**  
+**Niveau : Moyen**  
+**Question :** Les configurations SCADA/PLC sont incohérentes entre départements.  
+**Choix :**  
+- A) Continuer sans standardisation  
+- B) Harmoniser configurations maintenant  
+- C) Corriger après mise en service  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### DO-12
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Le planning FAT/SAT n’est pas prévu avec des jalons clairs.  
+**Choix :**  
+- A) Commencer tests arbitrairement  
+- B) Planifier FAT/SAT détaillé  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### DO-13
+**Type : Raisonnement**  
+**Niveau : Difficile**  
+**Question :** Un sous-traitant ne comprend pas ses tâches pour intégration PLC.  
+**Choix :**  
+- A) Ignorer  
+- B) Brief complet et documenté  
+- C) Ajuster après démarrage  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### DO-14
+**Type : Ingénierie**  
+**Niveau : Moyen**  
+**Question :** Le logiciel de supervision n’est pas installé avant FAT.  
+**Choix :**  
+- A) Installer après FAT  
+- B) Déployer maintenant  
+- C) Continuer tests sans  
+**Recommandation :** B  
+**Impact :** +1 case / Mauvaise réponse → –1 case
+
+### DO-15
+**Type : Management**  
+**Niveau : Difficile**  
+**Question :** L’équipe ne suit aucun reporting.  
+**Choix :**  
+- A) Ignorer  
+- B) Mettre en place reporting clair  
+- C) Reporter à plus tard  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### DO-16
+**Type : Ingénierie**  
+**Niveau : Difficile**  
+**Question :** Les tests intégration de capteurs critiques sont incomplets.  
+**Choix :**  
+- A) Continuer  
+- B) Compléter tous les tests critiques  
+- C) Ajuster après mise en service  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+### DO-17
+**Type : Raisonnement**  
+**Niveau : Moyen**  
+**Question :** La documentation interne est partielle.  
+**Choix :**  
+- A) Continuer  
+- B) Compléter documentation  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### DO-18
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Le planning des ressources humaines n’est pas confirmé.  
+**Choix :**  
+- A) Commencer quand même  
+- B) Valider disponibilités avant démarrage  
+- C) Ajuster après  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### DO-19
+**Type : Ingénierie**  
+**Niveau : Difficile**  
+**Question :** Les séquences logiques PLC n’ont pas été testées sur simulateur.  
+**Choix :**  
+- A) Continuer  
+- B) Tester toutes les séquences  
+- C) Tester seulement fonctions critiques  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+### DO-20
+**Type : Raisonnement**  
+**Niveau : Moyen**  
+**Question :** Le client n’a pas validé certains I/O critiques.  
+**Choix :**  
+- A) Ignorer validation  
+- B) Obtenir validation client  
+- C) Ajuster après installation  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### DO-21
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Les réunions d’équipe ne sont pas régulières.  
+**Choix :**  
+- A) Ignorer  
+- B) Définir points de suivi hebdomadaire  
+- C) Informer ponctuellement  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### DO-22
+**Type : Ingénierie**  
+**Niveau : Moyen**  
+**Question :** Les procédures de calibration ne sont pas définies.  
+**Choix :**  
+- A) Commencer sans procédures  
+- B) Créer procédures avant mise en service  
+- C) Ajuster après tests  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### DO-23
+**Type : Raisonnement**  
+**Niveau : Difficile**  
+**Question :** Le planning impose des tests partiels pour réduire délai.  
+**Choix :**  
+- A) Accepter  
+- B) Maintenir tests complets  
+- C) Prioriser tests critiques seulement  
+**Recommandation :** C  
+**Impact :** +1 case / Mauvaise réponse → –1 case
+
+### DO-24
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Le client n’a pas été briefé sur les limites de l’installation.  
+**Choix :**  
+- A) Ignorer  
+- B) Faire briefing détaillé  
+- C) Adapter après livraison  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### DO-25
+**Type : Ingénierie + Management**  
+**Niveau : Difficile**  
+**Question :** Les dépendances entre PLC et SCADA ne sont pas testées intégralement.  
+**Choix :**  
+- A) Ignorer  
+- B) Vérifier intégration complète  
+- C) Reporter tests après installation  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 🟠 PHASE CHECK – SUIVI & CONTRÔLE (25 cartes)
+
+### CHECK-33
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Les équipes IT et automatisme ne communiquent pas efficacement.  
+**Choix :**  
+- A) Ignorer  
+- B) Organiser réunions régulières  
+- C) Informer ponctuellement  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### CHECK-34
+**Type : Raisonnement**  
+**Niveau : Moyen**  
+**Question :** Retard d’un fournisseur clé détecté à mi-phase.  
+**Choix :**  
+- A) Attendre livraison  
+- B) Réorganiser planning et tâches critiques  
+- C) Escalader sans plan  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### CHECK-35
+**Type : Ingénierie**  
+**Niveau : Difficile**  
+**Question :** Aucun KPI n’est défini pour suivi performance FAT/SAT.  
+**Choix :**  
+- A) Faire informel  
+- B) Définir KPI clairs et mesurables  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+### CHECK-36
+**Type : Management**  
+**Niveau : Facile**  
+**Question :** Le client est mal informé du progrès du projet.  
+**Choix :**  
+- A) Minimiser  
+- B) Reporting régulier et détaillé  
+- C) Justifier ponctuellement  
+**Recommandation :** B  
+**Impact :** +1 case / Mauvaise réponse → –1 case
+
+### CHECK-37
+**Type : Ingénierie**  
+**Niveau : Difficile**  
+**Question :** Incident réseau critique impacte supervision et PLC.  
+**Choix :**  
+- A) Ignorer  
+- B) Plan d’action immédiat  
+- C) Reporter à plus tard  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+### CHECK-38
+**Type : Raisonnement**  
+**Niveau : Moyen**  
+**Question :** Ressources redondantes identifiées mais non allouées.  
+**Choix :**  
+- A) Ignorer  
+- B) Réaffecter pour optimisations  
+- C) Supprimer  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### CHECK-39
+**Type : Ingénierie**  
+**Niveau : Difficile**  
+**Question :** FAT partiels réalisés pour respecter délai.  
+**Choix :**  
+- A) Accepter partiels  
+- B) Compléter tous tests critiques  
+- C) Reporter tests complets après livraison  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+### CHECK-40
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Documentation projet partielle pour contrôle qualité.  
+**Choix :**  
+- A) Accepter telle quelle  
+- B) Compléter documentation immédiatement  
+- C) Reporter après mise en service  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### CHECK-41
+**Type : Management**  
+**Niveau : Facile**  
+**Question :** Réunion de coordination manquante depuis 2 semaines.  
+**Choix :**  
+- A) Ignorer  
+- B) Organiser réunion immédiate  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +1 case / Mauvaise réponse → –1 case
+
+### CHECK-42
+**Type : Raisonnement**  
+**Niveau : Moyen**  
+**Question :** Suivi du planning inexistant.  
+**Choix :**  
+- A) Ignorer  
+- B) Mettre en place suivi clair  
+- C) Ajuster après FAT  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### CHECK-43
+**Type : Ingénierie**  
+**Niveau : Difficile**  
+**Question :** Détection tardive d’un problème mécanique sur ligne PLC.  
+**Choix :**  
+- A) Ignorer  
+- B) Action corrective immédiate  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+### CHECK-44
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Escalade non planifiée pour anomalies critiques.  
+**Choix :**  
+- A) Ignorer  
+- B) Informer hiérarchie et client  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### CHECK-45
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Communication client incomplète sur statut FAT/SAT.  
+**Choix :**  
+- A) Ignorer  
+- B) Reporting clair et documenté  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### CHECK-46
+**Type : Raisonnement**  
+**Niveau : Difficile**  
+**Question :** Risques accumulés sans mitigation.  
+**Choix :**  
+- A) Ignorer  
+- B) Plan mitigation actif  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+### CHECK-47
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Déviation du planning détectée sur tâches critiques.  
+**Choix :**  
+- A) Ignorer  
+- B) Ajuster tâches et ressources  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### CHECK-48
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** KPI partiellement atteints.  
+**Choix :**  
+- A) Ignorer  
+- B) Ajuster actions correctives  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### CHECK-49
+**Type : Ingénierie**  
+**Niveau : Difficile**  
+**Question :** Tests intégration SCADA-PLC incomplets détectés.  
+**Choix :**  
+- A) Ignorer  
+- B) Compléter tests critiques  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+### CHECK-50
+**Type : Raisonnement**  
+**Niveau : Moyen**  
+**Question :** Retard d’un équipement critique affecte FAT.  
+**Choix :**  
+- A) Ignorer  
+- B) Réajuster planning et ressources  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### CHECK-51
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Reporting interne non suivi depuis 3 semaines.  
+**Choix :**  
+- A) Ignorer  
+- B) Relancer reporting et suivi  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### CHECK-52
+**Type : Ingénierie**  
+**Niveau : Difficile**  
+**Question :** Configuration réseaux et VFD incohérente.  
+**Choix :**  
+- A) Ignorer  
+- B) Harmoniser configuration avant mise en service  
+- C) Corriger après livraison  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+### CHECK-53
+**Type : Raisonnement**  
+**Niveau : Moyen**  
+**Question :** FAT partiel risque défauts non détectés.  
+**Choix :**  
+- A) Continuer  
+- B) Prioriser tests critiques et compléter  
+- C) Reporter intégralité tests  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### CHECK-54
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Client non informé des limites fonctionnelles détectées.  
+**Choix :**  
+- A) Ignorer  
+- B) Informer et documenter  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### CHECK-55
+**Type : Ingénierie**  
+**Niveau : Difficile**  
+**Question :** Défaillance partielle d’instrumentation détectée pendant tests.  
+**Choix :**  
+- A) Ignorer  
+- B) Remplacer ou recalibrer immédiatement  
+- C) Ajuster après mise en service  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+### CHECK-56
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Les anomalies mineures sont non documentées.  
+**Choix :**  
+- A) Ignorer  
+- B) Documenter et corriger  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### CHECK-57
+**Type : Raisonnement**  
+**Niveau : Difficile**  
+**Question :** Problèmes critiques identifiés tardivement.  
+**Choix :**  
+- A) Ignorer  
+- B) Actions correctives immédiates  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 🟢 PHASE ACT – AJUSTEMENT & CLÔTURE (25 cartes)
+
+### ACT-58
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Le client demande un ajustement mineur après FAT.  
+**Choix :**  
+- A) Accepter immédiatement  
+- B) Refuser  
+- C) Suivre procédure officielle de changement  
+**Recommandation :** C  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### ACT-59
+**Type : Ingénierie**  
+**Niveau : Facile**  
+**Question :** Formation client pour utilisation SCADA/PLC non réalisée.  
+**Choix :**  
+- A) Ignorer  
+- B) Former client  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +1 case / Mauvaise réponse → –1 case
+
+### ACT-60
+**Type : Raisonnement**  
+**Niveau : Moyen**  
+**Question :** Problème détecté après mise en service impactant production.  
+**Choix :**  
+- A) Ignorer  
+- B) Corriger rapidement  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+### ACT-61
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Retour d’expérience non documenté.  
+**Choix :**  
+- A) Ignorer  
+- B) Documenter et analyser pour future amélioration  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### ACT-62
+**Type : Ingénierie**  
+**Niveau : Moyen**  
+**Question :** Validation finale de tous équipements non complétée.  
+**Choix :**  
+- A) Ignorer  
+- B) Compléter avant clôture  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### ACT-63
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Documentation finale non livrée au client.  
+**Choix :**  
+- A) Ignorer  
+- B) Livrer complète et conforme  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +1 case / Mauvaise réponse → –1 case
+
+### ACT-64
+**Type : Raisonnement**  
+**Niveau : Moyen**  
+**Question :** Communication bilan projet absente.  
+**Choix :**  
+- A) Ignorer  
+- B) Présenter bilan détaillé  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### ACT-65
+**Type : Management**  
+**Niveau : Facile**  
+**Question :** Équipe désengagée lors de la clôture.  
+**Choix :**  
+- A) Ignorer  
+- B) Motiver et reconnaître efforts  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +1 case / Mauvaise réponse → –1 case
+
+### ACT-66
+**Type : Ingénierie**  
+**Niveau : Moyen**  
+**Question :** Détection de risque post-projet (sécurité, process).  
+**Choix :**  
+- A) Ignorer  
+- B) Analyse + mitigation immédiate  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### ACT-67
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Lessons learned absentes pour ce projet.  
+**Choix :**  
+- A) Ignorer  
+- B) Documenter et partager  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### ACT-68
+**Type : Raisonnement**  
+**Niveau : Moyen**  
+**Question :** Clôture financière partielle avec factures manquantes.  
+**Choix :**  
+- A) Ignorer  
+- B) Compléter immédiatement  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### ACT-69
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Feedback client non récupéré sur satisfaction globale.  
+**Choix :**  
+- A) Ignorer  
+- B) Collecter et analyser feedback  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### ACT-70
+**Type : Ingénierie**  
+**Niveau : Difficile**  
+**Question :** Retard administratif impactant clôture projet (certifications, signatures).  
+**Choix :**  
+- A) Ignorer  
+- B) Corriger immédiatement et prioriser  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+### ACT-71
+**Type : Management**  
+**Niveau : Difficile**  
+**Question :** Conflits internes détectés lors de la revue projet.  
+**Choix :**  
+- A) Ignorer  
+- B) Faciliter médiation et résolution  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+### ACT-72
+**Type : Raisonnement**  
+**Niveau : Moyen**  
+**Question :** Documentation lessons learned incomplète.  
+**Choix :**  
+- A) Ignorer  
+- B) Compléter et partager avec équipes futures  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### ACT-73
+**Type : Ingénierie**  
+**Niveau : Difficile**  
+**Question :** Alarmes critiques non documentées pour exploitation future.  
+**Choix :**  
+- A) Ignorer  
+- B) Documenter et communiquer procédures  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+### ACT-74
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** Réunion finale de clôture non planifiée.  
+**Choix :**  
+- A) Ignorer  
+- B) Organiser réunion officielle  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### ACT-75
+**Type : Raisonnement**  
+**Niveau : Difficile**  
+**Question :** Retours des sous-traitants incomplets pour audit.  
+**Choix :**  
+- A) Ignorer  
+- B) Compléter et vérifier conformité  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+### ACT-76
+**Type : Ingénierie**  
+**Niveau : Moyen**  
+**Question :** Tests post-mise en service non réalisés pour vérification redondance.  
+**Choix :**  
+- A) Ignorer  
+- B) Effectuer tests critiques  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### ACT-77
+**Type : Management**  
+**Niveau : Moyen**  
+**Question :** KPI finaux non vérifiés avec client.  
+**Choix :**  
+- A) Ignorer  
+- B) Vérifier et valider KPI  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### ACT-78
+**Type : Raisonnement**  
+**Niveau : Difficile**  
+**Question :** Non-conformité critique détectée après réception finale.  
+**Choix :**  
+- A) Ignorer  
+- B) Corriger immédiatement  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+### ACT-79
+**Type : Ingénierie**  
+**Niveau : Moyen**  
+**Question :** Checklist finale de sécurité partielle.  
+**Choix :**  
+- A) Ignorer  
+- B) Compléter checklist avant clôture  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### ACT-80
+**Type : Management**  
+**Niveau : Difficile**  
+**Question :** Client non satisfait de la communication post-projet.  
+**Choix :**  
+- A) Ignorer  
+- B) Réaliser réunion bilan et analyse  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
+
+### ACT-81
+**Type : Raisonnement**  
+**Niveau : Moyen**  
+**Question :** Déviation mineure du budget détectée après clôture.  
+**Choix :**  
+- A) Ignorer  
+- B) Ajuster comptes et documenter  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +2 cases / Mauvaise réponse → –1 case
+
+### ACT-82
+**Type : Ingénierie + Management**  
+**Niveau : Difficile**  
+**Question :** Projet terminé mais enseignements non capitalisés pour futurs projets.  
+**Choix :**  
+- A) Ignorer  
+- B) Centraliser et partager lessons learned  
+- C) Reporter  
+**Recommandation :** B  
+**Impact :** +3 cases / Mauvaise réponse → –1 case
