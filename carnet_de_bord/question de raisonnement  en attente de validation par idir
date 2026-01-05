@@ -1,0 +1,592 @@
+# 🧠 PDCA – QUESTIONS DE MANAGEMENT GÉNÉRAL AVANCÉ (40)
+*Niveau : Chef de projet senior / Responsable d’équipe / Manager industriel*
+
+---
+
+## 🔵 PLAN – STRATÉGIE & DÉCISION (10)
+
+### PLAN-M01
+**Situation :**  
+Un projet démarre avec des objectifs ambitieux mais volontairement flous pour « garder de la flexibilité ».
+
+**Choix :**
+- A) Accepter le flou pour rester agile
+- B) Fixer des objectifs précis quitte à réduire la flexibilité
+- C) Traduire les objectifs flous en hypothèses mesurables
+- D) Attendre que la direction précise
+
+**Réponse correcte : C**
+
+**Raisonnement :**  
+Le flou non maîtrisé n’est pas de l’agilité, c’est un **transfert de risque vers l’exécution**.  
+Un manager expérimenté transforme l’incertitude en **hypothèses explicites**, révisables, traçables.
+
+---
+
+### PLAN-M02
+**Situation :**  
+La direction impose un délai irréaliste mais refuse d’arbitrer sur le périmètre.
+
+**Choix :**
+- A) Accepter et faire pression sur l’équipe
+- B) Refuser le délai
+- C) Présenter plusieurs scénarios délai / périmètre / risque
+- D) Réduire discrètement la qualité
+
+**Réponse correcte : C**
+
+**Raisonnement :**  
+Le rôle du manager n’est pas de dire oui ou non, mais de **forcer la prise de décision éclairée** au bon niveau.
+
+---
+
+### PLAN-M03
+**Situation :**  
+Deux équipes internes ont des objectifs contradictoires sur le même projet.
+
+**Choix :**
+- A) Laisser les équipes s’adapter
+- B) Imposer une solution
+- C) Aligner les objectifs au niveau projet global
+- D) Séparer les responsabilités
+
+**Réponse correcte : C**
+
+**Raisonnement :**  
+Les conflits inter-équipes sont presque toujours des **conflits d’objectifs**, pas de personnes.
+
+---
+
+### PLAN-M04
+**Situation :**  
+Un risque majeur est identifié mais jugé « peu probable ».
+
+**Choix :**
+- A) L’ignorer
+- B) Le traiter immédiatement
+- C) Le surveiller avec un plan de mitigation
+- D) Le documenter sans action
+
+**Réponse correcte : C**
+
+**Raisonnement :**  
+Le management du risque repose sur **probabilité × impact**, pas sur l’intuition.
+
+---
+
+### PLAN-M05
+**Situation :**  
+Le sponsor du projet est très peu disponible.
+
+**Choix :**
+- A) Avancer sans lui
+- B) Le solliciter davantage
+- C) Structurer les décisions pour minimiser son temps requis
+- D) Reporter les décisions
+
+**Réponse correcte : C**
+
+**Raisonnement :**  
+Un bon manager **s’adapte aux contraintes du sponsor**, il ne les subit pas.
+
+---
+
+### PLAN-M06
+**Situation :**  
+Le projet dépend fortement d’un seul expert clé.
+
+**Choix :**
+- A) Le valoriser davantage
+- B) Accepter le risque
+- C) Réduire la dépendance progressivement
+- D) Le remplacer
+
+**Réponse correcte : C**
+
+**Raisonnement :**  
+La dépendance à une personne est un **risque organisationnel**, pas un atout.
+
+---
+
+### PLAN-M07
+**Situation :**  
+Les indicateurs de succès ne sont pas clairement définis.
+
+**Choix :**
+- A) Mesurer ce qui est facile
+- B) Attendre la fin du projet
+- C) Définir des critères de succès maintenant
+- D) Se fier au ressenti client
+
+**Réponse correcte : C**
+
+---
+
+### PLAN-M08
+**Situation :**  
+Le projet est politiquement sensible.
+
+**Choix :**
+- A) Se concentrer uniquement sur la technique
+- B) Éviter toute prise de position
+- C) Identifier les parties prenantes et leurs attentes
+- D) Reporter les décisions critiques
+
+**Réponse correcte : C**
+
+---
+
+### PLAN-M09
+**Situation :**  
+La vision du projet n’est comprise que par le management.
+
+**Choix :**
+- A) Ce n’est pas nécessaire pour l’équipe
+- B) Former l’équipe à la vision globale
+- C) Communiquer uniquement les tâches
+- D) Simplifier excessivement
+
+**Réponse correcte : B**
+
+---
+
+### PLAN-M10
+**Situation :**  
+Un projet démarre sans retour d’expérience des projets passés.
+
+**Choix :**
+- A) Chaque projet est unique
+- B) Copier les anciens projets
+- C) Capitaliser les leçons pertinentes
+- D) Ignorer le passé
+
+**Réponse correcte : C**
+
+---
+
+## 🟡 DO – EXÉCUTION & PILOTAGE (10)
+
+### DO-M01
+**Situation :**  
+L’équipe respecte le planning mais montre des signes de fatigue.
+
+**Choix :**
+- A) Maintenir la pression
+- B) Ignorer tant que le planning tient
+- C) Ajuster charge et priorités
+- D) Ajouter des ressources
+
+**Réponse correcte : C**
+
+**Raisonnement :**  
+Un manager anticipe l’épuisement **avant** qu’il impacte la performance.
+
+---
+
+### DO-M02
+**Situation :**  
+Un conflit apparaît entre deux membres clés.
+
+**Choix :**
+- A) Laisser se régler
+- B) Prendre parti
+- C) Traiter le conflit rapidement et factuellement
+- D) Changer les responsabilités
+
+**Réponse correcte : C**
+
+---
+
+### DO-M03
+**Situation :**  
+Une décision urgente doit être prise avec des informations incomplètes.
+
+**Choix :**
+- A) Attendre plus d’informations
+- B) Décider au hasard
+- C) Décider avec hypothèses explicites
+- D) Reporter la décision
+
+**Réponse correcte : C**
+
+---
+
+### DO-M04
+**Situation :**  
+L’équipe exécute mais ne propose aucune amélioration.
+
+**Choix :**
+- A) Normal
+- B) Manque de compétence
+- C) Climat non propice à l’initiative
+- D) Mauvaise planification
+
+**Réponse correcte : C**
+
+---
+
+### DO-M05
+**Situation :**  
+Les réunions prennent beaucoup de temps mais peu de décisions.
+
+**Choix :**
+- A) Ajouter des réunions
+- B) Réduire les participants
+- C) Clarifier objectifs et décisions attendues
+- D) Supprimer les réunions
+
+**Réponse correcte : C**
+
+---
+
+### DO-M06
+**Situation :**  
+Une erreur est détectée tôt mais sans impact immédiat.
+
+**Choix :**
+- A) Corriger plus tard
+- B) Ignorer
+- C) Corriger immédiatement
+- D) Attendre validation
+
+**Réponse correcte : C**
+
+---
+
+### DO-M07
+**Situation :**  
+Un collaborateur performant devient difficile à manager.
+
+**Choix :**
+- A) Tolérer
+- B) Sanctionner
+- C) Clarifier attentes et cadre
+- D) Le retirer du projet
+
+**Réponse correcte : C**
+
+---
+
+### DO-M08
+**Situation :**  
+Le client change souvent d’avis.
+
+**Choix :**
+- A) Accepter tout
+- B) Refuser tout
+- C) Formaliser les changements
+- D) Ignorer les changements
+
+**Réponse correcte : C**
+
+---
+
+### DO-M09
+**Situation :**  
+Le projet avance mais la communication se dégrade.
+
+**Choix :**
+- A) Se concentrer sur les livrables
+- B) Ajouter des reportings
+- C) Restaurer une communication claire et régulière
+- D) Attendre la fin
+
+**Réponse correcte : C**
+
+---
+
+### DO-M10
+**Situation :**  
+Les priorités changent trop souvent.
+
+**Choix :**
+- A) Suivre toutes les priorités
+- B) Refuser les changements
+- C) Revalider régulièrement les priorités
+- D) Laisser l’équipe choisir
+
+**Réponse correcte : C**
+
+---
+
+## 🔴 CHECK – ÉVALUATION & ANALYSE (10)
+
+### CHECK-M01
+**Situation :**  
+Les résultats sont bons mais l’équipe est insatisfaite.
+
+**Analyse correcte :**
+- A) Résultats priment
+- B) Problème de reconnaissance
+- C) Problème de management latent
+- D) Fatigue passagère
+
+**Réponse correcte : C**
+
+---
+
+### CHECK-M02
+**Situation :**  
+Les objectifs sont atteints mais avec beaucoup de stress.
+
+**Conclusion :**
+- A) Succès total
+- B) Succès fragile
+- C) Échec
+- D) Normal
+
+**Réponse correcte : B**
+
+---
+
+### CHECK-M03
+**Situation :**  
+Les mêmes erreurs se répètent.
+
+**Cause racine :**
+- A) Manque de compétence
+- B) Manque de temps
+- C) Absence d’apprentissage collectif
+- D) Mauvaise communication
+
+**Réponse correcte : C**
+
+---
+
+### CHECK-M04
+**Situation :**  
+Les indicateurs sont bons mais ne reflètent pas la réalité terrain.
+
+**Problème :**
+- A) Mauvais reporting
+- B) Mauvais indicateurs
+- C) Mauvaise exécution
+- D) Mauvaise équipe
+
+**Réponse correcte : B**
+
+---
+
+### CHECK-M05
+**Situation :**  
+Le client est satisfait mais sans enthousiasme.
+
+**Interprétation :**
+- A) Suffisant
+- B) Opportunité manquée
+- C) Succès
+- D) Manque de communication
+
+**Réponse correcte : B**
+
+---
+
+### CHECK-M06
+**Situation :**  
+Le projet dépend toujours du manager.
+
+**Diagnostic :**
+- A) Leadership fort
+- B) Manque d’autonomie de l’équipe
+- C) Complexité projet
+- D) Manque de ressources
+
+**Réponse correcte : B**
+
+---
+
+### CHECK-M07
+**Situation :**  
+Les retours terrain arrivent trop tard.
+
+**Cause :**
+- A) Process lent
+- B) Manque de confiance
+- C) Mauvais outils
+- D) Charge élevée
+
+**Réponse correcte : B**
+
+---
+
+### CHECK-M08
+**Situation :**  
+Les décisions sont prises mais rarement suivies.
+
+**Problème :**
+- A) Mauvaises décisions
+- B) Manque d’engagement
+- C) Manque de suivi
+- D) Manque de temps
+
+**Réponse correcte : C**
+
+---
+
+### CHECK-M09
+**Situation :**  
+Les réunions de bilan n’apportent rien.
+
+**Erreur :**
+- A) Mauvais timing
+- B) Mauvais format
+- C) Absence d’objectifs clairs
+- D) Mauvais participants
+
+**Réponse correcte : C**
+
+---
+
+### CHECK-M10
+**Situation :**  
+Le projet est terminé mais l’organisation n’a rien appris.
+
+**Constat :**
+- A) Normal
+- B) Échec managérial
+- C) Problème RH
+- D) Manque de temps
+
+**Réponse correcte : B**
+
+---
+
+## 🟢 ACT – AMÉLIORATION & CAPITALISATION (10)
+
+### ACT-M01
+**Situation :**  
+Les mêmes problèmes apparaissent sur chaque projet.
+
+**Action prioritaire :**
+- A) Former davantage
+- B) Modifier les processus
+- C) Changer les équipes
+- D) Ajouter des outils
+
+**Réponse correcte : B**
+
+---
+
+### ACT-M02
+**Situation :**  
+Les bonnes pratiques restent individuelles.
+
+**Action clé :**
+- A) Les documenter
+- B) Les standardiser et diffuser
+- C) Les valoriser
+- D) Les laisser évoluer
+
+**Réponse correcte : B**
+
+---
+
+### ACT-M03
+**Situation :**  
+L’organisation réagit toujours en mode urgence.
+
+**Problème structurel :**
+- A) Manque de ressources
+- B) Manque d’anticipation
+- C) Mauvais outils
+- D) Mauvais managers
+
+**Réponse correcte : B**
+
+---
+
+### ACT-M04
+**Situation :**  
+Les améliorations proposées ne sont jamais appliquées.
+
+**Cause :**
+- A) Manque budget
+- B) Manque sponsor
+- C) Manque priorisation
+- D) Manque idées
+
+**Réponse correcte : C**
+
+---
+
+### ACT-M05
+**Situation :**  
+Le retour d’expérience est fait mais jamais utilisé.
+
+**Erreur :**
+- A) Mauvais format
+- B) Absence d’intégration dans les processus
+- C) Manque de temps
+- D) Mauvaise communication
+
+**Réponse correcte : B**
+
+---
+
+### ACT-M06
+**Situation :**  
+Chaque projet repart de zéro.
+
+**Action stratégique :**
+- A) Accélérer
+- B) Standardiser
+- C) Externaliser
+- D) Automatiser
+
+**Réponse correcte : B**
+
+---
+
+### ACT-M07
+**Situation :**  
+Les managers résolvent eux-mêmes les problèmes opérationnels.
+
+**Conséquence :**
+- A) Efficacité
+- B) Dépendance
+- C) Motivation
+- D) Performance durable
+
+**Réponse correcte : B**
+
+---
+
+### ACT-M08
+**Situation :**  
+Les équipes n’osent pas remonter les problèmes.
+
+**Cause profonde :**
+- A) Charge
+- B) Culture punitive
+- C) Manque d’outils
+- D) Mauvais process
+
+**Réponse correcte : B**
+
+---
+
+### ACT-M09
+**Situation :**  
+Les améliorations locales créent des problèmes ailleurs.
+
+**Manque :**
+- A) Communication
+- B) Vision systémique
+- C) Compétence
+- D) Budget
+
+**Réponse correcte : B**
+
+---
+
+### ACT-M10
+**Situation :**  
+Le projet est considéré comme terminé dès la livraison.
+
+**Vision managériale mature :**
+- A) Normal
+- B) Fin contractuelle ≠ fin de responsabilité
+- C) Clôture RH
+- D) Passage à autre chose
+
+**Réponse correcte : B**
