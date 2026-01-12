@@ -5,16 +5,15 @@
 ### CHECK-01
 **Catégorie : Ingénierie / Automation**  
 **Difficulté : Facile**  
-**Question :** Après mise en service d’un VFD ABB ACS580, vous devez vérifier la conformité des paramètres et performance. Quelle action est correcte ?  
-**Choix :**  
-- A) Vérifier uniquement que le moteur démarre  
-- B) Comparer tous paramètres VFD et PLC avec spécifications et réaliser tests de charge  
-- C) Ignorer et reporter tests sur site  
-- D) Tester seulement sur un moteur pilote  
+Question : Les retours clients sur un produit montrent des incohérences récurrentes. Action CHECK ?
+A) Noter les retours et suivre l’évolution
+B) Appliquer directement des modifications
+C) Identifier causes, analyser tendances et documenter 
+D) Ignorer si les retours restent minoritaires 
 
-**Bonne réponse :** B  
+**Bonne réponse :** C  
 **Justification :** Vérification complète des paramètres et tests de charge assurent que la mise en œuvre respecte le cahier des charges, phase CHECK du PDCA.
-❌❌❌❌❌❌❌❌❌❌❌❌
+✅✅✅✅✅✅✅✅✅✅✅✅
 ---
 
 ### CHECK-02
@@ -24,7 +23,7 @@ Vos KPI (Key Performance Indicator) montrent que certaines tâches ont dépassé
 
 Choix (réduits)
 A) Lisser les KPI en excluant les écarts
-B) Analyser les écarts, identifier les causes racines et documenter les constats
+B) Étudier les causes, évaluer impact sur le projet
 C) Mettre à jour le planning et le budget
 D) Accélérer les tâches restantes
 
@@ -36,16 +35,15 @@ D) Accélérer les tâches restantes
 ### CHECK-03
 **Catégorie : Ingénierie / Automation**  
 **Difficulté : Expert**  
-**Question :** Les tests de communication Profibus/Profinet révèlent des pertes sporadiques de paquets. Quelle approche CHECK avancée ?  
-**Choix :**  
-- A) Ignorer les erreurs mineures  
-- B) Analyser log PLC et VFD, topologie réseau, terminators et câblage, puis documenter correctifs  
-- C) Redémarrer réseau sans analyse  
-- D) Remplacer tous équipements réseau  
+Question : Que signifie l’abréviation RACI ?
+A) Responsable, Autorité, Consulté, Informé 
+B) Réviser, Assigner, Contrôler, Implémenter
+C) Responsable, Analyser, Vérifier, Informer
+D) Rapport, Approuver, Coordonner, Investiguer  
 
-**Bonne réponse :** B  
+**Bonne réponse :** A  
 **Justification :** Analyse détaillée et documentation assure traçabilité, sécurité et performance réseau, phase CHECK critique.
-❌❌❌❌❌❌❌❌❌❌❌❌
+✅✅✅✅✅✅✅✅✅✅✅✅
 ---
 
 ### CHECK-04
@@ -176,14 +174,14 @@ D) Comparer les coûts aux prévisions, mais ne rien documenter pour l’instant
 **Difficulté : Facile**  
 **Question :** Commissioning montre alarmes intempestives sur instruments. Que faire ?  
 **Choix :**  
-A) Noter les alarmes, secouer un peu les instruments et espérer que ça passe
+A) Vérifier câblage, config PLC et SCADA, analyser anomalies… ou mourir de stress
 B) Vérifier câblage, config PLC et SCADA, analyser et documenter toutes anomalies 
-C) Changer quelques instruments en mode “au pif”, on verra bien
+C) Remplacer certains instruments problématiques après observation
 D) Appuyer sur tous les boutons rouges et attendre  
 
 **Bonne réponse :** B  
 **Justification :** Vérification et documentation phase CHECK assurent sécurité et fiabilité.
-
+✅✅✅✅✅✅✅✅✅✅✅✅
 ---
 
 ### CHECK-13
@@ -191,44 +189,45 @@ D) Appuyer sur tous les boutons rouges et attendre
 **Difficulté : Expert**  
 **Question :** Reporting montre divergences planning vs avancement multi-site. Action CHECK ?  
 **Choix :**  
-- A) Ignorer  
-- B) Analyser causes, documenter et mettre en place corrective action plan  
-- C) Réattribuer ressources  
-- D) Reporter décision  
+A) Noter les écarts et informer quelques équipes des problèmes
+B) Examiner tous les écarts, analyser les causes et documenter pour préparer un plan correctif 
+C) Comparer planning et avancement et identifier tendances
+D) Ajuster certaines tâches critiques après discussion avec les équipes 
 
 **Bonne réponse :** B  
 **Justification :** Analyse corrective et documentation assurent amélioration continue PDCA.
+✅✅✅✅✅✅✅✅✅✅✅✅
 
 ---
 
 ### CHECK-14
 **Catégorie : Ingénierie / Automation**  
 **Difficulté : Moyen**  
-**Question :** Test synchronisation moteurs multi-VFD montre décalages. Quelle action CHECK ?  
-**Choix :**  
-- A) Ignorer  
-- B) Vérifier séquences PLC, paramétrage VFD, calibrer et corriger  
-- C) Arrêter tests  
-- D) Réduire puissance moteurs  
+Question : Les délais d’approvisionnement montrent des variations importantes. Action CHECK ?
+
+A) Ignorer si les livraisons restent globalement dans le délai
+B) Identifier causes, analyser impact sur projet et documenter 
+C) Changer les fournisseurs immédiatement
+D) Reporter la décision au prochain comités  
 
 **Bonne réponse :** B  
 **Justification :** Vérification et correction garantissent performance, phase CHECK essentielle.
-
+✅✅✅✅✅✅✅✅✅✅✅✅
 ---
 
 ### CHECK-15
-**Catégorie : Raisonnement stratégique / Management**  
-**Difficulté : Expert**  
-**Question :** Audit qualité révèle non-conformité critique. Quelle décision CHECK stratégique ?  
-**Choix :**  
-- A) Ignorer  
-- B) Identifier causes, proposer corrective action et ajuster procédure  
-- C) Reporter audit  
-- D) Corriger sans documentation  
+Audit qualité révèle une non-conformité critique. Quelle décision CHECK stratégique adopter ?
+
+Réponses reformulées et difficiles
+
+A) Noter la non-conformité et continuer le projet sans action immédiate
+B) Identifier causes, analyser impact, documenter et ajuster procédure 
+C) Mettre l’audit en pause et décider plus tard
+D) Corriger directement le problème mais sans consigner ni analyser
 
 **Bonne réponse :** B  
 **Justification :** Analyse et plan d’action documenté sécurise projet et décisions futures, phase CHECK PDCA.
-
+✅✅✅✅✅✅✅✅✅✅✅✅
 ---
 
 ### CHECK-16
@@ -236,89 +235,88 @@ D) Appuyer sur tous les boutons rouges et attendre
 **Difficulté : Facile**  
 **Question :** Un capteur de niveau ne correspond pas à la valeur réelle. Action CHECK ?  
 **Choix :**  
-- A) Ignorer  
-- B) Vérifier calibration, câblage et configuration  
-- C) Remplacer capteur  
-- D) Ajuster valeur manuellement  
+A) Noter l’écart et continuer à surveiller les variations
+B) Vérifier câblage, calibration, configuration et consigner toute incohérence 
+C) Remplacer le capteur pour restaurer la mesure correcte
+D) Ajuster la valeur dans le système pour correspondre à la consigne
 
 **Bonne réponse :** B  
 **Justification :** Vérification et correction assurent fiabilité instrumentation, phase CHECK.
-
+✅✅✅✅✅✅✅✅✅✅✅✅
 ---
 
 ### CHECK-17
 **Catégorie : Management de projet pur**  
-**Difficulté : Moyen**  
-**Question :** Retard fournisseur impacte jalon critique. Action CHECK ?  
-**Choix :**  
-- A) Ignorer  
-- B) Identifier cause, documenter impact, ajuster planning et ressources  
-- C) Reporter projet  
-- D) Continuer  
+**Difficulté : Moyen** 
+Question:
+Un retard fournisseur impacte un jalon critique. Quelle action CHECK adopter ?
+A) Noter le retard et surveiller son impact sur le projet
+B) Identifier la cause, et préparer ajustements planning et ressources 
+C) Reporter le jalon ou le projet pour le résoudre plus tard
+D) Continuer le projet en espérant que le retard n’affecte pas la suite
 
 **Bonne réponse :** B  
 **Justification :** Identification et correction proactive assurent suivi KPI, phase CHECK.
-
+✅✅✅✅✅✅✅✅✅✅✅✅
 ---
 
 ### CHECK-18
 **Catégorie : Ingénierie / Automation**  
 **Difficulté : Expert**  
-**Question :** Tests multi-site révèlent incohérence alarms SCADA. Action CHECK ?  
+**Question :Les indicateurs de sécurité montrent une augmentation d’incidents mineurs sur plusieurs sites.  
 **Choix :**  
-- A) Ignorer  
-- B) Diagnostiquer mapping, scripts, synchronisation et corriger  
-- C) Redéployer SCADA complet  
-- D) Arrêter tests  
+A) Suivre simplement l’avancement et espérer que le retard ne se propage pas
+B) Examiner les causes du retard, évaluer son impact sur le projet et prévoir les ajustements nécessaires
+C) Réattribuer toutes les ressources au projet affecté immédiatement
+D) Reporter décision au prochain comité
 
 **Bonne réponse :** B  
 **Justification :** Correction progressive et documentation assurent sécurité et fiabilité, phase CHECK.
-
+✅✅✅✅✅✅✅✅✅✅✅✅
 ---
 
 ### CHECK-19
-**Catégorie : Raisonnement stratégique / Management**  
-**Difficulté : Moyen**  
-**Question :** KPI coût et délai divergent. Comment agir CHECK ?  
-**Choix :**  
-- A) Ignorer  
-- B) Analyser causes et proposer plan correctif  
-- C) Réaffecter ressources  
-- D) Reporter décision  
+Question : Les ressources humaines signalent une surcharge sur une équipe critique. Action CHECK ?
+
+A) Ignorer si le projet continue à avancer
+B) évaluer son impact et planifier un rééquilibrage des ressources
+C) Évaluer rapidement la surcharge et ajuster les ressources
+D) Identifier l’impact sur l’équipe et planifier des ajustements ultérieurs
 
 **Bonne réponse :** B  
-**Justification :** Analyse des écarts et actions correctives assurent amélioration continue PDCA.
 
+**Justification :** Analyse des écarts et actions correctives assurent amélioration continue PDCA.
+✅✅✅✅✅✅✅✅✅✅✅✅
 ---
 
 ### CHECK-20
 **Catégorie : Ingénierie / Automation**  
 **Difficulté : Facile**  
-**Question :** Les tests commissioning VFD montrent alarmes intermittentes. Action CHECK ?  
-**Choix :**  
-- A) Ignorer  
-- B) Vérifier câblage, paramétrage et séquence de démarrage  
-- C) Remplacer VFD  
-- D) Arrêter tests  
+Un prototype montre des performances inférieures aux spécifications. Action CHECK ?
+Réponses reformulées
+A) Noter les écarts et continuer à observer les résultats
+B) Vérifier les causes et noter les anomalies
+C) Modifier le prototype pour correspondre aux attentes sans analyser les causes
+D) Reporter les tests et réévaluer plus tard
 
 **Bonne réponse :** B  
 **Justification :** Vérification et correction assurent sécurité et performance, phase CHECK.
-
+✅✅✅✅✅✅✅✅✅✅✅✅
 ---
 
 ### CHECK-21
 **Catégorie : Management de projet pur**  
 **Difficulté : Expert**  
-**Question :** Divergence multi-site sur reporting qualité. Action CHECK ?  
-**Choix :**  
-- A) Ignorer  
-- B) Centraliser rapports, analyser écarts et documenter actions correctives  
-- C) Reporter analyse  
-- D) Réassigner ressources  
+Question : Des écarts financiers apparaissent sur des projets pilotes. Action CHECK ?
+
+A) Noter les écarts et suivre leur évolution
+B) Examiner les causes, évaluer l’impact sur le budget et consigner les observations 
+C) Ajuster le budget d’autres postes sans analyser l’origine des écarts
+D) Reporter l’examen des écarts à la prochaine réunion  
 
 **Bonne réponse :** B  
 **Justification :** Centralisation et analyse garantissent cohérence KPI et amélioration continue.
-
+✅✅✅✅✅✅✅✅✅✅✅✅
 ---
 
 ### CHECK-22
@@ -326,14 +324,14 @@ D) Appuyer sur tous les boutons rouges et attendre
 **Difficulté : Moyen**  
 **Question :** Test commissioning réseau industriel révèle perte paquets. Action CHECK ?  
 **Choix :**  
-- A) Ignorer  
-- B) Diagnostiquer topologie, câblage, terminators et corriger anomalies  
-- C) Redémarrer réseau  
-- D) Déconnecter segments  
+A) Noter les pertes et continuer à surveiller le réseau
+B) Vérifier topologie, câblage, terminators et documenter anomalies 
+C) Redémarrer le réseau pour tester la stabilité
+D) Isoler temporairement certains segments pour observer 
 
 **Bonne réponse :** B  
 **Justification :** Diagnostic précis réduit risques réseau, phase CHECK.
-
+✅✅✅✅✅✅✅✅✅✅✅✅
 ---
 
 ### CHECK-23
@@ -348,34 +346,33 @@ D) Appuyer sur tous les boutons rouges et attendre
 
 **Bonne réponse :** B  
 **Justification :** Analyse et plan corrective action assurent conformité KPI, phase CHECK PDCA.
-
+✅✅✅✅✅✅✅✅✅✅✅✅
 ---
 
 ### CHECK-24
 **Catégorie : Management de projet pur**  
 **Difficulté : Moyen**  
-**Question :** Plusieurs fournisseurs livrent hors délai, impactant jalons. Action CHECK ?  
-**Choix :**  
-- A) Ignorer  
-- B) Identifier retard, documenter impact, ajuster planning et ressources  
-- C) Suspendre projet  
-- D) Continuer  
+Question : Les coûts de sous-traitance dépassent les prévisions sur un projet pilote. Action CHECK ?
+
+A) Ignorer si le dépassement reste limité
+B) Identifier causes, analyser impact sur budget et documenter 
+C) Réduire immédiatement les coûts d’autres postes
+D) Reporter la décision
 
 **Bonne réponse :** B  
 **Justification :** Suivi et actions correctives assurent respect jalons et KPI.
-
+✅✅✅✅✅✅✅✅✅✅✅✅
 ---
 
 ### CHECK-25
 **Catégorie : Ingénierie / Automation**  
 **Difficulté : Expert**  
-**Question :** Commissioning complet multi-PLC et VFD révèle incohérences de log et alarmes critiques. Action CHECK ?  
-**Choix :**  
-- A) Ignorer  
-- B) Diagnostiquer, corriger séquence, paramétrage et documenter actions correctives  
-- C) Redéployer tout système  
-- D) Arrêter tests  
+Question : Les indicateurs de sécurité montrent des incidents récurrents mineurs. Action CHECK ?
+A) Ignorer tant qu’il n’y a pas de blessé
+B) Identifier l’origine des incidents, analyser les tendances et documenter
+C) Appliquer actions correctives immédiates sur un site
+D) Reporter la décision
 
 **Bonne réponse :** B  
 **Justification :** Diagnostic et correction garantissent sécurité et fiabilité, phase CHECK complète PDCA.
-
+✅✅✅✅✅✅✅✅✅✅✅✅
