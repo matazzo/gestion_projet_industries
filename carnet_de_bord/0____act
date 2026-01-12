@@ -48,7 +48,7 @@ C) Désactiver les alarmes associées
 D) Recompiler sans tests  
 
 **Bonne réponse :** B  
-❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌
+✅✅✅✅✅✅✅✅✅✅✅
 **Justification :**  
 La standardisation et la traçabilité sont essentielles dans ACT pour éviter la régression.
 
@@ -241,34 +241,34 @@ D) Vérifier si le capteur « fait bien son travail »
 
 ---
 
-### 19.
+### 16.
 **Catégorie : Raisonnement stratégique**  
 **Difficulté : Expert**  
 **Question :** Une action ACT est efficace mais dépend d’une seule personne clé. Que faire ?
 
-A) Continuer ainsi  
-B) Standardiser et transférer les compétences  
-C) Accélérer le projet  
-D) Reporter  
-
+A) Maintenir la situation telle quelle
+B) Documenter la méthode et former d’autres collaborateurs
+C) Augmenter la responsabilité de la personne clé
+D) Mettre l’action en attente  
+✅✅✅✅✅✅✅✅✅✅✅
 **Bonne réponse :** B 
 ---
 
-### 24.
+### 17.
 **Catégorie : Raisonnement stratégique**  
 **Difficulté : Expert**  
 **Question :** Une action ACT réduit les coûts mais augmente les risques. Quelle décision est mature ?
 
-A) Valider immédiatement  
-B) Réévaluer avec analyse risques/bénéfices  
-C) Refuser systématiquement  
-D) Reporter indéfiniment  
+A) Approuver la solution sans évaluation approfondie
+B) Réaliser une analyse complète des impacts avant de décider
+C) Écarter la solution par principe de précaution
+D) Différer la décision sans plan clair
 
 **Bonne réponse :** B  
-
+✅✅✅✅✅✅✅✅✅✅✅
 ---
 
-### 25.
+### 18.
 **Catégorie : Management de projet pur**  
 **Difficulté : Expert**  
 **Question :** Quelle action ACT clôture correctement un projet industriel complexe ?
@@ -277,16 +277,44 @@ A) Livraison technique seule
 B) Validation technique, capitalisation, retour d’expérience et communication finale  
 C) Dissolution immédiate de l’équipe  
 D) Archivage minimal  
-
+✅✅✅✅✅✅✅✅✅✅✅
 **Bonne réponse :** B  
 
 **Justification :**  
 La phase ACT finalise la boucle PDCA par la capitalisation, la standardisation et la préparation du futur.
 
 ---
+### 18
+**Catégorie : Management de projet pur**  
+**Difficulté : Expert**  
+**Question :**  
+Quelle action ACT permet d’améliorer durablement la maîtrise des délais futurs ?
+
+A) Accélérer les projets suivants  
+B) Mettre à jour les méthodes de planification, KPI et buffers  
+C) Réduire les revues projet  
+D) Travailler uniquement en urgence  
+
+**Bonne réponse :** B  
+✅✅✅✅✅✅✅✅✅✅✅
 ---
 
-### 8.
+## Question 19
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Expert**  
+**Question :**  
+Après correction d’erreurs intermittentes de mesure analogique, quelle action ACT garantit la fiabilité métrologique ?
+
+A) Modifier les seuils d’alarme  
+B) Lancer une recalibration ciblée et renforcer la protection CEM  
+C) Supprimer la mesure  
+D) Ajouter un filtrage logiciel excessif
+✅✅✅✅✅✅✅✅✅✅✅
+**Bonne réponse :** B  
+
+---
+
+### 20.
 **Catégorie : Raisonnement stratégique**  
 **Difficulté : Expert**  
 **Question :** Une action corrective améliore un atelier mais dégrade légèrement un autre. Quelle décision est la plus stratégique ?
@@ -295,7 +323,7 @@ A) Optimiser localement chaque atelier
 B) Optimiser la performance globale de la chaîne  
 C) Revenir à l’état initial  
 D) Suspendre toute amélioration  
-
+✅✅✅✅✅✅✅✅✅✅✅
 **Bonne réponse :** B  
 
 **Justification :**  
@@ -303,7 +331,7 @@ ACT vise l’optimum système, pas local.
 
 ---
 
-### 14.
+### 21.
 **Catégorie : Raisonnement stratégique**  
 **Difficulté : Expert**  
 **Question :** Une action ACT réduit la flexibilité future. Que faire ?
@@ -312,26 +340,26 @@ A) Valider sans discussion
 B) Évaluer l’impact long terme avant validation définitive  
 C) Ignorer la contrainte  
 D) Accélérer la mise en œuvre  
-
+✅✅✅✅✅✅✅✅✅✅✅
 **Bonne réponse :** B  
+-------
 
----
+### 22.
 
-### 9.
 **Catégorie : Ingénierie / Automation**  
 **Difficulté : Expert**  
-**Question :** Après correction d’un défaut d’instrumentation, quelle action garantit la fiabilité métrologique ?
+**Question :**  
+Après stabilisation d’un réseau Profibus DP fortement chargé, quelle action ACT est critique ?
 
-A) Recalibrer uniquement le capteur concerné  
-B) Lancer une campagne de recalibration globale ciblée  
-C) Désactiver la mesure  
-D) Modifier les seuils SCADA  
-
+A) Ajuster ponctuellement les temps de cycle  
+B) Figer la configuration, documenter et planifier la migration  
+C) Augmenter la vitesse du bus  
+D) Réduire les diagnostics réseau  
+✅✅✅✅✅✅✅✅✅✅✅
 **Bonne réponse :** B  
-
 ---
 
-### 10.
+### 23.
 **Catégorie : Management de projet pur**  
 **Difficulté : Expert**  
 **Question :** Un retour d’expérience révèle un risque non anticipé. Quelle action ACT est la plus professionnelle ?
@@ -339,20 +367,36 @@ D) Modifier les seuils SCADA
 A) L’ignorer car le projet est terminé  
 B) Mettre à jour l’analyse de risques et les standards  
 C) Reporter au prochain projet sans formalisation  
-D) Blâmer l’équipe  
-
+D) Traiter le risque localement
 **Bonne réponse :** B  
-
+✅✅✅✅✅✅✅✅✅✅✅
 ---
 
-### 16.
+### 24
 **Catégorie : Ingénierie / Automation**  
 **Difficulté : Expert**  
-**Question :** Après stabilisation d’un réseau Profibus, quelle action ACT est critique ?
+**Question :**  
+Lors du démarrage d’une ligne avec PLC Siemens S7-1500 et variateurs ABB, une pompe centrifuge provoque des surintensités intermittentes. Quelle action ACT garantit une solution durable ?
 
-A) Laisser en l’état  
-B) Documenter la topologie et verrouiller la configuration  
-C) Augmenter le trafic réseau  
-D) Supprimer les diagnostics  
+A) Ajouter un fusible plus puissant  
+B) Ajuster les rampes d’accélération et sécuriser les paramètres PID  
+C) Remplacer le moteur  
+D) Ignorer le problème temporairement  
+✅✅✅✅✅✅✅✅✅✅✅
+**Bonne réponse :** B 
+------
 
-**Bonne réponse :** B  
+### 25
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Expert**  
+**Question :**  
+Une boucle PID instable provoque des oscillations sur un four industriel. Quelle action ACT est la plus pertinente ?
+
+A) Augmenter simplement les consignes de sécurité  
+B) Recalculer les gains PID, documenter et former l’équipe maintenance  
+C) Supprimer la régulation automatique  
+D) Modifier la consigne sans analyse  
+✅✅✅✅✅✅✅✅✅✅✅
+
+**Bonne réponse :** B 
+
