@@ -48,7 +48,7 @@ C) Désactiver les alarmes associées
 D) Recompiler sans tests  
 
 **Bonne réponse :** B  
-
+❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌
 **Justification :**  
 La standardisation et la traçabilité sont essentielles dans ACT pour éviter la régression.
 
@@ -80,7 +80,7 @@ A) Tester uniquement en production
 B) Réaliser un test FAT/SAT ciblé  
 C) Ignorer les tests  
 D) Modifier directement le SCADA  
-
+❌❌❌❌❌❌❌❌❌❌❌❌❌
 **Bonne réponse :** B  
 
 
@@ -89,13 +89,13 @@ D) Modifier directement le SCADA
 ### 6.
 **Catégorie : Management de projet pur**  
 **Difficulté : Facile**  
-**Question :** Quelle action ACT améliore la maturité projet ?
+**Question :** Quelle action permet d’améliorer la maturité d’un projet après sa réalisation ?
 
 A) Archiver les livrables  
-B) Capitaliser les leçons apprises  
-C) Dissoudre l’équipe  
-D) Supprimer les documents  
-
+B) Mettre à jour les retours d’expérience  
+C) Modifier l’équipe
+D) Nettoyer les documents anciens  
+✅✅✅✅✅✅✅✅✅✅✅
 **Bonne réponse :** B  
 ---
 
@@ -110,23 +110,24 @@ C) Supprimer les feedbacks
 D) Centraliser les décisions  
 
 **Bonne réponse :** A  
+✅✅✅✅✅✅✅✅✅✅✅
 
 ---
 
-### 18.
+### 8.
 **Catégorie : Ingénierie / Automation**  
 **Difficulté : Facile**  
 **Question :** Après correction SCADA, quelle action garantit la stabilité ?
 
 A) Désactiver les alarmes  
 B) Tester les scénarios extrêmes  
-C) Ignorer les tests  
-D) Supprimer les historiques  
-
+C) Valider en production 
+D) Archiver les historiques   
+✅✅✅✅✅✅✅✅✅✅✅
 **Bonne réponse :** B 
----
 
-### 8.
+---
+### 9.
 **Catégorie : Ingénierie / Automation**  
 **Difficulté : Moyen**  
 **Question :** Des pertes de communication Profinet persistent malgré correction du câblage. Quelle action ACT est la plus efficace ?
@@ -134,8 +135,8 @@ D) Supprimer les historiques
 A) Réduire la vitesse du réseau  
 B) Segmenter le réseau et revoir l’architecture  
 C) Changer tous les automates  
-D) Désactiver les diagnostics réseau  
-
+D) Refaire une vérification complète du câblage.
+ ✅✅✅✅✅✅✅✅✅✅✅
 **Bonne réponse :** B  
 
 **Justification :**  
@@ -143,16 +144,17 @@ ACT implique une correction structurelle durable, pas un contournement.
 
 ---
 
-### 9.
+### 10.
 **Catégorie : Management de projet pur**  
 **Difficulté : Moyen**  
 **Question :** Après analyse des dérives projet, quelle action favorise l’amélioration continue ?
 
 A) Augmenter la pression sur l’équipe  
 B) Mettre à jour les KPI et méthodes de suivi  
-C) Supprimer les revues projet  
-D) Externaliser sans analyse  
+C) Reporter la mise à jour des indicateurs
+D) Réduire la fréquence des rapports
 
+ ✅✅✅✅✅✅✅✅✅✅✅
 **Bonne réponse :** B  
 
 **Justification :**  
@@ -160,70 +162,49 @@ ACT sert à améliorer les méthodes, pas à sanctionner.
 
 ---
 
-### 10.
+### 11.
 **Catégorie : Ingénierie / Automation**  
 **Difficulté : Moyen**  
 **Question :** Une boucle PID instable a été stabilisée. Quelle action complète la phase ACT ?
 
-A) Supprimer la boucle  
-B) Documenter les paramètres et former l’équipe maintenance  
-C) Bloquer l’accès aux paramètres  
+A) Bloquer la boucle pour sécurité  
+B) Documenter et standardiser les nouveaux paramètres PID dans les procédures
+C) Passer en mode manuel et désactiver la régulation automatique.
 D) Revenir aux réglages usine  
 
 **Bonne réponse :** B  
-
-
-
-
-
-
+✅✅✅✅✅✅✅✅✅✅✅
+ 
 
 ---
 
-### 11.
-**Catégorie : Organisation & Leadership**  
+### 12.
+**Catégorie : Ingénierie / Automation**  
 **Difficulté : Moyen**  
-**Question :** Une action corrective a généré une résistance de l’équipe. Quelle action ACT est adaptée ?
+**Question :** Après avoir réparé le variateur de fréquence, que doit-on faire pour éviter que le problème se reproduise ?
 
-A) Imposer la décision  
-B) Communiquer les bénéfices et accompagner le changement  
-C) Annuler l’action  
-D) Sanctionner les opposants  
+A) Vérifier le VFD et ajuster les protections si nécessaire
+B) Analyser les causes racines et ajuster les protections 
+C) Tester le VFD dans toutes les conditions de fonctionnement
+D) Contrôler le VFD et consigner les réglages
 
 **Bonne réponse :** B  
+✅✅✅✅✅✅✅✅✅✅✅
 
 ---
 
 ### 13.
-**Catégorie : Ingénierie / Automation**  
-**Difficulté : Moyen**  
-**Question :** Après dépannage VFD, quelle action évite la récidive ?
-
-A) Redémarrer simplement  
-B) Analyser les causes racines et ajuster les protections  
-C) Réinitialiser le drive régulièrement  
-D) Supprimer les alarmes  
-
-**Bonne réponse :** B  
-
-
-
-
-
-
----
-
-### 17.
 **Catégorie : Organisation & Leadership**  
 **Difficulté : Moyen**  
 **Question :** Une action corrective surcharge une équipe clé. Que faire ?
 
-A) Continuer ainsi  
-B) Rééquilibrer les ressources  
-C) Réduire la qualité  
-D) Ignorer le signal  
+A) Réorganiser la charge de travail 
+B) Ajouter des tâches supplémentaires à l’équipe
+C) Reporter certaines activités sans planification
+D) Continuer avec la même répartition
+✅✅✅✅✅✅✅✅✅✅✅
 
-**Bonne réponse :** B  
+**Bonne réponse :** A 
 
  
 
@@ -231,46 +212,32 @@ D) Ignorer le signal
 
 ---
 
-### 20.
-**Catégorie : Management de projet pur**  
-**Difficulté : Moyen**  
-**Question :** Quelle action ACT améliore la communication future ?
-
-A) Réduire les réunions  
-B) Formaliser les canaux et reporting  
-C) Centraliser les décisions  
-D) Supprimer les comptes rendus  
-
-**Bonne réponse :** B  
-
----
-
-### 21.
+### 14.
 **Catégorie : Ingénierie / Automation**  
 **Difficulté : Expert**  
 **Question :** Après correction d’un problème sécurité machine, quelle action est obligatoire ?
 
-A) Redémarrer la production  
-B) Mettre à jour l’analyse de risques et valider conformité  
-C) Ignorer la documentation  
-D) Modifier le PLC uniquement  
+A) Vérifier la conformité et relancer la production  
+B) Mettre à jour l’analyse risques 
+C) Vérifier les procédures et relancer le PLC 
+D) Consigner les paramètres et relancer la machine 
 
 **Bonne réponse :** B  
-
+✅✅✅✅✅✅✅✅✅✅✅
 
 ---
 
-### 23.
+### 15.
 **Catégorie : Ingénierie / Automation**  
 **Difficulté : Moyen**  
 **Question :** Après correction d’un capteur instable, quelle action complète ACT ?
 
-A) Modifier le seuil  
-B) Améliorer l’installation mécanique  
-C) Supprimer la mesure  
-D) Ignorer les dérives  
-
-**Bonne réponse :** B  
+A) Améliorer l’installation mécanique  
+B) Ajuster le seuil pour stabiliser la mesure  
+C) Relever les mesures sur une période plus longue  
+D) Vérifier si le capteur « fait bien son travail » 
+✅✅✅✅✅✅✅✅✅✅✅
+**Bonne réponse :** D  
 
 ---
 
