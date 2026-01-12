@@ -176,10 +176,10 @@ D) Comparer les coûts aux prévisions, mais ne rien documenter pour l’instant
 **Difficulté : Facile**  
 **Question :** Commissioning montre alarmes intempestives sur instruments. Que faire ?  
 **Choix :**  
-- A) Ignorer  
-- B) Vérifier câblage, configuration PLC et SCADA, documenter anomalies  
-- C) Remplacer instruments  
-- D) Arrêter tests  
+A) Noter les alarmes, secouer un peu les instruments et espérer que ça passe
+B) Vérifier câblage, config PLC et SCADA, analyser et documenter toutes anomalies 
+C) Changer quelques instruments en mode “au pif”, on verra bien
+D) Appuyer sur tous les boutons rouges et attendre  
 
 **Bonne réponse :** B  
 **Justification :** Vérification et documentation phase CHECK assurent sécurité et fiabilité.
