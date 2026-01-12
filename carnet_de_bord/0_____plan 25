@@ -375,3 +375,195 @@
 **Bonne réponse :** B  
 **Justification :** Reporting structuré et réunions régulières réduisent risques de coordination, améliorent prise de décision et suivent la logique PLAN du PDCA.
 
+***************************************************************************************************************************************************************************************************************** qst valide *******************************************************************************************
+
+
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Facile**  
+**Question :** Vous devez concevoir une cellule robotisée pour une ligne de production existante. Le client ne précise pas les exigences de redondance ni de SLA. Quelle approche est la plus appropriée pour la phase de planification ?  
+**Choix :**  
+- A) Concevoir une architecture simple non redondante pour réduire les coûts  
+- B) Imposer une architecture entièrement redondante dès le départ  
+- C) Clarifier les exigences SLA et maintenance avec le client avant conception  
+- D) Utiliser des composants standard sans tenir compte de l’intégration future  
+
+**Bonne réponse :** C  
+**Justification :** Clarifier les exigences avant conception permet de **réduire les risques**, garantir la maintenabilité et optimiser le coût. Cela suit le **Plan** du PDCA en sécurisant les décisions techniques et stratégiques.
+
+
+
+
+Question :
+**Catégorie : Ingénierie / Automation** 
+**Difficulté : moyenne** 
+Dans un contexte industriel critique, qu’est-ce qui caractérise le mieux un système redondant ?
+
+A) Un système conçu pour fonctionner uniquement si tous ses composants principaux sont actifs simultanément.
+B) Un système qui intègre des composants supplémentaires capables de prendre le relais automatiquement en cas de défaillance d’un élément critique.
+C) Un système qui réduit volontairement sa capacité pour limiter la consommation énergétique en cas de surcharge.
+D) Un système dont chaque élément est unique et ne peut être remplacé ou dupliqué, afin de simplifier la maintenance.
+
+B) ✅ Correct
+
+La redondance consiste à dupliquer ou ajouter des composants critiques (automate, alimentation, capteur, robot) afin que si l’un tombe en panne, le système continue à fonctionner. C’est la définition clé de la redondance.
+
+
+
+**Catégorie : Management de projet pur**  
+**Difficulté : Moyen**  
+**Question :** Vous planifiez un projet automatisation multi-sites avec contraintes de calendrier serré. Votre équipe est limitée et certains techniciens doivent couvrir plusieurs sites. Quelle décision est la plus appropriée ?  
+**Choix :**  
+- A) Déployer tous les sites simultanément malgré le manque de ressources  
+- B) Prioriser les sites critiques et établir un planning échelonné  
+- C) Recruter du personnel temporaire sans modifier le planning  
+- D) Retarder le projet global jusqu’à disponibilité de toutes les ressources  
+
+**Bonne réponse :** B  
+**Justification :** Prioriser les sites critiques permet un **arbitrage raisonné entre ressources et planning**, optimisant les résultats tout en respectant les KPI et contraintes de projet.
+
+---
+
+
+
+
+Question :
+
+**Catégorie : Management de projet pur**  
+**Difficulté : facile**  
+Qu’est-ce qu’un KPI (Key Performance Indicator) ?
+
+A) Un indicateur subjectif basé sur l’opinion des employés.
+B) Une mesure chiffrée permettant d’évaluer l’atteinte d’un objectif spécifique.
+C) Un outil utilisé uniquement pour calculer le budget d’un projet.
+D) Une liste de tâches à effectuer par l’équipe.
+
+Réponse correcte : ✅ B)
+
+Explication :
+Un KPI est une mesure quantifiable qui permet de suivre la performance d’un processus, d’un projet ou d’un système par rapport à un objectif précis, afin de prendre des décisions et d’améliorer l’efficacité.
+
+
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Moyen**  
+**Question :** Vous planifiez l’installation d’un VFD ABB ACS580 sur une ligne existante. L’alimentation électrique est sujette à des fluctuations. Quelle solution technique est la plus adaptée ?  
+**Choix :**  
+- A) Installer le VFD sans précautions  
+- B) Ajouter un onduleur et filtre EMI avant le VFD  
+- C) Remplacer le VFD par un modèle moins sensible  
+- D) Ignorer le problème et gérer les interruptions au fur et à mesure  
+
+**Bonne réponse :** B  
+**Justification :** L’**onduleur et filtre EMI** protège le VFD et garantit la continuité. Cela illustre la planification proactive dans le **Plan** du PDCA.
+
+
+
+
+### PLAN-05
+**Catégorie : Management de projet pur**  
+**Difficulté : Expert**  
+**Question :** Vos KPI montrent une surcharge sur certains ingénieurs. Le planning est strict. Que faire ?  
+**Choix :**  
+- A) Répartir les tâches équitablement sans changer le planning  
+- B) Déléguer certaines tâches à des consultants externes et ajuster le planning  
+- C) Ignorer les KPI et suivre le planning initial  
+- D) Retarder le projet global jusqu’à disponibilité complète  
+
+**Bonne réponse :** B  
+**Justification :** L’arbitrage entre ressources internes et externes optimise performance, réduit le risque humain et respecte les objectifs de livraison.
+
+---
+
+
+
+### PLAN-07
+**Catégorie : Raisonnement stratégique / Management**  
+**Difficulté : Moyen**  
+**Question :** Deux fournisseurs proposent des automates Siemens S7-1500 : support rapide mais cher ou support lent mais économique. Priorité : délai et fiabilité. Que choisir ?  
+**Choix :**
+
+
+A) Choisir le fournisseur le moins cher pour optimiser le budget, même si le support est lent.
+
+B) Choisir le fournisseur avec support rapide pour réduire les risques de retard et garantir la fiabilité.
+
+C) Diviser la commande entre les deux fournisseurs pour équilibrer coût et délai.
+
+D) Retarder la décision en attendant d’évaluer d’autres fournisseurs potentiels.
+
+Réponse correcte : ✅ B
+
+Explication :
+Quand la priorité est le respect des délais et la fiabilité, il vaut mieux privilégier un fournisseur rapide et réactif, même si le coût est plus élevé. La division entre fournisseurs ou l’attente d’autres options augmente les risques de retard et complique la gestion, tandis que le choix du moins cher pourrait compromettre la performance et les délais du projet.
+
+
+
+Catégorie : Ingénierie / Automation
+Difficulté : facile :
+
+Une cellule robotisée critique doit être installée sur une ligne où tout arrêt coûte très cher. Quel choix d’architecture est le plus approprié ?
+
+Choix :
+
+A) Installer tous les composants en simple exemplaire pour réduire les coûts.
+
+B) Prévoir une redondance partielle des éléments critiques (automates, réseau, capteurs).
+
+C) Attendre de voir si des pannes se produisent avant d’ajouter des composants redondants.
+
+D) Ajouter la redondance uniquement aux éléments non critiques.
+
+Réponse correcte : ✅ B
+Explication :
+Pour une ligne critique, la redondance des éléments clés réduit les risques d’arrêt tout en contrôlant les coûts.
+
+
+
+
+### PLAN-08
+**Catégorie : Management de projet pur**  
+**Difficulté : Facile**  
+**Question :** Vous établissez le planning initial d’un projet de 6 mois avec ressources fixes. Quelle pratique est la plus adaptée ?  
+**Choix :**  
+- A) Planning détaillé avec jalons, dépendances et points de contrôle  
+- B) Planning approximatif basé sur expérience passée  
+- C) Laisser chaque ingénieur gérer son calendrier  
+- D) Reporter le planning jusqu’à disponibilité complète  
+
+**Bonne réponse :** A  
+**Justification :** Planifier de manière détaillée permet un suivi efficace, arbitrages et reporting structurés.
+
+
+
+
+### PLAN-10
+**Catégorie : Raisonnement stratégique / Management**  
+**Difficulté : Facile**  
+**Question :** Le client veut accélérer la livraison mais la documentation n’est pas prête. Quelle approche ?  
+**Choix :**  
+- A) Livrer sans documentation  
+- B) Refuser la livraison  
+- C) Livrer partiellement avec documentation progressive  
+- D) Ignorer le problème et traiter en DO  
+
+**Bonne réponse :** C  
+**Justification :** Compromis stratégique qui respecte le client et le projet, anticipation des risques PDCA.
+
+
+
+
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Moyen**  
+**Question :** Un process nécessite un capteur de niveau analogique 4-20 mA, mais l’instrumentation existante utilise des entrées numériques. Quelle solution ?  
+**Choix :**  
+A) Remplacer tous les capteurs analogiques par des capteurs numériques compatibles.
+
+B) Installer un module de conversion analogique → numérique pour intégrer les capteurs existants.
+
+C) Acquérir un nouveau système de contrôle capable de gérer directement le signal analogique.
+
+D) Convertir les mesures analogiques en numérique manuellement via lecture et saisie périodique. 
+
+**Bonne réponse :** B  
+**Justification :** L’interface module garantit compatibilité, sécurité, précision et s’inscrit dans la planification technique.
+
+---
