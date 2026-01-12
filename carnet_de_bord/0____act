@@ -5,7 +5,7 @@
 ### 1.
 **Catégorie : Ingénierie / Automation**  
 **Difficulté : Facile**  
-**Question :** Après la mise en service d’un variateur ABB ACS580 sur une ligne de convoyage, des surintensités apparaissent lors des redémarrages. Quelle action corrective est la plus pertinente ?
+**Question :** Après la mise en service d’un variateur sur une ligne de convoyage, des surintensités apparaissent lors des redémarrages. Quelle action corrective est la plus pertinente ?
 
 A) Remplacer immédiatement le variateur  
 B) Ajuster les rampes d’accélération et les limites de courant  
@@ -13,7 +13,7 @@ C) Réduire mécaniquement la charge du convoyeur
 D) Ignorer le phénomène s’il n’y a pas d’arrêt immédiat  
 
 **Bonne réponse :** B  
-
+✅✅✅✅✅✅✅✅✅✅✅
 **Justification :**  
 L’ajustement des rampes et des limites de courant permet de corriger le comportement sans modification matérielle. Action corrective typique de la phase ACT après validation du diagnostic.
 
@@ -24,12 +24,13 @@ L’ajustement des rampes et des limites de courant permet de corriger le compor
 **Difficulté : Facile**  
 **Question :** Un écart mineur est constaté entre le planning réel et prévisionnel après mise en production. Quelle action ACT est appropriée ?
 
-A) Clôturer le projet sans action  
-B) Mettre à jour le planning de référence et documenter l’écart  
-C) Redémarrer une phase DO complète  
-D) Changer le chef de projet  
+A) Ajuster le planning interne de l’équipe
+B) Mettre à jour le planning de référence et tracer l’écart
+C) Revoir l’organisation des tâches du projet
+D) Changer le chef de projet 
 
 **Bonne réponse :** B  
+✅✅✅✅✅✅✅✅✅✅✅
 
 **Justification :**  
 La phase ACT vise l’amélioration continue via capitalisation et mise à jour des référentiels projet.
@@ -58,19 +59,74 @@ La standardisation et la traçabilité sont essentielles dans ACT pour éviter l
 **Difficulté : Moyen**  
 **Question :** Une solution corrective améliore la performance mais augmente légèrement les coûts de maintenance. Quelle décision est la plus mature ?
 
-A) Annuler la solution  
+A) Réduire la portée de la solution pour limiter les coûts  
 B) Maintenir la solution et ajuster le budget maintenance  
-C) Revenir à l’ancienne solution  
-D) Reporter la décision  
+C) Revenir à l’ancienne solution parce que c’était « plus simple »
+D) Attendre que la chance règle le problème  
 
 **Bonne réponse :** B  
-
+✅✅✅✅✅✅✅✅✅✅✅
 **Justification :**  
 La vision stratégique ACT privilégie la performance globale et le TCO (Total Cost of Ownership).
 
 ---
 
 ### 5.
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Facile**  
+**Question :** Après modification d’un programme PLC, quelle action est indispensable ?
+
+A) Tester uniquement en production  
+B) Réaliser un test FAT/SAT ciblé  
+C) Ignorer les tests  
+D) Modifier directement le SCADA  
+
+**Bonne réponse :** B  
+
+
+---
+
+### 6.
+**Catégorie : Management de projet pur**  
+**Difficulté : Facile**  
+**Question :** Quelle action ACT améliore la maturité projet ?
+
+A) Archiver les livrables  
+B) Capitaliser les leçons apprises  
+C) Dissoudre l’équipe  
+D) Supprimer les documents  
+
+**Bonne réponse :** B  
+---
+
+### 7.
+**Catégorie : Organisation & Leadership**  
+**Difficulté : Facile**  
+**Question :** Quelle action ACT renforce l’engagement de l’équipe ?
+
+A) Reconnaître les contributions  
+B) Accélérer les délais  
+C) Supprimer les feedbacks  
+D) Centraliser les décisions  
+
+**Bonne réponse :** A  
+
+---
+
+### 18.
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Facile**  
+**Question :** Après correction SCADA, quelle action garantit la stabilité ?
+
+A) Désactiver les alarmes  
+B) Tester les scénarios extrêmes  
+C) Ignorer les tests  
+D) Supprimer les historiques  
+
+**Bonne réponse :** B 
+---
+
+### 8.
 **Catégorie : Ingénierie / Automation**  
 **Difficulté : Moyen**  
 **Question :** Des pertes de communication Profinet persistent malgré correction du câblage. Quelle action ACT est la plus efficace ?
@@ -87,7 +143,7 @@ ACT implique une correction structurelle durable, pas un contournement.
 
 ---
 
-### 6.
+### 9.
 **Catégorie : Management de projet pur**  
 **Difficulté : Moyen**  
 **Question :** Après analyse des dérives projet, quelle action favorise l’amélioration continue ?
@@ -104,7 +160,7 @@ ACT sert à améliorer les méthodes, pas à sanctionner.
 
 ---
 
-### 7.
+### 10.
 **Catégorie : Ingénierie / Automation**  
 **Difficulté : Moyen**  
 **Question :** Une boucle PID instable a été stabilisée. Quelle action complète la phase ACT ?
@@ -116,68 +172,15 @@ D) Revenir aux réglages usine
 
 **Bonne réponse :** B  
 
----
 
-### 8.
-**Catégorie : Raisonnement stratégique**  
-**Difficulté : Expert**  
-**Question :** Une action corrective améliore un atelier mais dégrade légèrement un autre. Quelle décision est la plus stratégique ?
 
-A) Optimiser localement chaque atelier  
-B) Optimiser la performance globale de la chaîne  
-C) Revenir à l’état initial  
-D) Suspendre toute amélioration  
 
-**Bonne réponse :** B  
 
-**Justification :**  
-ACT vise l’optimum système, pas local.
 
----
-
-### 9.
-**Catégorie : Ingénierie / Automation**  
-**Difficulté : Expert**  
-**Question :** Après correction d’un défaut d’instrumentation, quelle action garantit la fiabilité métrologique ?
-
-A) Recalibrer uniquement le capteur concerné  
-B) Lancer une campagne de recalibration globale ciblée  
-C) Désactiver la mesure  
-D) Modifier les seuils SCADA  
-
-**Bonne réponse :** B  
-
----
-
-### 10.
-**Catégorie : Management de projet pur**  
-**Difficulté : Expert**  
-**Question :** Un retour d’expérience révèle un risque non anticipé. Quelle action ACT est la plus professionnelle ?
-
-A) L’ignorer car le projet est terminé  
-B) Mettre à jour l’analyse de risques et les standards  
-C) Reporter au prochain projet sans formalisation  
-D) Blâmer l’équipe  
-
-**Bonne réponse :** B  
 
 ---
 
 ### 11.
-**Catégorie : Ingénierie / Automation**  
-**Difficulté : Facile**  
-**Question :** Après modification d’un programme PLC, quelle action est indispensable ?
-
-A) Tester uniquement en production  
-B) Réaliser un test FAT/SAT ciblé  
-C) Ignorer les tests  
-D) Modifier directement le SCADA  
-
-**Bonne réponse :** B  
-
----
-
-### 12.
 **Catégorie : Organisation & Leadership**  
 **Difficulté : Moyen**  
 **Question :** Une action corrective a généré une résistance de l’équipe. Quelle action ACT est adaptée ?
@@ -203,47 +206,10 @@ D) Supprimer les alarmes
 
 **Bonne réponse :** B  
 
----
 
-### 14.
-**Catégorie : Raisonnement stratégique**  
-**Difficulté : Expert**  
-**Question :** Une action ACT réduit la flexibilité future. Que faire ?
 
-A) Valider sans discussion  
-B) Évaluer l’impact long terme avant validation définitive  
-C) Ignorer la contrainte  
-D) Accélérer la mise en œuvre  
 
-**Bonne réponse :** B  
 
----
-
-### 15.
-**Catégorie : Management de projet pur**  
-**Difficulté : Facile**  
-**Question :** Quelle action ACT améliore la maturité projet ?
-
-A) Archiver les livrables  
-B) Capitaliser les leçons apprises  
-C) Dissoudre l’équipe  
-D) Supprimer les documents  
-
-**Bonne réponse :** B  
-
----
-
-### 16.
-**Catégorie : Ingénierie / Automation**  
-**Difficulté : Expert**  
-**Question :** Après stabilisation d’un réseau Profibus, quelle action ACT est critique ?
-
-A) Laisser en l’état  
-B) Documenter la topologie et verrouiller la configuration  
-C) Augmenter le trafic réseau  
-D) Supprimer les diagnostics  
-
-**Bonne réponse :** B  
 
 ---
 
@@ -259,33 +225,9 @@ D) Ignorer le signal
 
 **Bonne réponse :** B  
 
----
+ 
 
-### 18.
-**Catégorie : Ingénierie / Automation**  
-**Difficulté : Facile**  
-**Question :** Après correction SCADA, quelle action garantit la stabilité ?
-
-A) Désactiver les alarmes  
-B) Tester les scénarios extrêmes  
-C) Ignorer les tests  
-D) Supprimer les historiques  
-
-**Bonne réponse :** B  
-
----
-
-### 19.
-**Catégorie : Raisonnement stratégique**  
-**Difficulté : Expert**  
-**Question :** Une action ACT est efficace mais dépend d’une seule personne clé. Que faire ?
-
-A) Continuer ainsi  
-B) Standardiser et transférer les compétences  
-C) Accélérer le projet  
-D) Reporter  
-
-**Bonne réponse :** B  
+ 
 
 ---
 
@@ -315,19 +257,6 @@ D) Modifier le PLC uniquement
 
 **Bonne réponse :** B  
 
----
-
-### 22.
-**Catégorie : Organisation & Leadership**  
-**Difficulté : Facile**  
-**Question :** Quelle action ACT renforce l’engagement de l’équipe ?
-
-A) Reconnaître les contributions  
-B) Accélérer les délais  
-C) Supprimer les feedbacks  
-D) Centraliser les décisions  
-
-**Bonne réponse :** A  
 
 ---
 
@@ -343,6 +272,19 @@ D) Ignorer les dérives
 
 **Bonne réponse :** B  
 
+---
+
+### 19.
+**Catégorie : Raisonnement stratégique**  
+**Difficulté : Expert**  
+**Question :** Une action ACT est efficace mais dépend d’une seule personne clé. Que faire ?
+
+A) Continuer ainsi  
+B) Standardiser et transférer les compétences  
+C) Accélérer le projet  
+D) Reporter  
+
+**Bonne réponse :** B 
 ---
 
 ### 24.
@@ -375,3 +317,75 @@ D) Archivage minimal
 La phase ACT finalise la boucle PDCA par la capitalisation, la standardisation et la préparation du futur.
 
 ---
+---
+
+### 8.
+**Catégorie : Raisonnement stratégique**  
+**Difficulté : Expert**  
+**Question :** Une action corrective améliore un atelier mais dégrade légèrement un autre. Quelle décision est la plus stratégique ?
+
+A) Optimiser localement chaque atelier  
+B) Optimiser la performance globale de la chaîne  
+C) Revenir à l’état initial  
+D) Suspendre toute amélioration  
+
+**Bonne réponse :** B  
+
+**Justification :**  
+ACT vise l’optimum système, pas local.
+
+---
+
+### 14.
+**Catégorie : Raisonnement stratégique**  
+**Difficulté : Expert**  
+**Question :** Une action ACT réduit la flexibilité future. Que faire ?
+
+A) Valider sans discussion  
+B) Évaluer l’impact long terme avant validation définitive  
+C) Ignorer la contrainte  
+D) Accélérer la mise en œuvre  
+
+**Bonne réponse :** B  
+
+---
+
+### 9.
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Expert**  
+**Question :** Après correction d’un défaut d’instrumentation, quelle action garantit la fiabilité métrologique ?
+
+A) Recalibrer uniquement le capteur concerné  
+B) Lancer une campagne de recalibration globale ciblée  
+C) Désactiver la mesure  
+D) Modifier les seuils SCADA  
+
+**Bonne réponse :** B  
+
+---
+
+### 10.
+**Catégorie : Management de projet pur**  
+**Difficulté : Expert**  
+**Question :** Un retour d’expérience révèle un risque non anticipé. Quelle action ACT est la plus professionnelle ?
+
+A) L’ignorer car le projet est terminé  
+B) Mettre à jour l’analyse de risques et les standards  
+C) Reporter au prochain projet sans formalisation  
+D) Blâmer l’équipe  
+
+**Bonne réponse :** B  
+
+---
+
+### 16.
+**Catégorie : Ingénierie / Automation**  
+**Difficulté : Expert**  
+**Question :** Après stabilisation d’un réseau Profibus, quelle action ACT est critique ?
+
+A) Laisser en l’état  
+B) Documenter la topologie et verrouiller la configuration  
+C) Augmenter le trafic réseau  
+D) Supprimer les diagnostics  
+
+**Bonne réponse :** B  
