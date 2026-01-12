@@ -247,10 +247,13 @@
 **Difficulté : Expert**  
 **Question :** Un client souhaite une automatisation maximale mais avec budget strict et faible maintenance. Quelle approche stratégique PDCA ?  
 **Choix :**  
-- A) Concevoir tout automatisé sans compromis  
-- B) Maintenir manuellement les parties critiques  
-- C) Prioriser automatisation critique et planifier maintenance minimale pour le reste  
-- D) Refuser le projet  
+A) Réduire performance pour respecter budget
+
+B) Augmenter budget pour performance optimale
+
+C) Prioriser équipements critiques et ajuster les autres
+
+D) Maintenir la planification actuelle sans ajustements  
 
 **Bonne réponse :** C  
 **Justification :** Optimise performance et budget, gestion des risques et anticipation maintenance = réflexion stratégique PLAN.
@@ -324,7 +327,7 @@
 **Choix :**  
 - A) Répartir équitablement  
 - B) Prioriser selon impact sur projet et KPI  
-- C) Ignorer et exécuter au hasard  
+- C) Exécuter les tâches dans l’ordre d’arrivée ou de demande, sans analyse 
 - D) Embaucher personnel supplémentaire sans analyse  
 
 **Bonne réponse :** B  
@@ -367,10 +370,13 @@
 **Difficulté : Expert**  
 **Question :** Vous planifiez la communication projet multi-site avec risques de malentendus fréquents. Quelle approche PDCA ?  
 **Choix :**  
-- A) Emails informels sans suivi  
-- B) Réunions régulières et reporting structuré  
-- C) Laisser chaque site décider de sa communication  
-- D) Reporter communication jusqu’au DO  
+A) Communication à la demande
+
+B) Réunions + reporting structuré
+
+C) Méthodes libres par site
+
+D) Feedback uniquement après incidents 
 
 **Bonne réponse :** B  
 **Justification :** Reporting structuré et réunions régulières réduisent risques de coordination, améliorent prise de décision et suivent la logique PLAN du PDCA.
@@ -584,23 +590,313 @@ D) Convertir les mesures analogiques en numérique manuellement via lecture et s
 **Bonne réponse :** C  
 **Justification :** L’arbitrage ciblé permet équilibre coût/performance, réflexion stratégique pour la phase PLAN.
 
+---
 
-### PLAN-17
+
+
+### PLAN-22
+**Catégorie : Management de projet pur**  
+**Difficulté : Moyen**  
+**Question :** Les ressources sont limitées pour plusieurs tâches critiques simultanées. Que faire ?  
+**Choix :**  
+- A) Répartir équitablement  
+- B) Prioriser selon impact sur projet et KPI  
+- C) Exécuter les tâches dans l’ordre d’arrivée ou de demande, sans analyse 
+- D) Embaucher personnel supplémentaire sans analyse  
+
+**Bonne réponse :** B  
+**Justification :** L’arbitrage basé sur impact/KPI optimise utilisation ressources et réussite projet.
+
+
+
+
+
+### PLAN-24
 **Catégorie : Raisonnement stratégique / Management**  
 **Difficulté : Expert**  
-**Question :** Un client souhaite une automatisation maximale mais avec budget strict et faible maintenance. Quelle approche stratégique PDCA ?  
+**Question :** Vous devez arbitrer entre délai, coût et performance sur un projet critique. Quelle approche stratégique ?  
 **Choix :**  
-A) Réduire performance pour respecter budget
+- A) Prioriser délai  
+- B) Prioriser coût  
+- C) Prioriser performance  
+- D) Utiliser une matrice décisionnelle pour équilibrer les trois critères  
 
-B) Augmenter budget pour performance optimale
-
-C) Prioriser équipements critiques et ajuster les autres
-
-D) Maintenir la planification actuelle sans ajustements  
-
-**Bonne réponse :** C  
-**Justification :** Optimise performance et budget, gestion des risques et anticipation maintenance = réflexion stratégique PLAN.
+**Bonne réponse :** D  
+**Justification :** La **matrice décisionnelle** permet arbitrage équilibré, raisonnement stratégique et préparation des phases DO/CHECK/ACT.
 
 ---
+### PLAN-25
+**Catégorie : Management de projet pur**  
+**Difficulté : Expert**  
+**Question :** Vous planifiez la communication projet multi-site avec risques de malentendus fréquents. Quelle approche PDCA ?  
+**Choix :**  
+A) Communication à la demande
 
----
+B) Réunions + reporting structuré
+
+C) Méthodes libres par site
+
+D) Feedback uniquement après incidents 
+
+**Bonne réponse :** B  
+**Justification :** Reporting structuré et réunions régulières réduisent risques de coordination, améliorent prise de décision et suivent la logique PLAN du PDCA.
+
+PLAN-33
+
+Catégorie : Ingénierie / Automation
+Difficulté : moyenne
+Question : Une ligne utilise plusieurs capteurs analogiques sur une PLC limitée en entrées. Quelle approche PLAN ?
+Choix :
+
+A) Remplacer PLC
+
+B) Installer multiplexeur analogique
+
+C) Supprimer certains capteurs
+
+D) Regrouper les signaux analogiques via module d’agrégation
+Bonne réponse : ✅ B
+Justification : Le multiplexeur permet d’utiliser plusieurs capteurs avec la PLC existante, évitant coûts et perturbations tout en respectant la planification.
+
+
+PLAN-35
+
+Catégorie : Ingénierie / Automation
+Difficulté : facile
+Question : Une machine critique risque des arrêts fréquents. Quelle approche PLAN pour fiabilité ?
+Choix :
+
+A) Maintenance réactive 
+
+B) Planifier maintenance préventive et capteurs de surveillance
+
+C) Augmenter vitesse pour compenser arrêts
+
+D) Remplacer machine 
+Bonne réponse : ✅ B
+Justification : La maintenance préventive et la surveillance proactive réduisent les arrêts imprévus et garantissent la continuité de production, conforme à la phase PLAN.
+
+
+Catégorie : Ingénierie / Automation
+Difficulté : facile
+Question : Quel logiciel peut programmer une PLC Schneider ?
+Choix :
+
+A) EcoStruxure
+
+B) Codesys
+
+C) TIA Portal
+
+D) MATLAB
+Bonne réponse : ✅ A
+Justification : EcoStruxure Control Expert est le logiciel officiel Schneider. Codesys et TIA Portal sont crédibles mais pour d’autres marques ; MATLAB n’est pas conçu pour programmer des PLC.
+
+Catégorie : Management / Méthode
+Difficulté : Moyen-Difficile
+Question : Quelle méthode permet de prioriser les causes principales d’un problème ?
+Choix :
+
+A) Pareto
+
+B) Ishikawa
+
+C) FMEA
+
+D) Kaizen
+Bonne réponse : ✅ A
+Justification : Le diagramme de Pareto permet de classer les causes par importance, alors qu’Ishikawa identifie les causes, mais ne les priorise pas.
+
+
+PLAN-55
+
+Catégorie : Management de projet
+Difficulté : Moyen-Difficile
+Question : Quel KPI prioriser pour ressources limitées sur tâches critiques ?
+Choix :
+
+A) Disponibilité
+
+B) Coût global
+
+C) Taux défaut
+
+D) Satisfaction
+Bonne réponse : ✅ A
+Justification : La disponibilité des ressources assure la continuité et l’efficacité, plus pertinent que le coût ou satisfaction à cette étape.
+
+PLAN-61
+
+Catégorie : Ingénierie / Automation
+Difficulté : Moyen
+Question : Quel capteur mesure directement la température sur une ligne industrielle ?
+Choix :
+
+A) Thermocouple
+
+B) LDR
+
+C) Ultrason
+
+D) Hall
+Bonne réponse : ✅ A
+Justification : Le thermocouple est utilisé pour mesurer la température directement, fiable et précis. Les autres capteurs mesurent la lumière, distance ou champ magnétique.
+
+
+PLAN-63 (révisé)
+
+Catégorie : Ingénierie / Automation
+Difficulté : Moyen-Difficile
+Question : Quel capteur détecte la position d’un axe ?
+
+Choix :
+
+A) Encoder
+
+B) Résolveur
+
+C) Potentiomètre linéaire
+
+D) LVDT
+
+Bonne réponse : ✅ A
+
+Justification :
+L’encodeur fournit une mesure précise de position et vitesse angulaire pour un axe rotatif ou linéaire. Le résolveur est proche mais souvent utilisé pour des applications robustes AC/servo complexes, le potentiomètre linéaire et le LVDT servent à la mesure linéaire ou déplacement limité, moins adaptés pour un axe rotatif ou multi-tours.
+
+
+Catégorie : Ingénierie / Automation
+Difficulté : Moyen
+Question : Quel logiciel est utilisé pour programmer des automates multi-marques via langage standard IEC 61131 ?
+Choix :
+
+A) Codesys
+
+B) TIA Portal
+
+C) EcoStruxure
+
+D) SolidWorks
+Bonne réponse : ✅ A
+Justification : Codesys est compatible avec de nombreuses marques PLC et respecte le standard IEC 61131, ce qui le rend polyvalent.
+
+
+
+PLAN-74
+
+Catégorie : Ingénierie / Automation
+Difficulté : Moyen-Difficile
+Question : Pour créer une simulation de processus industriel, quel logiciel est adapté ?
+Choix :
+
+A) MATLAB/Simulink
+
+B) AutoCAD
+
+C) SolidWorks
+
+D) Unity Pro
+Bonne réponse : ✅ A
+Justification : MATLAB/Simulink permet la simulation de process dynamique et contrôle, les autres logiciels sont de conception ou programmation spécifique PLC.
+
+
+PLAN-76
+
+Catégorie : Ingénierie / Automation
+Difficulté : Moyen-Difficile
+Question : Pour programmer un robot ABB, quel logiciel officiel utiliser ?
+Choix :
+
+A) RobotStudio
+
+B) TIA Portal
+
+C) Unity Pro
+
+D) Codesys
+Bonne réponse : ✅ A
+Justification : RobotStudio est le logiciel officiel ABB pour programmation et simulation de robots industriels.
+
+
+
+PLAN-116
+
+Catégorie : Ingénierie / Automation
+Difficulté : Expert
+Question : Quel logiciel installer sur Raspberry Pi pour contrôler une imprimante 3D à distance ?
+
+Choix :
+
+A) OctoPrint
+
+B) Repetier
+
+C) Cura
+
+D) MATLAB
+
+Bonne réponse : ✅ OctoPrint
+Justification : OctoPrint est la solution la plus utilisée pour contrôler, surveiller et automatiser une imprimante 3D via Raspberry Pi.
+
+
+
+PLAN-117
+
+Catégorie : Ingénierie / Automation
+Difficulté : Expert
+Question : Quel protocole permet au Raspberry Pi de communiquer avec l’imprimante 3D ?
+
+Choix :
+
+A) USB
+
+B) HDMI
+
+C) SPI
+
+D) PWM
+
+Bonne réponse : ✅ USB
+Justification : La plupart des imprimantes 3D se connectent via USB, permettant l’envoi de fichiers G-code et le contrôle des mouvements.
+
+
+
+PLAN-125
+
+Catégorie : Ingénierie / Automation
+Difficulté : Moyen
+Question : Pour une imprimante 3D, quel fichier est utilisé pour lancer la fabrication ?
+
+Choix :
+
+A) G-code
+
+B) STL
+
+C) OBJ
+
+D) DXF
+
+Bonne réponse : ✅ G-code
+Justification : Le G-code contient toutes les instructions pour piloter l’imprimante dans la phase PLAN de préparation.
+
+
+
+PLAN-143
+
+Catégorie : Management / Project
+Difficulté : Expert
+Question : Pour représenter visuellement toutes les tâches d’un projet avec leurs durées et chevauchements, quel outil utiliser ?
+
+Choix :
+
+A) Diagramme de Gantt
+
+B) PERT
+
+C) CPM
+
+D) Ishikawa
+
+Bonne réponse : ✅ Diagramme de Gantt
+Justification : Le Gantt permet de visualiser toutes les tâches, leur durée et chevauchements, ce qui est très utile pour planifier et communiquer le projet aux équipes.
