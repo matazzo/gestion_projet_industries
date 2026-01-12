@@ -341,6 +341,7 @@ D) Reporter tous les tests jusqu’à résolution complète du conflit
 **Justification :** Gestion proactive réduit retard et tensions, leadership stratégique DO.
 
 ---
+✅✅✅✅✅✅✅✅✅✅
 
 ### DO-20
 **Catégorie : Ingénierie / Automation**  
@@ -360,16 +361,19 @@ D) Redémarrer le PLC et relancer la station
 **Justification :** Vérification directe assure qualité et sécurité phase DO.
 
 ---
-
+✅✅✅✅✅✅✅✅✅✅
 ### DO-21
 **Catégorie : Management de projet pur**  
 **Difficulté : Expert**  
-**Question :** Livraison retardée impacte jalon critique. Que faire ?  
+**Question :** Pendant un test de mise en service, un opérateur détecte une fuite de gaz mineure près d’un moteur en fonctionnement. Que faire ?  
 **Choix :**  
-- A) Maintenir jalon  
-- B) Replanifier tâches dépendantes, informer client et ajuster ressources  
-- C) Reporter tout projet  
-- D) Ignorer  
+A) Continuer le test en surveillant la fuite, car elle semble mineure
+
+B) Arrêter immédiatement l’équipement, sécuriser la zone, informer l’équipe HSE et analyser avant reprise
+
+C) Ignorer la fuite et poursuivre le test pour respecter le planning
+
+D) Déplacer l’opérateur à distance et continuer le test
 
 **Bonne réponse :** B  
 **Justification :** Ajustement en temps réel réduit risque retard global, PDCA DO.
@@ -433,3 +437,31 @@ D) Redémarrer le PLC et relancer la station
 
 **Bonne réponse :** B  
 **Justification :** Correction progressive assure cohérence multi-site et sécurité opérationnelle, phase DO complète PDCA.
+
+
+
+
+----
+Catégorie : Management / HSE / Site
+Difficulté : Expert
+
+Question :
+Après un incident sur site, HSE a suspendu le chantier. 
+Pour éviter qu’un problème similaire ne se reproduise, quelle action DO est la plus appropriée ?
+
+Choix :
+
+A) Continuer le chantier dès que possible, en espérant que cela ne se reproduise pas
+
+B) Organiser des réunions de sensibilisation HSE, clarifier procédures, renforcer la formation et les bonnes pratiques dans l’équipe
+
+C) Limiter l’accès au chantier uniquement aux opérateurs expérimentés
+
+D) Déplacer temporairement le chantier sur une autre zone
+
+Bonne réponse : B
+
+Mini-explication :
+La phase DO ne consiste pas seulement à corriger un incident, mais à mettre en place des actions préventives : 
+sensibilisation, renforcement des procédures et formation de l’équipe. 
+Les autres options peuvent réduire le risque ponctuellement, mais n’attaquent pas la cause racine.
