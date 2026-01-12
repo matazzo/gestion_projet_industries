@@ -14,22 +14,23 @@
 
 **Bonne réponse :** B  
 **Justification :** Vérification complète des paramètres et tests de charge assurent que la mise en œuvre respecte le cahier des charges, phase CHECK du PDCA.
-
+❌❌❌❌❌❌❌❌❌❌❌❌
 ---
 
 ### CHECK-02
 **Catégorie : Management de projet pur**  
 **Difficulté : Moyen**  
-**Question :** Vos KPI montrent que certaines tâches ont dépassé le budget ou le délai. Quelle action CHECK efficace ?  
-**Choix :**  
-- A) Ignorer les écarts  
-- B) Analyser écarts, identifier causes et documenter corrective action plan  
-- C) Réattribuer ressources sans analyse  
-- D) Reporter analyse après projet  
+Vos KPI (Key Performance Indicator) montrent que certaines tâches ont dépassé le budget ou le délai. Quelle action CHECK efficace ?
+
+Choix (réduits)
+A) Lisser les KPI en excluant les écarts
+B) Analyser les écarts, identifier les causes racines et documenter les constats
+C) Mettre à jour le planning et le budget
+D) Accélérer les tâches restantes
 
 **Bonne réponse :** B  
 **Justification :** L’analyse systématique des écarts permet **amélioration continue** et décisions éclairées, cœur de la phase CHECK.
-
+✅✅✅✅✅✅✅✅✅✅✅✅
 ---
 
 ### CHECK-03
@@ -44,13 +45,13 @@
 
 **Bonne réponse :** B  
 **Justification :** Analyse détaillée et documentation assure traçabilité, sécurité et performance réseau, phase CHECK critique.
-
+❌❌❌❌❌❌❌❌❌❌❌❌
 ---
 
 ### CHECK-04
 **Catégorie : Raisonnement stratégique / Management**  
 **Difficulté : Moyen**  
-**Question :** Après tests multi-site, certains sites ne respectent pas les SLA convenus. Action CHECK ?  
+**Question :** Après tests multi-site, certains sites ne respectent pas les SLA (Service Level Agreement) convenus.  
 **Choix :**  
 - A) Ignorer anomalies  
 - B) Identifier causes, analyser impact sur KPI, proposer actions correctives  
@@ -59,7 +60,7 @@
 
 **Bonne réponse :** B  
 **Justification :** Analyse et actions correctives garantissent conformité SLA et performance projet, logique PDCA CHECK.
-
+✅✅✅✅✅✅✅✅✅✅✅✅
 ---
 
 ### CHECK-05
@@ -74,6 +75,7 @@
 
 **Bonne réponse :** B  
 **Justification :** L’analyse systématique permet **amélioration continue**, suivi des KPI et contrôle du projet, phase CHECK.
+✅✅✅✅✅✅✅✅✅✅✅✅
 
 ---
 
@@ -82,13 +84,14 @@
 **Difficulté : Facile**  
 **Question :** Les mesures de température sur capteurs 4-20 mA montrent des écarts avec le process réel. Quelle action CHECK ?  
 **Choix :**  
-- A) Ignorer  
-- B) Vérifier calibration, câblage et configuration I/O, documenter anomalies  
-- C) Remplacer capteurs immédiatement  
-- D) Ajuster valeurs manuellement  
+A) Considérer les écarts comme tolérables et continuer le process
+B) Analyser tendances historiques, comparer avec process réel, vérifier capteurs et câblage
+C) Changer immédiatement tous les capteurs et I/O
+D) Corriger les lectures via la console SCADA sans diagnostic
 
 **Bonne réponse :** B  
 **Justification :** Vérification et documentation assurent **fiabilité instrumentation**, phase CHECK.
+✅✅✅✅✅✅✅✅✅✅✅✅
 
 ---
 
@@ -97,14 +100,14 @@
 **Difficulté : Expert**  
 **Question :** Après commissioning, le client demande audit sur performance du système automatisé pour décider extension. Action CHECK ?  
 **Choix :**  
-- A) Fournir rapports partiels  
-- B) Effectuer audit complet, analyser performance, comparer KPI avec objectifs, préparer recommandations  
-- C) Ignorer audit  
-- D) Reporter audit  
+A) Analyser uniquement les KPI principaux et préparer un rapport partiel
+B) Collecter toutes les données, analyser tendances et anomalies, documenter constats et recommander actions
+C) Comparer les KPI avec les objectifs mais sans formaliser les recommandations
+D) Auditer toutes les données mais se concentrer uniquement sur les écarts critiques
 
 **Bonne réponse :** B  
-**Justification :** L’audit complet permet décision stratégique informée, conformité PDCA CHECK.
-
+**Justification :** Collecter toutes les données, analyser tendances et anomalies, documenter constats et recommander actions.
+✅✅✅✅✅✅✅✅✅✅✅✅
 ---
 
 ### CHECK-08
@@ -119,7 +122,7 @@
 
 **Bonne réponse :** B  
 **Justification :** Analyse systématique garantit sécurité et performance, phase CHECK.
-
+❌❌❌❌❌❌❌❌❌❌❌❌
 ---
 
 ### CHECK-09
